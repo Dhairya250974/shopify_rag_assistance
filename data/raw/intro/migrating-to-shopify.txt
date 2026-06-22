@@ -1,0 +1,371 @@
+TITLE: Migrate to Shopify
+URL: https://help.shopify.com/en/manual/migrating-to-shopify
+SECTION: intro
+---
+
+Step 1: Import your store's content and data to Shopify
+
+Step 2: Verify and organize your products after import
+
+Step 3: Make your website visually appealing
+
+Step 4: Set up your shipping
+
+Step 5: Configure your taxes
+
+Step 6: Setting up a payment provider
+
+Step 7: Place some test orders
+
+Step 8: Add staff to your store
+
+Step 9: Set up your domain
+
+Step 10: Migrate to Shopify POS
+
+Step 11: (Optional) Set up your SEO for success
+
+Review for common importing errors
+
+Review and organize your products
+
+Add a free theme from the admin
+
+Add a theme from the Theme Store
+
+Try a paid theme in your store
+
+Charging taxes based on your shipping destinations
+
+Keeping track of your taxes
+
+Set up a payment provider
+
+Connect or transfer an existing domain to Shopify
+
+Confirming your redirects are working
+
+Editing your meta descriptions
+
+Verify and submit your sitemap with Google
+
+This guide outlines how to migrate your store to Shopify from another platform. You can use it as a starting point and as a reference resource to make sure that you don't forget any key setup tasks.
+
+If you're migrating from another platform, then refer to the following migration guides:
+
+If you're migrating your retail store to Shopify, then refer to Migrating your data.
+
+If your store is on the Shopify Plus plan, then refer to the Shopify Plus plan launch checklist instead.
+
+If you haven't created the store on Shopify where you want to migrate your content, then sign up for a store first.
+
+After you've created your store on Shopify, review your existing store and decide what data and content you want to move over to Shopify. A migration can be a good time to purge old, low-performing content, and give your site and business a fresh appearance. As an example, you might want to migrate the following data:
+
+Next, choose a method to transfer each type of content. Review the following options, which range from the least technically complex to the most technically complex:
+
+Make sure that all your store assets (theme files, stylesheets, or images) are always accessible by removing specific protocols such as http: and https: from their URLs.
+
+The best option for each type of content depends on the amount and complexity of the data. Individual pages, such as shipping or refund policies, can likely be copied and pasted into your new Shopify store, whereas a catalog of 250 products likely needs to be imported using a CSV file or an app. Review the following table to find the options available for each type of content.
+
+The order in which you import certain data matters. Import your products first, then your customers, and then any historical orders so that products and customers can be properly connected to the orders. The other data can be imported in any order.
+
+When you migrate your historical orders, any staff member, including the account owner, that is set to receive new order notifications will receive a new order email for each imported order. If you don't want these emails sent, then you can deactivate the new order notifications before you import your orders, and then reactivate the notifications when the import is complete.
+
+After you import your products to Shopify, verify that all your information is imported correctly. Details, such as price, weight, and inventory, can impact your business when they aren't imported correctly.
+
+If you're selling digital products or services, then review how to sell digital products on Shopify.
+
+To help you get started, the Themes page of your admin has a default theme set up when you open an account with Shopify. You need to customize your theme to get your website looking how you want. If you want to customize a different theme for your online store, then you can add through the Shopify admin.
+
+To add a theme for your online store, choose one of the following options:
+
+Free themes are developed by Shopify. Help with customizations for free themes is supported by Shopify.
+
+From your Shopify admin, go to Online Store > Themes.
+
+In the Discover themes section near the bottom of the page, click any theme to read about its features and to preview the available theme styles.
+
+Do one of the following:
+
+Paid themes are developed by third-party designers. Help with customizations for third-party themes is provided by the theme designer.
+
+You can try a paid theme to preview how it looks with your products, brand colors, and style, before making the commitment to buy the theme. When you preview a theme, you can make customizations by using the theme editor. Any changes you make are saved when you purchase the theme. You can preview up to 19 paid themes, which allows you to compare different themes before buying.
+
+If you choose not to buy the theme, then the paid theme is still added to the Themes page of your admin. Paid themes that you're trying have a Theme trial label.
+
+You need to set up shipping rates and shipping methods correctly before you launch — you don’t want to have to refund customers for overcharging them, or to email customers asking them to pay more because you didn’t charge enough to cover the shipping of their order.
+
+For more information about order shipping and fulfillment, click here.
+
+If you are selling digital products or services, then you need to deactivate the shipping option, because your customers won't be receiving any physical goods.
+
+Charging sales tax is an important part of running your business. Depending on your location, there are different rules and regulations about sales tax that apply to your products. To make sure that your store meets those rules, take some time to understand Shopify’s tax setup process.
+
+If your store ships to Europe, then note that there are regulations that apply when selling digital products.
+
+When you set up your shipping, you can apply shipping taxes to your products based on the customer's provincial, state, or regional tax regulations. These are calculated automatically by Shopify.
+
+If you need to adjust taxes manually, based on a region with unique tax restrictions or based on a specific collection of products, then you can do so with a tax override.
+
+When you configure the tax settings for your products, you need to consider how to keep track of your taxes throughout the year.
+
+If you’re not sure which system to use to keep track of your taxes, then you might want to review some accounting apps in the Shopify App Store.
+
+To make sure that customers can pay you, you need to set up a payment provider. A payment provider lets you accept credit card payments securely. Shopify Payments is available in certain countries and a variety of supported third-party payment providers are available.
+
+When you choose to use Shopify Payments, you can avoid paying additional third-party transaction fees and you can view your payouts directly from your Shopify admin.
+
+After you set up your payment providers, you need to configure your checkout page so you can process customer orders.
+
+Now that you've configured your payment settings, you should try out a few transactions to make sure that everything is working. Running a test order will help you understand the process your customers go through when they buy your products. You can access all the orders that customers place from the Orders page in your Shopify admin.
+
+You can run test orders for a few different types of transactions:
+
+As you create, refund, and fulfill orders, you will see the emails that your customers receive for each action. You can edit the templates for these emails from the Notifications page in your Shopify admin.
+
+If you have staff that helps you manage and run your store, then you can add staff members to your Shopify store. Each staff member has personal login credentials. You can also set permissions for each staff member to restrict access to certain areas of your store and keep sensitive information secure.
+
+Learn more about managing staff.
+
+When setting up your Shopify store, you can buy a new domain or transfer the domain associated with your existing store to your new Shopify account.
+
+To prepare for your store migration, you might need to disconnect any existing domains you want to transfer from your previous platform's settings. If you don't, then you might encounter errors with SSL certificates.
+
+You can buy a new domain directly from Shopify.
+
+If you have an existing domain, then follow these steps to point your domain to your Shopify store.
+
+You can use your existing domain, but Shopify's link structure for individual pages is likely different from your previous service, meaning that old links to specific pages likely won't load for customers. For example, your old page about your shipping policy might have had the URL example.com/policies/shipping-policy, but on Shopify that page might now be example.com/pages/shipping-policy.
+
+To help customers avoid landing on error pages, before you transfer your domain, you can set up URL redirects in advance for any pages that your customers might have bookmarked, or links from third-party sources. This way, if they visit the old link after you transfer the domain, then they're redirected to the new link instead of receiving an error page.
+
+If you have a retail location, or sell using a point of sale, then you can set up Shopify POS to sell to your customers in person. After you have imported your store data and set up your Shopify store, you can add Point of Sale as a sales channel in your Shopify admin.
+
+Before you can start selling, you need to set up Shopify POS.
+
+Make sure that your staff, products, and locations are set up to complete sales in person. To learn more about setting up Shopify POS, refer to Getting started with Shopify Point of Sale.
+
+Depending on your country, you can set up Tap to Pay on iPhone using Shopify POS or Tap to Pay on Android using Shopify POS.
+
+You can also set up Tap to Pay in the Shopify app.
+
+If you're migrating from a different point of sale to Shopify POS, then some of your hardware might be compatible. Refer to Supported POS hardware for a list of hardware that Shopify POS supports.
+
+Learn more about migrating from this Shopify POS launch checklist.
+
+You can set up your Shopify store for Search Engine Optimization (SEO) success to maintain your rankings in search results.
+
+You can set up redirects for all your important pages to help preserve your SEO ranking. After your store is live, you might want to review what pages on your site get the most traffic and make sure that those pages redirect to your Shopify store. You can also use a CSV file to import your redirects.
+
+From your Shopify admin, go to Content > Menus.
+
+Click View URL Redirects.
+
+Click Create URL redirect.
+
+In Redirect from field, enter the old URL that you want to redirect visitors from.
+
+In Redirect to field, enter the new URL that you want to redirect visitors to. If you want to redirect to your store's home page, then enter /.
+
+After you set up your redirects and launch your store, ensure they're working correctly by entering the original URL in a web browser and confirming that it redirects to the target URL. Any pages that were most visited in your other store should be checked to ensure they redirect to your Shopify store.
+
+A meta description is the brief bit of text that is displayed in search engine results. The meta description can be set for webpages, product pages, collection pages, and blog posts in Shopify. Make sure each page has a unique meta description that uses plain, direct language. A good description encourages more people to click the link to your store.
+
+The Shopify admin has various areas where you can edit the meta description. Consider editing the following meta descriptions to help optimize your store for search engines:
+
+You can submit your sitemaps at any time, but search engines can't access it if your website is password protected. If you need to remove your website's password page, then refer to Remove your online store password.
+
+All Shopify stores automatically generate a sitemap.xml file that contains links to all your products, primary product image, pages, collections, and blog posts. This file is used by search engines such as Google and Bing to index your site so that your store's pages display in search results. Submitting your sitemap files to Google Search Console helps Google find and index pages on your site.
+
+Sitemap files are generated automatically. You can find them at the root directory of your Shopify store's domains, such as johns-apparel.com/sitemap.xml.
+
+The generated sitemap files link to separate sitemaps for your products, collections, blogs, and webpages. Sitemap files are automatically updated when you add a new webpage, product, collection, image, or blog post to your Shopify online store.
+
+The process of crawling and indexing your site can take time, and Google doesn't guarantee how long it will take.
+
+After your site is launched, it can take Google anywhere from a few days to a few weeks to index your site. To check the status, you can search Google to check your index status by typing site: followed by your domain into the Google search bar—for example, site:shopify.com.
+
+Learn more about finding and submitting your sitemap to Google.
+
+You can use an app to help your site's SEO. SEO apps can help optimize your images, boost site speed, and monitor broken links.
+
+Browse SEO apps on the Shopify App Store.
+
+Migrate your retail store
+
+Migrate from Lightspeed
+
+Migrate from Squarespace
+
+Migrate from WooCommerce
+
+Step 1: Import your store's content and data to Shopify
+
+Step 2: Verify and organize your products after import
+
+Step 3: Make your website visually appealing
+
+Step 4: Set up your shipping
+
+Step 5: Configure your taxes
+
+Step 6: Setting up a payment provider
+
+Step 7: Place some test orders
+
+Step 8: Add staff to your store
+
+Step 9: Set up your domain
+
+Step 10: Migrate to Shopify POS
+
+Step 11: (Optional) Set up your SEO for success
+
+Historical orders (orders that have already been fulfilled)
+
+Gift cards, certificates, and store credits
+
+Pages (such as shipping policy, contact, or about)
+
+Copy the content from your existing store and paste it in your new Shopify store
+
+Export your data into CSV files, and import them to your new Shopify store (some data can't be migrated this way)
+
+Use a migration app from the Shopify App Store.
+
+Hire a Shopify Partner to manage and complete your migration
+
+Develop, or hire a Shopify Partner to create, a custom migration solution using the Shopify API.
+
+Review your product details, including the product description, images, variants, price, and meta description.
+
+Create product collections to organize your products into categories, which helps you group your products both in the Shopify admin and on your external website.
+
+Understand product inventory and transfers to keep track of the inventory in your business. Review the available inventory apps to determine if any are necessary for your business.
+
+Add a free theme from within the admin.
+
+Buy a paid theme from the Shopify Theme Store. Although paid themes need to be purchased before you can publish them to your online store, you can try a paid theme before buying.
+
+From your Shopify admin, go to Online Store > Themes.
+
+In the Discover themes section near the bottom of the page, click any theme to read about its features and to preview the available theme styles.
+
+Do one of the following:
+
+If there's a theme on the page that you want to add, then click Add next to that theme. The theme is added to the Themes page of your admin.
+
+If you want to review more free themes, then click Visit Theme Store, and then follow the steps to add a theme from the theme store.
+
+Visit the Shopify Theme Store and choose a theme. If you're still in your free trial period, then choose a free theme to avoid paying any charges.
+
+If you've chosen a free theme, then click Add theme or Start with this theme. If you've chosen a paid theme, then click Buy to buy the theme. Paid themes are non-refundable. To be sure that it suits your needs, you can try a paid theme before you buy it.
+
+For paid themes, click Approve to approve the payment. The theme will be added to the Themes page of your admin.
+
+Visit the Shopify Theme Store and choose a paid theme.
+
+Click Try theme. A preview of the theme will load for your online store.
+
+Do one of the following:
+To stop previewing the theme, click Close preview.
+To purchase the theme, click Buy.
+To modify the theme settings using the theme editor, click Customize theme.
+
+To stop previewing the theme, click Close preview.
+
+To purchase the theme, click Buy.
+
+To modify the theme settings using the theme editor, click Customize theme.
+
+Review your store's address to get accurate shipping rates based on your location. If you ship from other places, then add them as locations.
+
+Create shipping zones to allow shipping to different regions, states, and countries.
+
+If you use carrier-calculated shipping rates, then configure your shipment dimensions. Many carriers use volumetric weight (the height, weight, and depth of a package) to calculate shipping rates.
+
+Set up shipping rates for the shipping zones that you create.
+
+Pick a shipping strategy that works for your business. You might find it helpful to look through some options to find what meets your needs before making a decision.
+
+Decide how you want to fulfill your orders. You can fulfill and ship orders yourself or use a fulfillment service that ships orders for you.
+
+Select a payment provider from Shopify or from a supported third-party.
+
+Activate Shopify Payments or a third-party payment provider in your Shopify admin.
+
+Choose how you want to capture and authorize payments when customers buy something from your store.
+
+Set up your order fulfillment and your payment authorization.
+
+Add your store's policies so your customers can view your policies before they complete checkout.
+
+Edit your checkout's customer information settings and decide whether you want to collect email addresses to update customers about events and promotions.
+
+completing a successful and a failed transaction
+
+refunding and canceling an order
+
+fulfilling or partially fulfilling an order
+
+archiving a successful order
+
+Purchase your domain through Shopify.
+
+Set your Shopify domain as your primary so it becomes the domain that's displayed to customers in their browser, in search results, and on social media.
+
+Set up email forwarding so that email messages that customers send to your custom domain email address are redirected to your personal email address.
+
+From your Shopify admin, go to Content > Menus.
+
+Click View URL Redirects.
+
+Click Create URL redirect.
+
+In Redirect from field, enter the old URL that you want to redirect visitors from.
+
+In Redirect to field, enter the new URL that you want to redirect visitors to. If you want to redirect to your store's home page, then enter /.
+
+Set a title and description for your online store.
+
+Edit the way your product displays in search results.
+
+Edit the search engine listing for your blogs.
+
+Edit the search engine listing for your pages.
+
+Migrate your retail store
+
+Migrate from Lightspeed
+
+Migrate from Squarespace
+
+Migrate from WooCommerce
+
+Export/import using a product CSV file, migration apps
+
+Export/import using a customer CSV file, migration apps, Customer API
+
+migration apps, Order API, Transaction API
+
+Gift cards, certificates, and store credits
+
+migration apps, GiftCard API
+
+migration apps, Blog API, Blog Article API
+
+Pages (shipping policy, contact, and other webpages)
+
+migration apps, Page API
+
+Products were imported successfully, but not published.
+
+If the products that you import are marked as hidden, then they aren't published until you make them available to your sales channels.
+
+Details are missing from imported products.
+
+Review the product description on the product page, and then fill in the missing information.
+
+Product variants failed to import.
+
+If a product is missing a variant option, then it won't be imported successfully. You can instead add the product to your Shopify store manually.

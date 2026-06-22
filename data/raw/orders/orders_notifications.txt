@@ -1,0 +1,44 @@
+TITLE: Store notifications
+URL: https://help.shopify.com/en/manual/orders/notifications
+SECTION: orders
+---
+
+You can manage email and SMS notifications that your store sends to customers and staff from the Notifications page in your Shopify admin. Notifications are triggered by specific events such as order placement, fulfillment, refunds, exchanges, and account changes.
+
+Your store includes the following notification types:
+
+You can customize email templates using Liquid variables to include dynamic order and customer information. Most notifications are sent automatically, but you can configure which events trigger notifications and customize the content for your brand.
+
+Customizing email notification templates
+
+Setting up customer notifications
+
+Setting up staff notifications
+
+Setting up SMS notifications
+
+Notifications variables reference
+
+Updating email notifications for exchanges
+
+Customer email notifications: Automated emails for orders, shipping, and account events that you can customize with your logo and brand colors.
+
+SMS notifications: Text message order confirmations for customers who provide phone numbers at checkout (available in supported countries).
+
+Staff notifications: Alerts for your team when orders are placed or store events occur.
+
+Exchange notifications: Automated emails for return and exchange workflows when customers request exchanges.
+
+Webhooks: Integrations with external services for custom notification workflows.
+
+Customizing email notification templates
+
+Setting up customer notifications
+
+Setting up staff notifications
+
+Setting up SMS notifications
+
+Notifications variables reference
+
+Updating email notifications for exchanges

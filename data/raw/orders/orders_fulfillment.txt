@@ -1,0 +1,56 @@
+TITLE: Fulfilling orders
+URL: https://help.shopify.com/en/manual/orders/fulfillment
+SECTION: orders
+---
+
+Order fulfillment is the process of preparing, packing, and shipping items to customers after they place an order. You can fulfill orders yourself or use a fulfillment service to handle storage, packing, and shipping for you.
+
+When you fulfill orders yourself, you pick and pack products, attach shipping labels to packages, and drop them off at carrier locations or schedule pickups. You can fulfill orders several ways:
+
+You can also buy and print shipping labels directly from your Shopify admin to save time and get discounted shipping rates.
+
+If you don't want to handle fulfillment yourself, then you can use third-party fulfillment services or Shopify Fulfillment Network to store your inventory and ship orders for you. You might use fulfillment services when your business grows beyond your existing product storage capabilities or when you want to focus on other aspects of your business.
+
+Before you start fulfilling orders, make sure that you set up order fulfillment and shipping in your Shopify admin.
+
+Shipping labels in Shopify
+
+Fulfilling your own orders individually
+
+Fulfilling your orders in batches
+
+Fulfilling your own orders in bulk
+
+Marking your order as on hold
+
+Fulfilling local delivery orders
+
+Fulfilling orders using a fulfillment service with an app
+
+Fulfilling orders using custom fulfillment services
+
+Managing and fulfilling subscription orders
+
+Individually per order.
+
+In bulk by updating order status across multiple orders.
+
+With batch fulfillment to create workflows to pick, pack, purchase labels, and print documents across multiple orders.
+
+Shipping labels in Shopify
+
+Fulfilling your own orders individually
+
+Fulfilling your orders in batches
+
+Fulfilling your own orders in bulk
+
+Marking your order as on hold
+
+Fulfilling local delivery orders
+
+Fulfilling orders using a fulfillment service with an app
+
+Fulfilling orders using custom fulfillment services
+
+Managing and fulfilling subscription orders

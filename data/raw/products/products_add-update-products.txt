@@ -1,0 +1,300 @@
+TITLE: Adding and updating products
+URL: https://help.shopify.com/en/manual/products/add-update-products
+SECTION: products
+---
+
+Adding and updating products
+
+Set product availability in your sales channels
+
+Edit the search engine listing for a product
+
+Scan a barcode with your device's camera
+
+Add tags to a product
+
+Remove tags from a product
+
+You can add new products, or update product information such as price, variants, and availability, from the Products page in your Shopify admin, or in the Shopify app.
+
+If you want to save specialized information or files for your products, then you can add custom fields to your product pages by using metafields. If you have a compatible theme, then you can add references to your product metafields in the theme editor.
+
+To see more videos, visit our YouTube channel.
+
+If you need help adding products to your store, then you can hire a Shopify Partner.
+
+When you first set up your store, you can add a sample product during onboarding. The sample product includes pre-filled information and images, providing a realistic view of how a completed product displays in both the Shopify admin and on your storefront. You can edit or delete the sample product at any time. This option is only available during the initial store setup process.
+
+From your Shopify admin, go to Products.
+
+From the Products page, click Add product.
+
+Enter a title for your product, along with any additional details that you want to add.
+
+If you have more than 50 store locations, then you need to save your product first before adding inventory quantities.
+
+To save time when you add a new product, you can duplicate a similar product. The duplicate acts as a new product, so you can make changes to the duplicate without affecting the original product.
+
+If you want to add options to an existing product, such as color or size, then add a variant to the product instead of duplicating the product.
+
+When you duplicate an existing product, you have the option to make the following adjustments before creating the duplicate:
+
+If you set the product status to Active when you duplicate a product, then the duplicate product automatically publishes to the same sales channels as the original product. To publish the duplicate product to only specific sales channels, firstly set the product status to Draft, select the sales channels that you want to publish the product to, and then set the product status to Active.
+
+All other product details except 3D models and videos are automatically copied from the original product to the duplicate product.
+
+From your Shopify admin, go to Products.
+
+Click the name of the product that you want to duplicate.
+
+In the Title field, enter a name for the duplicate product.
+
+Optional: Select which product details to duplicate.
+
+In the Product status section, select Set as draft, Set as active, or Set as unlisted.
+
+Click Duplicate product.
+
+After you've created products, you can edit the products to change their descriptions, prices, and any other product details. Your saved changes take effect immediately in your online store.
+
+Although you can edit your product details at any time, the changes can affect your reports. For more information, refer to Changes to product details.
+
+To edit several products at the same time, use the bulk editor.
+
+From your Shopify admin, go to Products.
+
+Click the name of the product that you want to change.
+
+Modify the product details.
+
+You can preview how a product will display on your online store directly from your Shopify admin or the Shopify app.
+
+From your Shopify admin, go to Products.
+
+Click the name of the product that you want to preview.
+
+You can control where you're selling a product by including it in your active sales channels. If you decide to exclude a product from a particular sales channel, then it's hidden from that channel. If you exclude a product from the Shop channel, then it might still be displayed in Shop but customers are redirected to your online store to make a purchase.
+
+Some sales channels might display multiple channel connections with more than one region or account for you to make your products available to.
+
+If you use channel markets, then for a product to be made available in a sales channel, the product must be included in any catalogs that you assign to the channel market, and it must be published to the sales channel.
+
+You might hide a product from a sales channel for one of the following reasons:
+
+To keep a product accessible only by direct URL, but hidden otherwise, set the product status to Unlisted.
+
+If you need to control availability for individual variants rather than the entire product, then you can publish or unpublish specific variants for your different sales channels and catalogs.
+
+From your Shopify admin, go to Products.
+
+Click a product's name to open its details.
+
+In the Publishing section, click the icon.
+
+In the dialog, select or deselect the sales channels that you want to change the publishing settings for.
+
+You can also set product availability by sales channel using a bulk action.
+
+Tags are searchable keywords associated with your product. Tags can help customers to find your product through your online store search, and you can also use them to create smart collections.
+
+Use commas to separate different tags when you enter them. Tags can have up to 255 characters. You can apply up to 250 tags to each product. For more information about tags, refer to Tag formats.
+
+If you have a shop on the Shopify Plus plan, then you can have unlimited tags on your products.
+
+From your Shopify admin, go to Products.
+
+Click the name of a product to edit, or create a new product.
+
+In the Product organization section, do one of the following:
+
+You can also add tags by using a bulk action.
+
+From your Shopify admin, go to Products.
+
+Click the name of a product to edit.
+
+In the Product organization section, click the x for any tags that you want to remove.
+
+You can also remove tags by using a bulk action.
+
+You can edit the text that's displayed in search engine results for a product. Descriptive titles and descriptions can help new customers to find your online store and encourage them to click the link. Learn more about search engine optimization.
+
+When you make changes to a product's search engine listing, you can view a preview of how it might display.
+
+If you enter more than 70 characters for a title, or if you enter more than 320 characters for a description, then your text might get cut off in search engine results.
+
+When you create a new product, a URL and handle are automatically generated. You can edit the handle to make it match your product title, but don't edit it too often or the product might not display in search engine results.
+
+From your Shopify admin, go to Products.
+
+Click the name of the product that you want to edit the search engine listing for.
+
+In the Search engine listing section, click the pencil icon.
+
+In the Page title field, enter a descriptive title for your product. The title displays as a link in search engine results.
+
+In the Meta description field, enter a description for your product. Consider including relevant keywords and your store's name to help new customers find your product.
+
+Optional: In the URL handle field, you can change part of the web address for your product. The web address can't contain any spaces.
+
+You can use the Shopify app to enter a barcode for a product by scanning it with your mobile device's camera.
+
+If you no longer want to display a product in your online store, but you don't want to permanently delete the product, then you can archive the product instead. You can archive a single product, or you can archive multiple products at the same time using a bulk action. If you archive a product, then the product is moved to the Archived tab of the Products page in your Shopify admin.
+
+From your Shopify admin, go to Products.
+
+Click the product that you want to archive.
+
+On the product details page, click Archive product.
+
+In the dialog, click Archive product.
+
+From your Shopify admin, go to Products.
+
+Click the Archived tab.
+
+Click the product that you want to unarchive.
+
+On the product details page, click Unarchive product.
+
+In the dialog, click Unarchive product.
+
+You can delete a single product, or you can delete multiple products at the same time using a bulk action. When you delete a product, it's permanently removed from Shopify. Deleted products can't be restored. If you run out of stock or no longer want to display a product for any reason, but you don't want to permanently delete the product from your store, then you can archive the product instead.
+
+From your Shopify admin, go to Products.
+
+Click the product that you want to delete.
+
+On the product details page, click Delete product.
+
+In the dialog, click Delete product.
+
+Set product availability in your sales channels
+
+Edit the search engine listing for a product
+
+Scan a barcode with your device's camera
+
+From your Shopify admin, go to Products.
+
+From the Products page, click Add product.
+
+Enter a title for your product, along with any additional details that you want to add.
+
+Set the product status to Active, Draft, or Unlisted.
+
+Select which other product details to duplicate from a list of options.
+
+From your Shopify admin, go to Products.
+
+Click the name of the product that you want to duplicate.
+
+In the Title field, enter a name for the duplicate product.
+
+Optional: Select which product details to duplicate.
+
+In the Product status section, select Set as draft, Set as active, or Set as unlisted.
+
+Click Duplicate product.
+
+From your Shopify admin, go to Products.
+
+Click the name of the product that you want to change.
+
+Modify the product details.
+
+From your Shopify admin, go to Products.
+
+Click the name of the product that you want to preview.
+
+You have seasonal products that you want to display for only part of the year.
+
+A product is out of stock but you will have more in stock at a later date.
+
+You don't want to sell a product, but you might offer it again later.
+
+You want to offer online exclusive, or in-store exclusive products.
+
+You don't want to sell a product using a particular sales channel.
+
+From your Shopify admin, go to Products.
+
+Click a product's name to open its details.
+
+In the Publishing section, click the icon.
+
+In the dialog, select or deselect the sales channels that you want to change the publishing settings for.
+
+From your Shopify admin, go to Products.
+
+Click the name of a product to edit, or create a new product.
+
+In the Product organization section, do one of the following:
+Click the Tags field and select the tags that you want to add.
+In the Tags field, enter a new tag name and then click Add.
+
+Click the Tags field and select the tags that you want to add.
+
+In the Tags field, enter a new tag name and then click Add.
+
+From your Shopify admin, go to Products.
+
+Click the name of a product to edit.
+
+In the Product organization section, click the x for any tags that you want to remove.
+
+From your Shopify admin, go to Products.
+
+Click the name of the product that you want to edit the search engine listing for.
+
+In the Search engine listing section, click the pencil icon.
+
+In the Page title field, enter a descriptive title for your product. The title displays as a link in search engine results.
+
+In the Meta description field, enter a description for your product. Consider including relevant keywords and your store's name to help new customers find your product.
+
+Optional: In the URL handle field, you can change part of the web address for your product. The web address can't contain any spaces.
+
+From the Shopify app, tap the icon .
+
+Tap an existing product, or create a new product.
+
+In the Inventory section, do one of the following:
+For a product without variants, tap Edit.
+For a product with variants, tap the number of items available, and then tap a variant.
+
+For a product without variants, tap Edit.
+
+For a product with variants, tap the number of items available, and then tap a variant.
+
+In the Barcode (ISBN, UPC, etc.) field, tap the barcode icon, and then follow the steps to open your device's camera.
+
+The camera's screen displays the corners of a box. Position your device so that the barcode fits within the box.
+
+Wait for Shopify to recognize the barcode. When it does, the app returns to the previous screen and the barcode number is entered for you.
+
+From your Shopify admin, go to Products.
+
+Click the product that you want to archive.
+
+On the product details page, click Archive product.
+
+In the dialog, click Archive product.
+
+From your Shopify admin, go to Products.
+
+Click the Archived tab.
+
+Click the product that you want to unarchive.
+
+On the product details page, click Unarchive product.
+
+In the dialog, click Unarchive product.
+
+From your Shopify admin, go to Products.
+
+Click the product that you want to delete.
+
+On the product details page, click Delete product.
+
+In the dialog, click Delete product.

@@ -1,0 +1,64 @@
+TITLE: Shipping labels in Shopify
+URL: https://help.shopify.com/en/manual/shipping/shopify-shipping
+SECTION: shipping
+---
+
+Shipping labels in Shopify
+
+Getting started with shipping labels
+
+Buying and managing labels
+
+Choosing shipping carriers
+
+If you're using Canada Post for shipments from Canada to the US, then starting August 28, 2025, your shipments must be sent as DDP (Delivered Duties Paid). For more information, refer to the Shipping to the US using Canada Post.
+
+You can buy, print, and manage discounted shipping labels from Shopify supported carriers directly in your Shopify admin. Shipping labels help you save money with carrier discounts, save time by avoiding trips to carrier locations, and provide tracking information to your customers automatically.
+
+Before you can buy shipping labels, your business needs to have an eligible fulfillment location and accurate shipment details. Eligibility varies by carrier and country. You also need a desktop printer or supported label printer.
+
+Discounts for shipping labels vary based on your Shopify plan. You can calculate shipping rates before you buy shipping labels.
+
+You can buy labels individually or in bulk when fulfilling orders. If your default location is in the United States, then you can also create and send return labels to customers. For international shipments with duties and taxes, you can purchase DDP labels.
+
+After you buy labels, you can print and reprint labels, void unused labels for refunds, track deliveries, and schedule carrier pickups.
+
+You can choose from multiple Shopify supported carriers depending on your location. Each carrier has different service levels, pricing structures, and policies. You might use different carriers when you need specialized services such as international shipping or signature requirements. If you ship from the United States, then you can add shipping insurance to protect against loss or damage, and submit shipping claims for lost or damaged shipments.
+
+If you want to connect your Shopify account to your own shipping carrier accounts, then refer to Third-party carrier-calculated shipping rates.
+
+Requirements and considerations for buying shipping labels
+
+Calculating shipping rates for your shipping labels
+
+Shopify supported shipping carriers
+
+Understanding shipping labels
+
+Buying shipping labels
+
+Managing shipping labels
+
+Shipping insurance for your shipping labels
+
+Supported shipping label printers
+
+Billing for shipping labels
+
+Requirements and considerations for buying shipping labels
+
+Calculating shipping rates for your shipping labels
+
+Shopify supported shipping carriers
+
+Understanding shipping labels
+
+Buying shipping labels
+
+Managing shipping labels
+
+Shipping insurance for your shipping labels
+
+Supported shipping label printers
+
+Billing for shipping labels

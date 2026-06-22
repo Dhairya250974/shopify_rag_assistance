@@ -1,0 +1,32 @@
+TITLE: Managing inventory
+URL: https://help.shopify.com/en/manual/products/inventory
+SECTION: products
+---
+
+Inventory is the quantity of a particular product that is available for sale. Effective inventory management helps you avoid selling products that have run out of stock and lets you know when you need to order or produce more of a product.
+
+You can manage your store's inventory in the Inventory page of your Shopify admin. You can set up inventory tracking, view stock levels, and make adjustments. You can also view the history of inventory adjustments for products and variants, and analyze changes to inventory levels in the inventory reports section of Shopify.
+
+If you need to receive direct notifications of low stock levels, then install an inventory alert app from the Shopify App Store.
+
+You can also use Shopify Flow to set up low stock notifications. Shopify Flow lets you automate tasks and processes in your store, including receiving notifications when inventory levels are low. Learn more about using Shopify Flow for inventory and merchandising workflows.
+
+Getting started with inventory in Shopify
+
+Setting up your product inventory
+
+Managing inventory quantities
+
+Migrating from Stocky to Shopify inventory management
+
+Inventory transfers and shipments
+
+Getting started with inventory in Shopify
+
+Setting up your product inventory
+
+Managing inventory quantities
+
+Migrating from Stocky to Shopify inventory management
+
+Inventory transfers and shipments

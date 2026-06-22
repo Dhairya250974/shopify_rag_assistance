@@ -1,0 +1,72 @@
+TITLE: Taxes
+URL: https://help.shopify.com/en/manual/taxes
+SECTION: payments
+---
+
+Tax service availability by region
+
+As a seller, you might need to charge taxes on your sales, and then report and remit those taxes to your government. Although tax laws and regulations are complex and can change often, you can set up Shopify to automatically handle most common sales tax calculations. You can also set up tax overrides to address unique tax laws and situations.
+
+Shopify uses many default sales tax rates, which are updated regularly. If you use the default rates, then you need to confirm that the rates are current and correct for your particular circumstances. You can override them whenever necessary.
+
+You might be required to collect and remit sales tax in your country or region. If you need to collect sales tax, then you must register your business with your local or federal tax authority.
+
+Tax is your responsibility. Shopify doesn't remit or file your taxes for you, unless you use Shopify Tax and set up automated filing. If you don't use automated filing, then the calculations and reports that Shopify provides can help to make things easier when it's time to file and pay your taxes.
+
+You should always check with a local tax authority or a tax accountant to make sure that you charge your customers the correct sales tax rates, and to make sure you file and remit the taxes correctly.
+
+The tax services or settings that you can use for your Shopify store depend on the location of your business.
+
+General tax set-up steps
+
+Understanding the impact of tax collection on displayed prices
+
+Include taxes in product prices
+
+Setting up tax rates for Shopify POS
+
+TSE Compliance in Germany
+
+Collecting international duty and import taxes
+
+Tax overrides and exemptions
+
+Digital product taxes
+
+Tax service availability by region
+
+General tax set-up steps
+
+Understanding the impact of tax collection on displayed prices
+
+Include taxes in product prices
+
+Setting up tax rates for Shopify POS
+
+TSE Compliance in Germany
+
+Collecting international duty and import taxes
+
+Tax overrides and exemptions
+
+Digital product taxes
+
+In the United States, you can use Shopify Tax. If you don't use this service, then you can use Manual Tax to set and manage tax rates yourself.
+
+The European Union and the United Kingdom
+
+In these countries and regions, you can use Shopify Tax. If you don't use this service, then you can use Manual Tax to set and manage tax rates yourself.
+
+In Canada, you can use Shopify Tax. If you don't use this service, then you can use Manual Tax to set and manage tax rates yourself.
+
+Norway, Switzerland, Australia, New Zealand, and Singapore
+
+In these countries and regions, you can use Shopify's Basic Tax service.
+
+All countries and regions except Norway, Switzerland, Australia, New Zealand, and Singapore
+
+In these countries and regions, you can use Manual Tax to set and manage tax rates yourself.
+
+All countries and regions
+
+In all countries and regions, you can use paid third-party tax apps to manage the way that you collect tax instead of using Shopify's tax settings.

@@ -1,0 +1,40 @@
+TITLE: Product media
+URL: https://help.shopify.com/en/manual/products/product-media
+SECTION: products
+---
+
+Product media can include images, 3D models, and videos. Using media such as 3D models for your products provides your customer with a better understanding of the function and size of an item, and increases your customers' confidence in the quality of your products.
+
+You can add product media directly to your product pages, or by using metafields. If you have a compatible theme, then you can add references to your product metafields through the theme editor.
+
+You can also access product media and other files by navigating to Content > Files within the Shopify admin. You can filter your list of files using the Used in search dropdown and selecting Product media. The Files section of the admin allows you to view all your files used across every product in your store.
+
+You should only ever upload files to the Content > Files section of your Shopify admin when they're intended for public access on your store, such as product media, downloadable content, and other storefront images. Never upload any documents that contain confidential, personal, or sensitive information about you, your business, or your customers.
+
+For a complete list of requirements and information about uploading files and using the file system in your Shopify store, refer to Uploading and managing files.
+
+To display 3D models or videos in your online store, you need to do one of the following:
+
+Adding alt text to media
+
+Taking product photographs
+
+Replacing thumbnails for media
+
+Adding images to product variants
+
+Hiring a Shopify Partner to create 3D models
+
+Use a theme that supports 3D models and videos. You might need to update to a newer version if you're currently using one of these themes and 3D models and videos don't display.
+
+Modify your current theme. If you're comfortable reading and editing theme code, then you can learn more about adding media support to your theme and media UX guidelines in Shopify's developer documentation. If you're not comfortable reading and editing theme code, then you can hire a Shopify Partner.
+
+Adding alt text to media
+
+Taking product photographs
+
+Replacing thumbnails for media
+
+Adding images to product variants
+
+Hiring a Shopify Partner to create 3D models

@@ -1,0 +1,118 @@
+TITLE: Exporting products
+URL: https://help.shopify.com/en/manual/products/import-export/export-products
+SECTION: products
+---
+
+Use a text editor to edit your products CSV file
+
+Filter and export your products list
+
+Troubleshooting product exports
+
+Access your product image files
+
+You can export your products to a CSV file to help with several tasks:
+
+Any changes that you make to the products in your product CSV file display in your store's product list if you import your product CSV file into the Shopify admin.
+
+The easiest way to edit multiple products or product variants simultaneously is to use the bulk editor in your Shopify admin.
+
+If you use the Current page or Selected products export options, then the following occurs:
+
+Otherwise, the CSV file is emailed to you. If you aren't the store owner, then the file is also sent to the store owner's email.
+
+If you want to export only some of your products, then you can filter your product list to view and select specific products for export.
+
+From your Shopify admin, go to Products.
+
+From the dialog box, choose the products that you want to export:
+
+Select which type of CSV file you want to export:
+
+Click Export products.
+
+Sorting your CSV file in a spreadsheet program can cause product variants or image URLs to become disassociated. Importing a CSV file that has been sorted might overwrite your existing products with bad data, which can't be recovered.
+
+The SEO Title and SEO Description fields in exported CSV files are only populated when you've manually customized them in your products. If these fields haven't been edited, then they'll be blank in the export. This is expected behavior, as the CSV can only export saved data. When these fields are blank, SEO information is automatically generated based on your product title and description. If you manually edit SEO fields and later update the product description, then the SEO Description won't automatically update.
+
+For variants stocked at a third-party fulfillment service, the exported CSV shows manual in the Fulfillment service column. Gift card variants show gift_card instead. The Inventory tracker column shows shopify when inventory tracking is enabled, and is blank when it isn't.
+
+Your inventory levels and location assignments remain the same.
+
+To view or manage inventory at specific fulfillment service locations, export the inventory CSV file. Or, if you're working with a developer, you can use the Inventory API instead.
+
+If you move your products to a new website and plan to close your current store or delete some of its product listings, then you need to upload your product CSV file to your new store when your old store and its product listings remain viewable.
+
+When you export your products, the images associated with each product aren't included in the CSV file. If you import the products to a new store, then the product images are generated only if they remain viewable on a publicly accessible website.
+
+To ensure that your product images remain accessible to you, leave your original store and its products intact until you finish the import process. This allows your new store to assign the correct product image to each listing.
+
+If you don't have a spreadsheet program, then you can edit CSV files using a text editor.
+
+You should only use a text editor as a last resort. For example, use a text editor if there are formatting errors in your CSV file and you cannot open it in a spreadsheet program.
+
+Most computers have text editors that can open CSV files. You can also use a program like Visual Studio Code or Sublime Text to edit and debug your CSV file.
+
+A CSV file with UTF-8 encoding is the only file format that can be used to import to or export from Shopify.
+
+When you format your CSV file in a text editor, observe the following considerations:
+
+You can use filters to organize your products list before exporting. If you need to change only some of your products, then you can add a filter. It could be easier to edit your products using a shortened CSV, rather than your entire product list.
+
+A CSV file containing only those products in your filtered list will export.
+
+After you make any changes to your exported product CSV, you can import the edited CSV file back to Shopify.
+
+If you're experiencing issues when exporting products, then review the following troubleshooting information.
+
+Creating a backup of your products.
+
+Moving your existing products to a new Shopify store.
+
+Editing your products in bulk using a spreadsheet.
+
+Use a text editor to edit your products CSV file
+
+Filter and export your products list
+
+Troubleshooting product exports
+
+If any single product has more than 100 variants, then the CSV file is emailed to you.
+
+If all products have less than 100 variants, then the CSV file is downloaded by your browser.
+
+From your Shopify admin, go to Products.
+
+From the dialog box, choose the products that you want to export:
+The current page of products
+All products
+Products you have selected
+Products that match your search and filters.
+
+The current page of products
+
+Products you have selected
+
+Products that match your search and filters.
+
+Select which type of CSV file you want to export:
+CSV file for Excel, Numbers, or another spreadsheet program. Use this format if you plan to use a spreadsheet program to edit your product CSV file.
+Plain CSV file. Use this format if you plan to use a plain-text editor with your product CSV file.
+
+CSV file for Excel, Numbers, or another spreadsheet program. Use this format if you plan to use a spreadsheet program to edit your product CSV file.
+
+Plain CSV file. Use this format if you plan to use a plain-text editor with your product CSV file.
+
+Click Export products.
+
+Column headers must be separated by commas (for example, First Name,Last Name,Email,Company,Address1).
+
+The list of tags must be wrapped in quotation marks (for example, "tag1,tag2,tag3").
+
+Tags aren't case sensitive.
+
+Different records must be separated by line breaks.
+
+On the Products page in Shopify, add a filter using conditions that list only the necessary products.
+
+Export your products list, and make sure that you select the option to export only the products matching your filter.

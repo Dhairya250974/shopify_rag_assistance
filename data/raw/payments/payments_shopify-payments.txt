@@ -1,0 +1,58 @@
+TITLE: Shopify Payments
+URL: https://help.shopify.com/en/manual/payments/shopify-payments
+SECTION: payments
+---
+
+Shopify Payments is the simplest way to accept payments online. It eliminates the hassle of setting up a third-party payment provider or merchant account and having to enter the credentials into Shopify. With Shopify Payments you're automatically set up to accept all major payment methods as soon as you create your Shopify store.
+
+If you already use a direct third-party payment provider, then you can also use Shopify Payments alongside your existing provider to offer additional payment methods such as Shop Pay and local payment methods, and to recover failed transactions.
+
+Before you use Shopify Payments, review the following requirements:
+
+When you use Shopify Payments, you aren't charged third-party transaction fees for orders that are processed through Shopify Payments, Shop Pay, Shop Pay Installments, and Paypal Express, and you aren't charged transaction fees on manual payment methods such as cash, cash on delivery (COD), and bank transfers.
+
+Stores on the Shopify Plus plan that use Shopify Payments as their sole payment provider have their third-party transaction fees waived. If you use Shopify Payments alongside a third-party provider, then transaction fees apply. Learn more about using Shopify Payments with a third-party provider.
+
+You can use the payout reconciliation report to review a reconciled breakdown of your Shopify Payments balance activity, fees, and payouts.
+
+The first 20 POS Pro locations are included in all Shopify Plus plans. If you have more than 20 locations using POS Pro, and you use Shopify Payments to process at least 1 retail transaction per month at any retail location, then the cost for POS Pro is waived on all retail locations up to the maximum number of locations for your Plus plan.
+
+Supported countries for Shopify Payments
+
+Setting up Shopify Payments
+
+Configuring Shopify Payments
+
+Testing Shopify Payments
+
+Shopify Payments transactions
+
+Getting paid with Shopify Payments
+
+Managed payment methods
+
+Using Shopify Payments with a third-party provider
+
+Local payment methods
+
+Shopify Payments is only available to stores that operate in certain countries and regions. Learn more about which countries and regions are supported.
+
+To use Shopify Payments, you must secure your account by setting up two-step authentication. Learn more about setting up two-step authentication and account security in general. If you decide to deactivate two-step authentication in the future, then you expose your account and financial information to potential criminal attacks.
+
+Supported countries for Shopify Payments
+
+Setting up Shopify Payments
+
+Configuring Shopify Payments
+
+Testing Shopify Payments
+
+Shopify Payments transactions
+
+Getting paid with Shopify Payments
+
+Managed payment methods
+
+Using Shopify Payments with a third-party provider
+
+Local payment methods

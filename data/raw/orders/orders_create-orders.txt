@@ -1,0 +1,44 @@
+TITLE: Draft orders and invoices
+URL: https://help.shopify.com/en/manual/orders/create-orders
+SECTION: orders
+---
+
+Draft orders and invoices
+
+You can create draft orders on behalf of customers when you need to process orders through phone, email, or in-person sales. Draft orders let you add products, apply discounts, and then send invoices with secure checkout links for customers to complete payment online.
+
+Draft orders are useful for the following:
+
+After you create a draft order, you can accept payment by sending an invoice, manually processing a credit card, or marking the order as paid when you've already received payment. You can also apply discounts to specific items or entire orders. When a draft order is paid, it becomes a regular order on your Orders page.
+
+If you use international sales tools, then local currency and pricing are determined by the market associated with the order. For businesses that regularly sell to other businesses, review B2B features including how to use draft orders in B2B. If you use Shopify POS Pro, then you can also save carts as draft orders to complete later.
+
+To optimize performance, draft orders created on or after April 1, 2025, are automatically deleted after 1 year of inactivity. Any type of edit to the draft order resets the timer.
+
+Creating draft orders
+
+Adding discounts to draft orders
+
+Sending invoices for draft orders
+
+Changing the currency on draft orders in new Markets
+
+Getting paid for draft orders
+
+Process orders for phone, in-person, or email sales
+
+Send invoices with secure checkout links for online payment
+
+Sell products at custom prices, including discounts, surcharges, or negotiated wholesale rates
+
+Accept payments between your online store and retail locations
+
+Creating draft orders
+
+Adding discounts to draft orders
+
+Sending invoices for draft orders
+
+Changing the currency on draft orders in new Markets
+
+Getting paid for draft orders

@@ -1,0 +1,372 @@
+TITLE: SEO overview
+URL: https://help.shopify.com/en/manual/promoting-marketing/seo/seo-overview
+SECTION: marketing
+---
+
+Core concepts and terminology
+
+Built-in SEO features in Shopify
+
+Examples of common SEO solutions
+
+Driving traffic to improve SEO
+
+Optimizing site structure and navigation for SEO and user experience
+
+Best practices for content optimization
+
+Technical optimization
+
+Key industry trends and Shopify features
+
+Link building and backlinks
+
+Example: Improving rankings for sustainable wool blankets
+
+Example: Setting up drop-down menus for better site structure
+
+Social media and content marketing
+
+Influencer partnerships and outreach
+
+Analytics and measurement
+
+Tips for building links and earning backlinks
+
+When searching for something on the internet, many people begin with a search engine, such as Google or Bing. Search engines are designed to use a variety of information from websites to create a ranked list of results for a particular search query. Search engines determine which websites are most likely to be relevant to the search query, and then display the results in order of their relevance.
+
+Search Engine Optimization (SEO) is the practice of optimizing your website content and structure to improve its visibility in search engine results. There are many factors that can make your online store rank higher in search results:
+
+When you're new to selling online, it can be difficult to do much about the first three factors. It takes time to build a reputation for your brand and get other sites to link to yours. You can plan for the long term in your content strategy.
+
+In the short term, the easiest way to get more traffic to your online store is to optimize your content so that a search engine recognizes it as relevant to queries related to your products. In this context, relevant means that your content matches what potential customers are searching for and provides the information they need. For example, if you sell handmade soap, then your content would be relevant if it appears in search results when someone searches for "natural handmade soap" or "artisanal bath products". This matching of content to search queries is what we mean by SEO.
+
+You can analyze your online store's search engine optimization using apps in the Shopify App Store.
+
+SEO helps you attract organic traffic by aligning your store with search engine requirements and user expectations. The following concepts are essential to understanding SEO:
+
+Organic search results: These are the natural, unpaid search listings that appear based on their relevance to the search query and the website's authority. Unlike paid ads, organic results can't be bought - they must be earned through strong SEO practices.
+
+On-page SEO: This involves optimizing individual webpage elements that you can directly control, including:
+
+Off-page SEO: These are external factors that build your site's credibility and authority, such as:
+
+Technical SEO: This focuses on your website's technical foundation to help search engines crawl and index your content effectively:
+
+Search intent: This describes what users are trying to accomplish with their search query:
+
+To optimize your online store for search engines, you can follow these basic steps:
+
+Find keywords that are relevant to your products and your brand. Consider the search terms that customers can use to find your store.
+
+Add the keywords into your content, including page titles, descriptions, and image alt text.
+
+Make sure that your URLs and file names match the content.
+
+Add your full domain (for example: https://www.example.com/sitemap.xml) to Google Search Console, so that your online store website can be effectively crawled and indexed.
+
+Google indexes your site automatically within 48 to 72 hours after you add or update information. You can't force Google to re-index your site, but you can prompt them to do so by using Google Search Console. Google doesn't index all of the pages on a site. Learn more about what to expect when your site is indexed from the Google Search Console Help.
+
+A well-organized site structure helps both search engines and customers find what they're looking for quickly. Your store's navigation should follow a logical hierarchy and use clear, descriptive labels.
+
+The following elements are key to creating good site structure:
+
+Shopify handles many technical SEO optimizations automatically, such as generating sitemaps and structured data. However, there are still some technical aspects you can monitor and optimize. Here are the key areas to focus on:
+
+If you need help improving SEO for your store, then consider hiring a Shopify Partner.
+
+Shopify online stores have SEO features built in to help you optimize your content. The following SEO elements are handled automatically:
+
+You can also manually optimize your content using these features built in to Shopify:
+
+Staying current with SEO trends is crucial for maintaining and improving your store's search visibility. As search engines evolve and user behaviors change, adapting your SEO strategy helps ensure your products remain discoverable.
+
+Voice search optimization helps you capture traffic from voice-activated devices and virtual assistants. Focus on natural, conversational phrases that match how people speak, rather than type. Target long-tail keywords that answer specific questions, such as "Where can I buy eco-friendly yoga mats?" This helps your content match voice queries, which tend to be longer and more question-based than typed searches.
+
+Structured data implementation is built into Shopify themes to help search engines better understand your content. The themes automatically include schema markup for products, which enables rich snippets in search results. These enhanced search listings can display details such as prices, reviews, and availability directly in search results, potentially improving click-through rates and visibility.
+
+Off-page SEO focuses on building your brand's presence and authority across the internet. On-page optimization is important, and search engines also evaluate how other websites interact with and reference your store to determine rankings.
+
+Here are the key ways to build your off-page presence:
+
+Backlinks: Build relationships with influencers, bloggers, and industry publications who can review your products and link back to your store. Focus on quality over quantity - a few links from respected sites in your niche are more valuable than many low-quality links. Consider reaching out to:
+
+Local SEO: If you have a physical store location, create and optimize your Google Business Profile to display in local search results so that your store can make use of the following features:
+
+Social signals: Although not direct ranking factors, active social media profiles can:
+
+Link building means getting hyperlinks on other websites to link back to your own, as well as developing outbound or internal links on your own website. Backlinks, also known as inbound links, are a key part of your SEO strategy and are valued by search engines. When a trusted site links to you, it signals to search engines that your website is valuable and trustworthy.
+
+Review the following tips and best practices for building links and earning backlinks:
+
+Focus on quality over quantity. Low-quality links or attempts to game the system can hurt your SEO. Always aim for genuine, relevant links from reputable sources.
+
+Because SEO concepts are fairly technical, it can be helpful to review some examples of scenarios and proposed solutions.
+
+When your product page isn't ranking well for a specific keyword such as "sustainable wool blankets", you need a multi-faceted approach. Start by optimizing your on-page elements - incorporate the keyword naturally into your product title, meta description, and throughout your product description. Make sure to highlight the sustainable aspects of your wool blankets and what makes them unique.
+
+Next, create supporting content that demonstrates expertise in your product area. Writing blog posts such as "How to style wool blankets in winter" or "The environmental benefits of sustainable wool" helps establish topical authority. This content can internally link to your product pages while targeting related long-tail keywords.
+
+Finally, focus on building high-quality backlinks from relevant websites. Reach out to eco-friendly lifestyle bloggers and sustainability-focused publications that might be interested in featuring your sustainable wool blankets. Consider offering samples for honest reviews or collaborating on content about sustainable home goods.
+
+When you have many products across different categories, organizing them into a clear navigation structure is important for SEO. Search engines value well-organized content that helps users find what they're looking for. Drop-down menus can improve your site structure while keeping your navigation clean.
+
+This hierarchical structure helps both users and search engines understand the relationship between your pages. For example, having "Women's Dresses" nested under "Clothing" signals to search engines that these pages are related, potentially improving rankings for relevant searches.
+
+To learn more about SEO, check out SEO Marketing on the Shopify Blog, SEO content in Shopify Academy, and the SEO Checklist on the Learn with Shopify YouTube channel.
+
+You can also browse Shopify's forums in Shopify Community to find and discuss SEO topics with app developers, theme developers, and other Shopify store owners.
+
+SEO and traffic generation work together - more visitors can improve your search rankings, while better rankings bring more organic traffic. If your store receives fewer than 1,000 visitors per month, focus on these strategies to build momentum:
+
+Building an active social media presence helps drive traffic and creates opportunities for natural link building:
+
+Collaborating with others in your industry can expand your reach:
+
+Understanding your current performance helps you make informed decisions about where to focus your efforts:
+
+These strategies work best when combined with strong on-page SEO fundamentals. Focus on creating genuine value for your audience, and both traffic and search rankings will improve over time.
+
+The number of natural (not paid or social media) links pointing to your store from other websites
+
+The authority of the website based on engagement and other factors
+
+The age of your domain name
+
+Website structure and content that is optimized for search engines
+
+Core concepts and terminology
+
+Built-in SEO features in Shopify
+
+Examples of common SEO solutions
+
+Driving traffic to improve SEO
+
+Organic search results: These are the natural, unpaid search listings that appear based on their relevance to the search query and the website's authority. Unlike paid ads, organic results can't be bought - they must be earned through strong SEO practices.
+
+On-page SEO: This involves optimizing individual webpage elements that you can directly control, including:
+Page titles and meta descriptions
+Heading tags (H1, H2, H3)
+URL structure and internal links
+Image alt text and file names
+High-quality, relevant content
+Keyword placement and density
+
+Page titles and meta descriptions
+
+Heading tags (H1, H2, H3)
+
+URL structure and internal links
+
+Image alt text and file names
+
+High-quality, relevant content
+
+Keyword placement and density
+
+Off-page SEO: These are external factors that build your site's credibility and authority, such as:
+Backlinks from reputable websites
+Social media shares and engagement
+Brand mentions across the web
+Online reviews and ratings
+Guest posting on industry blogs
+
+Backlinks from reputable websites
+
+Social media shares and engagement
+
+Brand mentions across the web
+
+Online reviews and ratings
+
+Guest posting on industry blogs
+
+Technical SEO: This focuses on your website's technical foundation to help search engines crawl and index your content effectively:
+Site speed and performance
+Mobile responsiveness
+XML sitemaps
+Robots.txt configuration
+SSL certificates (HTTPS)
+Structured data markup
+
+Site speed and performance
+
+Mobile responsiveness
+
+Robots.txt configuration
+
+SSL certificates (HTTPS)
+
+Structured data markup
+
+Search intent: This describes what users are trying to accomplish with their search query:
+Informational: Looking to learn about a topic ("how to make soap")
+Navigational: Trying to find a specific website ("Shopify login")
+Transactional: Ready to make a purchase ("buy handmade soap")
+Commercial investigation: Researching before buying ("best handmade soap brands")
+
+Informational: Looking to learn about a topic ("how to make soap")
+
+Navigational: Trying to find a specific website ("Shopify login")
+
+Transactional: Ready to make a purchase ("buy handmade soap")
+
+Commercial investigation: Researching before buying ("best handmade soap brands")
+
+Find keywords that are relevant to your products and your brand. Consider the search terms that customers can use to find your store.
+
+Add the keywords into your content, including page titles, descriptions, and image alt text.
+
+Make sure that your URLs and file names match the content.
+
+Add your full domain (for example: https://www.example.com/sitemap.xml) to Google Search Console, so that your online store website can be effectively crawled and indexed.
+Note
+Google indexes your site automatically within 48 to 72 hours after you add or update information. You can't force Google to re-index your site, but you can prompt them to do so by using Google Search Console. Google doesn't index all of the pages on a site. Learn more about what to expect when your site is indexed from the Google Search Console Help.
+
+Create content that's relevant to your products and encourage other websites to link back to your online store.
+
+Structure your site with hierarchical levels that go from the most general to the most specific content, starting from the homepage at the top level, then collections pages below that, and individual product pages at the lowest level (Homepage > Collections > Products)
+
+Use internal linking to connect related products or collections by adding links between pages that have a logical relationship (for example, linking from a winter coat product page to a collection of winter accessories)
+
+Create descriptive, hyphen-separated URLs (for example, /collections/organic-skincare)
+
+Review your site's performance in Google Search Console
+
+Monitor page speed using built-in analytics
+
+Set up 301 redirects when moving or discontinuing products
+
+Auto-generated canonical tags are added to pages to prevent duplicate content from appearing in search results
+
+Your website's sitemap.xml and robots.txt files are automatically generated
+
+Themes automatically generate title tags that include your store name
+
+Themes are required to have social media linking and sharing options to make it easier for you to market your store
+
+SSL certificates are activated by default to boost security and rankings
+
+You can edit the title tags, meta descriptions, and URLs for the various pages on your site:
+Edit SEO for blog posts
+Edit SEO for webpages
+Edit SEO for products
+Edit SEO for collections
+
+Edit SEO for blog posts
+
+Edit SEO for webpages
+
+Edit SEO for products
+
+Edit SEO for collections
+
+You can edit the alt text for images
+
+Backlinks: Build relationships with influencers, bloggers, and industry publications who can review your products and link back to your store. Focus on quality over quantity - a few links from respected sites in your niche are more valuable than many low-quality links. Consider reaching out to:
+Industry bloggers who write about topics related to your products
+Influencers whose audience matches your target market
+Complementary businesses for co-marketing opportunities
+Relevant industry directories and resource lists
+
+Industry bloggers who write about topics related to your products
+
+Influencers whose audience matches your target market
+
+Complementary businesses for co-marketing opportunities
+
+Relevant industry directories and resource lists
+
+Local SEO: If you have a physical store location, create and optimize your Google Business Profile to display in local search results so that your store can make use of the following features:
+Display in "near me" searches
+Display your store hours, photos, and customer reviews
+Collect and respond to customer feedback
+Share updates about sales and events
+Connect with customers in your local area
+
+Display in "near me" searches
+
+Display your store hours, photos, and customer reviews
+
+Collect and respond to customer feedback
+
+Share updates about sales and events
+
+Connect with customers in your local area
+
+Social signals: Although not direct ranking factors, active social media profiles can:
+Drive referral traffic to your store
+Help build brand awareness
+Create opportunities for natural link building
+Provide platforms for customer engagement
+
+Drive referral traffic to your store
+
+Help build brand awareness
+
+Create opportunities for natural link building
+
+Provide platforms for customer engagement
+
+Guest posting: Contribute content to another website or blog in exchange for a link back to your own site. For example, a fashion brand owner might write a guest post for a major fashion magazine, with a link back to their store.
+
+Public Relations (PR): Reach out to journalists, writers, and business owners to get new links to your website. Share newsworthy updates about your brand, such as product launches or events.
+
+Listings: Get your business listed in local directories relevant to your industry. These listings can provide valuable backlinks and help with local SEO.
+
+Networking: Engage with industry-relevant forums, blogs, and communities. Share your link where it adds value, but avoid spammy tactics. Social shares might not directly impact SEO, but they can increase brand awareness and lead to more genuine links.
+
+Internal links: Link to other pages within your own website to help establish information hierarchy and spread link equity. For example, link from a blog post to a related product or collection page.
+
+From the Shopify admin, go to Content > Menus
+
+Create a top-level menu item for your main category (for example, "Clothing")
+
+Add sub-items by clicking Add menu item and entering product or collection names
+
+Drag the sub-items underneath the main category to create the drop-down
+
+Use descriptive names that include relevant keywords
+
+Click Save menu when finished
+
+Develop a content calendar: Plan regular posts that showcase your products and provide value to your audience
+
+Engage authentically: Participate in conversations relevant to your industry rather than just promoting your products
+
+Cross-platform presence: Consider multiple platforms where your target audience is active
+
+User-generated content: Encourage customers to share photos and reviews of your products
+
+Micro-influencers: Partner with smaller influencers whose audience matches your target market
+
+Product reviews: Offer free products in exchange for honest reviews from relevant bloggers or content creators
+
+Cross-promotion: Partner with complementary businesses for mutual promotion
+
+Local connections: If you have a physical location, promote your website in-store and connect with local businesses
+
+Traffic sources: Monitor where your visitors come from to identify successful channels
+
+Conversion tracking: Understand which traffic sources lead to actual sales
+
+Seasonal patterns: Identify trends in your business to plan marketing efforts
+
+Goal setting: Use past performance data to set realistic growth targets
+
+Less than 60 characters, include primary keyword
+
+Edit by using Online Store > Preferences
+
+Less than 160 characters, include keywords naturally
+
+Customize in product or blog SEO settings
+
+Use H1 for page titles, H2 and H3 for subsections
+
+Themes made by Shopify are built with this practice in mind
+
+Describe images concisely (for example, "Men's waterproof hiking boots")
+
+Add by using media library

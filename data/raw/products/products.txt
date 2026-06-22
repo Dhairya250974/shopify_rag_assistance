@@ -1,0 +1,88 @@
+TITLE: Products
+URL: https://help.shopify.com/en/manual/products
+SECTION: products
+---
+
+Features of the Products section
+
+Connections to other Shopify admin sections
+
+Sourcing products for your Shopify store
+
+The Products section in your Shopify admin helps you manage your store's entire product catalog, from basic product setup to advanced customization. There are also automation, AI, and bulk management tools that can help you save time when working on your business's product offerings.
+
+At minimum, a product in Shopify needs to have only two things: A title and a price. From there, you can add descriptions, images, videos, compare-at prices, inventory levels, variants, tags, metafields, and many other details that help you display and sell your products.
+
+When you add a product to Shopify, you can configure all the relevant settings for your product:
+
+For a complete list of details and step-by-step instructions, refer to the product details documentation.
+
+After you add your products, you can manage them individually or through bulk actions. You can organize them into collections to help apply certain settings to groups of products or display them together on your online store.
+
+Review the following product management actions for more details and instructions:
+
+You can also apply certain changes to many products at the same time, such as adjusting prices or changing sales channel visibility using the bulk editor. You can also make changes to your product catalog using CSV files.
+
+When your product catalog is set up, there are other areas in your Shopify admin that can reference these products to help set up the rest of your store:
+
+To source products from other businesses and sell them on your store, consider the following options:
+
+Adding and updating products
+
+Importing and exporting products
+
+Searching for products and filtering your product list
+
+Adding product disclosures to your products
+
+Creating and selling gift cards
+
+Managing vendor information
+
+Temporarily changing your product line
+
+Product analytics overview
+
+Title and description: Craft SEO-friendly product names and descriptions using rich text formatting. Avoid duplicate manufacturer descriptions for better search visibility.
+
+Media: Upload images, 3D models, or videos to demonstrate products. Supports desktop and mobile layout adjustments and zoom functionality.
+
+Pricing and inventory: Set base prices, track stock quantities, and manage variant-specific inventory.
+
+Adding and updating products
+
+Organizing products into collections
+
+Creating metafields for customized product details
+
+Using product tags to group products
+
+Inventory and variants: Manage stock levels per variant combination (size and color).
+
+Online store menus: Use smart or manual collections to power store menus.
+
+Shipping settings: Create product-based rules for your shipping rates, such as basing them off of product price or weight.
+
+Shopify Product Network: Recommended products from other Shopify stores appear on your store automatically. Recommendations are optimized based on customer data and your existing catalog. You earn commission when customers buy, and seller stores fulfill their own line items. You don't import these products into your catalog or stock them yourself.
+
+Shopify Collective: You choose suppliers and import specific brands and products into your catalog, and earn a margin on each sale with no upfront inventory costs. You curate what you want to sell.
+
+Dropshipping apps: Find third-party suppliers in the Shopify App Store who fulfill orders directly to your customers.
+
+Print-on-demand apps: Sell custom printed products that are printed and shipped by the app provider.
+
+Adding and updating products
+
+Importing and exporting products
+
+Searching for products and filtering your product list
+
+Adding product disclosures to your products
+
+Creating and selling gift cards
+
+Managing vendor information
+
+Temporarily changing your product line
+
+Product analytics overview

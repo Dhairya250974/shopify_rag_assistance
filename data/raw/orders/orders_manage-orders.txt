@@ -1,0 +1,60 @@
+TITLE: Managing orders
+URL: https://help.shopify.com/en/manual/orders/manage-orders
+SECTION: orders
+---
+
+Viewing and creating orders
+
+Processing and editing orders
+
+Managing returns and fraud
+
+You can manage your orders from the Orders page in your Shopify admin. Order management includes viewing and tracking orders, processing payments, making changes to orders, and handling returns and refunds.
+
+Search for orders by order number, customer name, or product details. Filter orders by fulfillment status, payment method, or date range. You can also create orders on behalf of customers for phone, in-person, or email sales. Draft orders let you add products, apply discounts, and send invoices with secure checkout links.
+
+Capture payments manually or automatically, review order details, and prepare orders for fulfillment. You can edit orders to add or remove products, adjust quantities, update shipping fees, or apply discounts. Print packing slips and invoices to include with shipments.
+
+Create returns when customers want to send items back, and add exchange items when applicable. Issue full or partial refunds, or cancel orders entirely. You can set up return rules and activate self-serve returns so customers can submit return requests directly from their order status page. Review high-risk orders using Shopify's fraud analysis before fulfilling, and use Shopify Flow to automate your handling of potentially fraudulent orders.
+
+To see more videos, visit our YouTube channel.
+
+Viewing and filtering orders
+
+Draft orders and invoices
+
+Understanding your order statuses
+
+Validating addresses in your Shopify admin
+
+Managing order details
+
+Managing payments for orders
+
+Returns and exchanges
+
+Protecting orders from fraud
+
+Forecasting orders and viewing order analytics
+
+Contacting a Shopify store about an order
+
+Viewing and filtering orders
+
+Draft orders and invoices
+
+Understanding your order statuses
+
+Validating addresses in your Shopify admin
+
+Managing order details
+
+Managing payments for orders
+
+Returns and exchanges
+
+Protecting orders from fraud
+
+Forecasting orders and viewing order analytics
+
+Contacting a Shopify store about an order

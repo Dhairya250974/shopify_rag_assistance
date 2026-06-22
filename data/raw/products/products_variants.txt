@@ -1,0 +1,28 @@
+TITLE: Variants
+URL: https://help.shopify.com/en/manual/products/variants
+SECTION: products
+---
+
+You can add variants to a product that comes in more than one option, such as size or color, and each combination of option values for a product can be a variant for that product. Variants can let you offer different versions of a product, such as sizes and colors, so customers can find exactly what they want.
+
+For example, suppose that you sell T-shirts with two options: size and color. The size option has three values: small, medium, and large. The color option has two values: blue and green. One specific variant from these options is a small, blue T-shirt.
+
+A list of variants available for a product is displayed on its product details page. You can also manage inventory for each variant from the Inventory page.
+
+If you want to save specialized information for your variants, then you can add custom fields to your variant details pages by using metafields. At this time, product variant metafields can't be displayed to customers.
+
+You can also connect category metafields to variant options, which allows you to reuse your data across products instead of having to recreate it each time.
+
+Merchants with stores on the Shopify Plus plan can use the Shopify Combined Listings app to combine individual products into a single listing.
+
+Editing variants for an existing product
+
+Publishing and unpublishing product variants
+
+Search, filter, and group variants
+
+Editing variants for an existing product
+
+Publishing and unpublishing product variants
+
+Search, filter, and group variants

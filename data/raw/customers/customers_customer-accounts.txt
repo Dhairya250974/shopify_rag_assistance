@@ -1,0 +1,56 @@
+TITLE: Customer accounts
+URL: https://help.shopify.com/en/manual/customers/customer-accounts
+SECTION: customers
+---
+
+Customer account creation
+
+Editing customer account details
+
+Customer accounts let your customers sign in to view and manage their orders, edit profile information, and take key actions such as self-serve returns or reordering.
+
+Customers sign in one time to get full access to all features, meaning no extra verification steps for every action they want to take. Sign-in sessions persist for up to 365 days, so customers don’t have to sign in again when they come back to check their account or continue shopping.
+
+When a customer signs in, the details stored in their account are auto-filled during checkout for a fast and seamless checkout experience.
+
+When you turn on sign-in links for customer accounts, your customers can sign in using passwordless authentication. They enter their email address and receive a one-time 6-digit verification code. A password isn't required to sign in.
+
+In addition to passwordless sign-in, you can also offer your customers the following authentication methods:
+
+Alternatively, if you're on the Shopify Plus plan, then you can connect your own identity provider, which replaces the default sign-in experience for customer accounts.
+
+If your customer has a customer profile in your Shopify admin, then they already have an account. They can sign in with the email address associated with their customer profile to view their orders and account information.
+
+If your customer has a Shop account, then they're prompted to sign in with Shop for an accelerated sign-in and checkout experience. Customers signed in with Shop reach checkout with saved shopping information pre-filled, defaulting them to checkout in one tap with Shop Pay.
+
+If someone signs in with an email address that’s not associated with an existing customer profile, then a new customer profile is created automatically.
+
+Customers can update their name, email address, and shipping addresses in their account. On their customer account page, the customer can click their initials, and then click Profile, where they can make any of the following updates:
+
+If a customer changes their email address, then their previous email marketing consent preferences remain the same. Customers can't merge multiple customer profiles together by changing their email address. If a customer requests to merge two or more customer accounts, then you can merge their customer profiles in your Shopify admin.
+
+If a customer signs in to their account using an external identity provider, then they can't update their email address from their account.
+
+Setting up and managing customer accounts
+
+Customizing customer accounts
+
+Sign-in options for customer accounts
+
+Upgrading to customer accounts from legacy customer accounts
+
+Sign in with Shop: If you have Shop Pay activated, then your customers can sign in with their Shop credentials and saved passkeys.
+
+Social sign-in: Your customers can sign in using their Google and Facebook accounts.
+
+To edit their name or email address, the customer clicks the pencil icon in the Profile section, makes their edits, and then clicks Save. If the customer edits their email address, then they're prompted to verify their email address after clicking Save.
+
+To edit their shipping details, the customer clicks the pencil icon next to their default address in the Addresses section.
+
+Setting up and managing customer accounts
+
+Customizing customer accounts
+
+Sign-in options for customer accounts
+
+Upgrading to customer accounts from legacy customer accounts

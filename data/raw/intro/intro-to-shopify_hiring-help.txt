@@ -1,0 +1,60 @@
+TITLE: Hiring and working with Shopify Partners
+URL: https://help.shopify.com/en/manual/intro-to-shopify/hiring-help
+SECTION: intro
+---
+
+Hiring and working with Shopify Partners
+
+Planning to contact a Partner
+
+Working with Partners
+
+Complete a collaboration with a partner
+
+The Partner Directory connects you with Shopify Partners who you can hire for complicated tasks related to building your business.
+
+When you contact a Partner, you’re not committed to hiring them. You decide whether you want to work with them.
+
+Before you engage with a Partner, it's important to prepare by clearly outlining the requirements for the work needed. Consider the following best practices when planning to hire a Partner:
+
+To find a Partner, browse the Partner Directory and explore the available services.
+
+You can use the following filtering options to refine your search based on criteria:
+
+You can also sort the results based on Partner's average rating or service prices.
+
+When you find a Partner that you want to work with, you can contact them using the Contact button on the Partner's profile. You must be logged into your Shopify account to contact a Partner.
+
+Fill out the provided form with your contact information and a comprehensive overview of the help required, including store information, service details, budget, and problem description.
+
+When you contact a Partner, the information about your request is sent to the Partner as an email.
+
+After the Partner responds to your inquiry, engage in discussions regarding collaboration methods and preferred tools. For example, the Partner might require access your store through a collaborator account to perform certain tasks.
+
+When the work is complete, or at another time agreed to by you and the Partner, the Partner will bill you directly, and these charges don't display on your Shopify bill.
+
+You receive review requests if the following conditions are met:
+
+To submit a review, you select the relevant service, and rate the partner’s work quality and communication. You can also optionally include a note. Reviews appear on the partner’s profile in the Partner Directory within 48 hours of submission by an eligible merchant on a paid plan.
+
+If you no longer need help from the collaborator, then remove their account. Otherwise, if a collaborator user hasn't logged into your store within 90 days, then their access will automatically expire.
+
+Planning to contact a Partner
+
+Working with Partners
+
+Complete a collaboration with a partner
+
+Familiarize yourself with any business or technical terms relevant to the work that you need help with to facilitate effective communication with the Partner.
+
+Conduct preliminary research to gather insights and examples from similar businesses to better articulate your needs.
+
+Define your budget, timeline, and expected outcomes in detail to allow the Partner to provide an accurate quote.
+
+Acceptance of new clients
+
+The partner was added as a collaborator to the store.
+
+Collaborator access has been active for 1 week or more.
+
+The partner is listed in the Partner Directory.

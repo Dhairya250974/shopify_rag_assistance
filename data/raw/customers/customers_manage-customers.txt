@@ -1,0 +1,566 @@
+TITLE: Managing customers
+URL: https://help.shopify.com/en/manual/customers/manage-customers
+SECTION: customers
+---
+
+Add customer profiles
+
+Send an email message to a customer
+
+Edit customer profiles
+
+Edit a customer's subscription payment information
+
+Edit customer profiles in bulk
+
+Merging customer profiles
+
+Erase a customer’s personal data
+
+Deleting customer profiles
+
+Requirements for US military shipping addresses
+
+Limitations for merging customer profiles
+
+Merge customer profiles
+
+Merge from the customer list
+
+Limitations for deleting customer profiles
+
+Delete individual customer profiles
+
+Delete customer profiles in bulk
+
+When a new customer places an order with your store, their name and information are automatically added to your customer list. A customer profile is created when a customer interacts with your business in any of the following ways:
+
+Alternatively, you can add a customer to your store manually.
+
+You can send email messages to individual customers from your Shopify admin, or send discounts and email messages to groups of customers by using customer segments.
+
+You can add a customer profile from your Shopify admin. Each profile can have only one email address, but you can change it at any time by editing the customer profile.
+
+You can use Sidekick to create new customer profiles. Provide the customer's information and Sidekick fills in the form. For example: "Create a new customer with the first name Alice and the email alice@example.com."
+
+From your Shopify admin, go to Customers.
+
+Enter the customer's information.
+
+Optional: If the customer has agreed to receive marketing emails, and you have entered an email address, then in the Customer overview section, check Customer agreed to receive marketing emails.
+
+In the Tax settings section, select whether to collect tax:
+
+If you want to activate tax overrides for all customers at the municipal, state, or national level, then you can do that on the Taxes and duties page of your Shopify admin.
+
+You can send an email message to a customer directly from your Shopify admin or from the Shopify app.
+
+From your Shopify admin, go to Customers.
+
+Click the customer name.
+
+In the Customer overview section, click the customer's email address.
+
+Edit the subject line for the email, or leave it as the default. The code shop.name automatically enters your store's name into the subject line of the email message.
+
+In the Custom message field, enter your message.
+
+To receive a copy of the message for your records, under Send bcc to, check the appropriate email addresses.
+
+When you're finished, click Review Email.
+
+Click Send notification.
+
+After an email is sent to a customer, a notification is displayed in the customer's timeline. If the email was not successfully sent, then a warning icon (ⓘ) is displayed next to the notification.
+
+You can review a sent email, and resend a copy of the email either to the customer or to yourself.
+
+Delivery status and resending emails are available only for automatic emails, such as those sent when a customer places an order or when an order is canceled. These features aren't available for emails that are sent directly from a customer's profile.
+
+From your Shopify admin, go to Customers.
+
+Click the customer name.
+
+In the Timeline section, locate the notification that an email has been sent.
+
+Optional: To resend an email, do one of the following:
+
+If a customer profile already exists in Shopify, then you can edit the profile from the Customers page.
+
+Before you update a customer profile, verify if another staff member is currently making changes to the same profile so that your changes don't conflict.
+
+You can add a note to a customer profile to keep track of special information about the customer. Only staff members of your store can access these notes. These notes aren't visible to customers.
+
+Using tags can help you to organize your customer profile list. You can use tags to label your customers by using descriptive terms or to sort them into categories. For example, if you have important customers, then you can tag those customers as VIP. Tags can also be used to create customer segments. Tags are not case sensitive.
+
+If you use customer accounts, then customers can also update their own profile name and email address from their customer account on your online store.
+
+From your Shopify admin, go to Customers.
+
+Click the customer name.
+
+To add a note to the customer profile, in the Customer Note field, enter the appropriate information about the customer, and then click Save.
+
+In the Customer overview section, click Manage > Edit contact information and then make the appropriate changes to the following information:
+
+To edit the address, in the Customer overview section, click Manage > Manage addresses and do one of the following:
+
+To edit your customer tax settings, do the following steps:
+
+To change whether the customer receives email, SMS, or WhatsApp marketing, in the Customer overview section, click Manage > Edit marketing settings.
+
+To apply tags to the customer profile, in the Tags section, do either of the following:
+
+If you sell subscription products and need a customer to update their payment information because of a failed payment, then you can update the customer's profile in your Shopify admin.
+
+From your Shopify admin, go to Customers.
+
+Click the customer that you want to view payment information for.
+
+In the Payment methods section, click the pencil icon.
+
+Optional: If you want your customer to update their payment information themselves, then do the following:
+
+Optional: If you want to update your customer's payment method manually, then do the following:
+
+Learn more about subscriptions.
+
+From your Shopify admin, you can use bulk editing to edit the following information for multiple customer profiles at the same time:
+
+To edit other fields on a customer profile, such as address lines, phone number, or tax exempt status, you need to edit the customer profile individually or use a CSV file.
+
+You can select multiple or all customer profiles in the following ways:
+
+From your Shopify admin, go to Customers.
+
+Select the customer profiles that you want to edit.
+
+To add tags to or remove tags from the selected customer profiles, do the following:
+
+To edit several pieces of information at one time, including tags, click Edit customers, and then do the following:
+
+You might have two or more customer profiles that refer to one customer. In this case, you can merge two profiles together, combining them into one profile. Before you complete the merge, you have the opportunity to review and select what information the merged profile will have.
+
+The profile that remains after a merge depends on the contact information that's kept on the merged profile. If only one profile has an email address, then that profile remains. If both profiles have email addresses, then the profile associated with the email address kept on the merged profile remains. If neither profile has an email address, then the profile that you select under Find a customer to merge with remains.
+
+For example, a customer has 2 profiles in your store, one with the email address customer-old@example.com and another with customer-new@example.com. You open the profile for customer-old@example.com, click Merge customer, and then select customer-new@example.com under Find a customer to merge with. Before you confirm the merge, review the Merged customer section and choose which contact details to keep. If the merged profile keeps customer-new@example.com, then the profile associated with customer-new@example.com remains.
+
+The following information is merged into one profile:
+
+If any information from both profiles conflicts, then you can cancel the merge process and adjust the information in each record on the customer profile pages before you proceed with the merge.
+
+Orders are permanently associated with the customer account that placed them. You can't move individual orders between customer accounts because the order's email address is used as a unique identifier. This applies even if you modify the order's contact email address. If you need to associate orders with a different customer account, then you can merge customer profiles.
+
+Before you merge customer profiles, review the following considerations:
+
+From your Shopify admin, go to Customers.
+
+From the customer list, click a customer profile.
+
+Click More actions > Merge customer.
+
+In the Find a customer to merge with section, enter any of the following information to search for another customer profile:
+
+Select the appropriate customer profile.
+
+In the Merged customer section, review which information is merged and which information is discarded.
+
+Optional: Click Change contact information on web, or Edit on mobile, to modify the selected customer information before merging.
+
+Optional: Click View merge details, review the merge details, and then click Close.
+
+Click Merge, and then click Confirm.
+
+If you want to merge more than one customer profile into the current one, then you need to repeat the merge procedure for each additional profile.
+
+From your Shopify admin, go to Customers.
+
+Select the two customers that you want to merge. If only one of the duplicate profiles is displayed in the index, then you can search for the other profile in the next step.
+
+Click the … next to the Edit customers button.
+
+Select Merge customers.
+
+If a single customer was selected from the list, then search for the customer under Find a customer to merge with. Use any of the following information to search:
+
+Select the duplicate customer profile.
+
+In the Merged customer section, review which information is merged and which information is discarded.
+
+Optional: Click Change contact information on web, or Edit on mobile, to modify the selected customer information before merging.
+
+Optional: Click View merge details, review the merge details, and then click Close.
+
+Click Merge, and then click Confirm.
+
+If you want to merge more than 2 customers together, then repeat the procedure for each additional profile.
+
+If a customer asks you to erase their personal data, then you can submit a data erasure request. The customer's personal details - such as their name, email, phone, and address - are removed from Shopify’s records, and the same request is sent to any apps and sales channels you’ve installed. Erasing personal data is different from deleting a customer profile. When you request to erase personal data, Shopify redacts information such as the customer’s name and address, but the profile and order history remain in your admin. For detailed steps, refer to Processing customer data requests.
+
+Deleting a customer profile can't be undone.
+
+You can delete individual customer profiles. Alternatively, you can delete multiple customer profiles in bulk.
+
+When a customer profile is deleted, the customer’s personal data, such as their name and address, is also redacted from Shopify's records.
+
+Customer profiles can't be deleted in the following cases:
+
+If you attempt to delete multiple profiles in bulk, then only the profiles that can be deleted are deleted.
+
+Deleting a customer profile can't be undone.
+
+From your Shopify admin, go to Customers.
+
+Click the name of the customer whose profile you want to delete.
+
+Click More actions > Delete customer.
+
+To confirm that you want to delete the customer profile, click Delete customer.
+
+Deleting a customer profile can't be undone.
+
+If you attempt to delete multiple customer profiles in bulk, then only the profiles that can be deleted are deleted. Any customer profiles that can't be deleted remain in your Customer list.
+
+From your Shopify admin, go to Customers.
+
+Select each of the customer profiles that you want to delete.
+
+Click the icon next to the Bulk edit button, then click Delete customers.
+
+To confirm that you want to delete the selected customer profiles, click Delete.
+
+Military mailing addresses in the US have a unique format that must be entered in a specific way. If the address is entered incorrectly, then the order might not arrive to the intended recipient. There are three different types of US military address:
+
+If you receive an order with a US military shipping address, then make sure that the address has been entered correctly before you ship the order. If the shipping address hasn't been entered correctly by the customer, then edit the customer address using the following guidelines:
+
+If you're not sure about some of the address information, then contact the customer who placed the order for further clarification.
+
+signing up for your mailing list or a customer account
+
+starting an order, but abandoning their checkout
+
+Add customer profiles
+
+Send an email message to a customer
+
+Edit customer profiles
+
+Edit a customer's subscription payment information
+
+Edit customer profiles in bulk
+
+Merging customer profiles
+
+Erase a customer’s personal data
+
+Deleting customer profiles
+
+Requirements for US military shipping addresses
+
+From your Shopify admin, go to Customers.
+
+Enter the customer's information.
+
+Optional: If the customer has agreed to receive marketing emails, and you have entered an email address, then in the Customer overview section, check Customer agreed to receive marketing emails.
+
+In the Tax settings section, select whether to collect tax:
+To add a customer VAT number, enter the number in the VAT number field. The number is automatically validated.
+To collect tax, select Collect tax.
+To not collect tax, select Don't collect tax.
+To collect tax except for applicable exemptions, select Collect tax unless exemptions apply, and then in the Select exemptions drop-down menu select the tax exemptions.
+
+To add a customer VAT number, enter the number in the VAT number field. The number is automatically validated.
+
+To collect tax, select Collect tax.
+
+To not collect tax, select Don't collect tax.
+
+To collect tax except for applicable exemptions, select Collect tax unless exemptions apply, and then in the Select exemptions drop-down menu select the tax exemptions.
+
+From your Shopify admin, go to Customers.
+
+Click the customer name.
+
+In the Customer overview section, click the customer's email address.
+
+Edit the subject line for the email, or leave it as the default. The code shop.name automatically enters your store's name into the subject line of the email message.
+
+In the Custom message field, enter your message.
+
+To receive a copy of the message for your records, under Send bcc to, check the appropriate email addresses.
+
+When you're finished, click Review Email.
+
+Click Send notification.
+
+From your Shopify admin, go to Customers.
+
+Click the customer name.
+
+In the Timeline section, locate the notification that an email has been sent.
+
+Optional: To resend an email, do one of the following:
+To send the email to a customer, select Customer, and then click Resend.
+To send the email to yourself, select Yourself, and then click Resend.
+
+To send the email to a customer, select Customer, and then click Resend.
+
+To send the email to yourself, select Yourself, and then click Resend.
+
+From your Shopify admin, go to Customers.
+
+Click the customer name.
+
+To add a note to the customer profile, in the Customer Note field, enter the appropriate information about the customer, and then click Save.
+
+In the Customer overview section, click Manage > Edit contact information and then make the appropriate changes to the following information:
+first name
+last name
+language
+email address
+phone number
+
+To edit the address, in the Customer overview section, click Manage > Manage addresses and do one of the following:
+To edit the current address, click Edit next to the appropriate address.
+To change which address is the default address, click Set as default next to the appropriate address.
+To add a new address to the profile, click Add new address.
+
+To edit the current address, click Edit next to the appropriate address.
+
+To change which address is the default address, click Set as default next to the appropriate address.
+
+To add a new address to the profile, click Add new address.
+
+To edit your customer tax settings, do the following steps:
+In the Customer section, click …, and then click Manage tax settings.
+In the Tax setting drop-down menu, select whether to collect tax:
+To add a customer VAT number, enter the number in the VAT number field. The number is automatically validated.
+To collect tax, select Collect tax.
+To not collect tax, select Don't collect tax.
+To collect tax except for applicable exemptions, select Collect tax unless exemptions apply, and then in the Select exemptions drop-down menu select the tax exemptions.
+Click Save.
+
+In the Customer section, click …, and then click Manage tax settings.
+
+In the Tax setting drop-down menu, select whether to collect tax:
+To add a customer VAT number, enter the number in the VAT number field. The number is automatically validated.
+To collect tax, select Collect tax.
+To not collect tax, select Don't collect tax.
+To collect tax except for applicable exemptions, select Collect tax unless exemptions apply, and then in the Select exemptions drop-down menu select the tax exemptions.
+
+To add a customer VAT number, enter the number in the VAT number field. The number is automatically validated.
+
+To collect tax, select Collect tax.
+
+To not collect tax, select Don't collect tax.
+
+To collect tax except for applicable exemptions, select Collect tax unless exemptions apply, and then in the Select exemptions drop-down menu select the tax exemptions.
+
+To change whether the customer receives email, SMS, or WhatsApp marketing, in the Customer overview section, click Manage > Edit marketing settings.
+
+To apply tags to the customer profile, in the Tags section, do either of the following:
+To add a tag, click the field, and then select a tag.
+To remove a tag, click the X next to a tag.
+
+To add a tag, click the field, and then select a tag.
+
+To remove a tag, click the X next to a tag.
+
+From your Shopify admin, go to Customers.
+
+Click the customer that you want to view payment information for.
+
+In the Payment methods section, click the pencil icon.
+
+Optional: If you want your customer to update their payment information themselves, then do the following:
+For the relevant saved card, click … > Send link to update card.
+In the dialog, check the details and then click Send email.
+
+For the relevant saved card, click … > Send link to update card.
+
+In the dialog, check the details and then click Send email.
+
+Optional: If you want to update your customer's payment method manually, then do the following:
+For the relevant saved card, click … > Replace card.
+In the dialog, complete the relevant details and then click Confirm.
+
+For the relevant saved card, click … > Replace card.
+
+In the dialog, complete the relevant details and then click Confirm.
+
+Accepts email marketing
+
+Accepts SMS marketing
+
+Accepts WhatsApp marketing
+
+Any metafields values on your store
+
+To edit multiple customer profiles, select each customer profile.
+
+To edit all customer profiles that are listed on the page for a segment or based on a search, select the Customer name checkbox. A maximum of 50 customers is listed per page.
+
+To edit all the customer profiles in your store, verify that the All customers segment is selected. Select the Customer name checkbox, and then click Select all 50+ customers in your store.
+
+To edit all the customer profiles in a segment, select the Customer name checkbox, and then click Select all 50+ customers in this segment.
+
+To edit all the customer profiles in a query, select the Customer name checkbox, and then click Select all 50+ customers in this query.
+
+To edit all the customer profiles in a search, select the Customer name checkbox, and then click Select all 50+ customers in this search.
+
+From your Shopify admin, go to Customers.
+
+Select the customer profiles that you want to edit.
+
+To add tags to or remove tags from the selected customer profiles, do the following:
+Click the icon next to the Edit customers button.
+Click Add tags or Remove tags.
+Add or remove the tags.
+Click Save.
+
+Click the icon next to the Edit customers button.
+
+Click Add tags or Remove tags.
+
+Add or remove the tags.
+
+To edit several pieces of information at one time, including tags, click Edit customers, and then do the following:
+Click Columns, and then select each field that you want to edit.
+Make the appropriate edits.
+Click Save.
+
+Click Columns, and then select each field that you want to edit.
+
+Make the appropriate edits.
+
+After the profiles are merged, you can't reverse the process.
+
+If the profiles include notes, then the combined notes must be less than or equal to 5000 characters, including spaces.
+
+If the profiles include tags, then the combined tags must be less than or equal to 250 tags.
+
+If the customer is subscribed to email and SMS text marketing in one profile, but not in the other, then the merged profile is subscribed.
+
+The customer isn't notified when you merge their customer profiles.
+
+Profiles can't be merged in the following cases:
+Either of the customer profiles has, or has ever had, a subscription contract.
+Either of the customer profiles is a B2B customer actively linked to a company, or still linked to past B2B orders.
+Either of the customer profiles has a vaulted credit card.
+Either of the customer profiles has a store credit account.
+Either of the customer profiles has a multipass login.
+Either of the customer profiles has been deleted.
+Either of the customer profiles has been redacted or a data redaction request is in progress.
+A customer profile merge is in progress.
+A customer data request is in progress.
+
+Either of the customer profiles has, or has ever had, a subscription contract.
+
+Either of the customer profiles is a B2B customer actively linked to a company, or still linked to past B2B orders.
+
+Either of the customer profiles has a vaulted credit card.
+
+Either of the customer profiles has a store credit account.
+
+Either of the customer profiles has a multipass login.
+
+Either of the customer profiles has been deleted.
+
+Either of the customer profiles has been redacted or a data redaction request is in progress.
+
+A customer profile merge is in progress.
+
+A customer data request is in progress.
+
+From your Shopify admin, go to Customers.
+
+From the customer list, click a customer profile.
+
+Click More actions > Merge customer.
+
+In the Find a customer to merge with section, enter any of the following information to search for another customer profile:
+first name
+last name
+email address
+phone number
+credit card number
+
+Select the appropriate customer profile.
+
+In the Merged customer section, review which information is merged and which information is discarded.
+
+Optional: Click Change contact information on web, or Edit on mobile, to modify the selected customer information before merging.
+
+Optional: Click View merge details, review the merge details, and then click Close.
+
+Click Merge, and then click Confirm.
+
+From your Shopify admin, go to Customers.
+
+Select the two customers that you want to merge. If only one of the duplicate profiles is displayed in the index, then you can search for the other profile in the next step.
+
+Click the … next to the Edit customers button.
+
+Select Merge customers.
+If two customers were selected in the list, then skip ahead to step 7.
+
+If two customers were selected in the list, then skip ahead to step 7.
+
+If a single customer was selected from the list, then search for the customer under Find a customer to merge with. Use any of the following information to search:
+first name
+last name
+email address
+phone number
+credit card number
+
+Select the duplicate customer profile.
+
+In the Merged customer section, review which information is merged and which information is discarded.
+
+Optional: Click Change contact information on web, or Edit on mobile, to modify the selected customer information before merging.
+
+Optional: Click View merge details, review the merge details, and then click Close.
+
+Click Merge, and then click Confirm.
+
+the customer has pending redaction because of a GDPR erasure request
+
+the customer is the recipient of a scheduled gift card that hasn't been delivered yet
+
+the customer has ever had a subscription
+
+the customer is associated with one or more orders
+
+From your Shopify admin, go to Customers.
+
+Click the name of the customer whose profile you want to delete.
+
+Click More actions > Delete customer.
+
+To confirm that you want to delete the customer profile, click Delete customer.
+
+From your Shopify admin, go to Customers.
+
+Select each of the customer profiles that you want to delete.
+
+Click the icon next to the Bulk edit button, then click Delete customers.
+
+To confirm that you want to delete the selected customer profiles, click Delete.
+
+Army/Air Post Office (APO)
+
+Fleet Post Office (FPO)
+
+Diplomatic Post Office (DPO)
+
+The recipient's name must be entered into the Name boxes, but their rank is optional.
+
+For APO addresses, both the PSC and BOX numbers must be in the Address field.
+
+For FPO and DPO addresses, both the UNIT and BOX numbers must be in the Address field.
+
+The City field must contain only APO, FPO, or DPO. Don't enter the name of the city.
+
+United States must be selected in the Country/region field.
+
+Armed Forces Americas, Armed Forces Europe, or Armed Forces Pacific must be selected in the State field. These locations might be entered in abbreviated form by your customer as AA (Armed Forces America), AE (Armed Forces Europe), or AP (Armed Forces Pacific).

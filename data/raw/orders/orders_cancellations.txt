@@ -1,0 +1,32 @@
+TITLE: Order management and fulfillment
+URL: https://help.shopify.com/en/manual/orders/cancellations
+SECTION: orders
+---
+
+Order management and fulfillment
+
+Configuring shipping settings
+
+Processing customer orders
+
+Order fulfillment is the workflow of processing, managing, and shipping customer orders from your Shopify store. This involves setting up your shipping configuration, managing incoming orders, and getting packages to customers.
+
+Before you can fulfill orders, you need to set up your shipping and fulfillment settings, including shipping rates, shipping profiles, and fulfillment locations. These settings determine how shipping costs are calculated at checkout and which locations can fulfill orders.
+
+After customers place orders, you can manage orders from the Orders page in your Shopify admin. This includes capturing payments, reviewing order details, printing shipping documents, and preparing items for fulfillment. You can also edit orders, issue refunds, or cancel orders when needed.
+
+After you prepare an order, you fulfill it by picking, packing, and shipping items to your customer. You can fulfill orders yourself, use a third-party app, or use a fulfillment service such as Shopify Fulfillment Network.
+
+You can also buy and print shipping labels directly from your Shopify admin through integrated shipping carriers. Shipping labels help you streamline your fulfillment process, provide tracking information to customers, and save time by avoiding trips to the post office or shipping provider.
+
+Setting up shipping and order fulfillment
+
+Getting started shipping with Shopify
+
+Overview of order fulfillment and shipping features on Shopify
+
+Setting up shipping and order fulfillment
+
+Getting started shipping with Shopify
+
+Overview of order fulfillment and shipping features on Shopify

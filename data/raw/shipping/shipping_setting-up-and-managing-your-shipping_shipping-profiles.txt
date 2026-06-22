@@ -1,0 +1,24 @@
+TITLE: Shipping profiles
+URL: https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-shipping/shipping-profiles
+SECTION: shipping
+---
+
+A shipping profile is a set of shipping rules for specific products and locations. You can use shipping profiles to charge accurate shipping rates through product-based rules, and set different rates based on where you're shipping your products to and from. You can set up shipping profiles for specific products and configure shipping zones and rates for each location that fulfills those products.
+
+Your store uses two types of shipping profiles:
+
+Setting up and managing shipping profiles
+
+Managing fulfillment locations in shipping profiles
+
+Calculating shipping rates from different shipping profiles
+
+General shipping profile: Each Shopify store comes with a general shipping profile by default that applies to all products. If you want the same shipping rates for all your products, then the general profile is sufficient. All your existing and new products are added to the general shipping profile. If a product or variant isn't in a custom profile, then it uses the general shipping rates.
+
+Custom shipping profile: You can create up to 99 custom shipping profiles when you need different shipping rates for different products. For example, if you sell fragile products that need more expensive shipping options, then you can create a shipping profile for these products and charge different shipping rates than the rest of your products.
+
+Setting up and managing shipping profiles
+
+Managing fulfillment locations in shipping profiles
+
+Calculating shipping rates from different shipping profiles

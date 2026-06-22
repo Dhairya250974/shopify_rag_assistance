@@ -1,0 +1,42 @@
+TITLE: Customizing themes
+URL: https://help.shopify.com/en/manual/online-store/themes/customizing-themes
+SECTION: online-store
+---
+
+After you choose a theme that defines the basic look and feel of your online store, you can use the theme editor in your Shopify admin to customize the theme to suit your unique brand. With the theme editor, you can preview your theme, make changes to your theme settings, and add, remove, edit, and rearrange content. For more information about which sections and settings are available for your theme, check your theme's architecture version and the available customization options in the theme editor.
+
+If your theme doesn't include settings for the changes that you want to make, and you're comfortable with HTML, CSS, and Liquid, then you can edit your theme code.
+
+To prepare for customizing your theme, complete the following recommended tasks:
+
+If you need help customizing your theme, then you can hire a Shopify Partner. Learn more about hiring a Shopify Partner.
+
+Editing your theme with code
+
+Extend your theme with apps
+
+Accessibility for themes
+
+Language and wording in themes
+
+Adapt your theme for specific markets or Shopify B2B
+
+Common customizations
+
+Duplicate your theme to create a backup copy. This makes it easy to discard your changes and start again if you need to.
+
+Make sure that you understand what level of support is available.
+
+Learn about the requirements and best practices for uploading images.
+
+Editing your theme with code
+
+Extend your theme with apps
+
+Accessibility for themes
+
+Language and wording in themes
+
+Adapt your theme for specific markets or Shopify B2B
+
+Common customizations

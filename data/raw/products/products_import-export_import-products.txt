@@ -1,0 +1,139 @@
+TITLE: Importing products with a CSV file
+URL: https://help.shopify.com/en/manual/products/import-export/import-products
+SECTION: products
+---
+
+Importing products with a CSV file
+
+Testing imports using a dev store
+
+Considerations for overwriting your product details using an import CSV file
+
+Import products from another store
+
+Import products using a CSV file
+
+Troubleshooting CSV imports
+
+Importing products into your Shopify store using a comma-separated values (CSV) file is useful when you switch to Shopify from another platform or when you want to make many changes to your products or inventory.
+
+When you import products, the data is converted from the CSV file into products and you can select whether you want to publish your new products to all sales channels or only to your online store.
+
+To see more videos, visit our YouTube channel.
+
+Before you import products using a CSV file, make sure that you've read the following topics:
+
+Product imports started with a CSV file can't be cancelled once they begin, and you can't view a history of past imports. To review recent changes made by an import, check your store's activity log.
+
+Before you start your import, make sure that you have a backup of your product data.
+
+Importing a CSV file that has been sorted by a spreadsheet editor such as Microsoft Excel or Apple Numbers might cause your products to be removed from their relevant image links on the CSV, and your product's images will be lost.
+
+If you use a third-party fulfillment service and set Fulfillment service to a specific fulfillment service handle (for example, joans-fulfillment) in your product CSV, then importing activates the variant's inventory at that fulfillment service location. Any other locations where the variant is already stocked remain stocked — nothing is unstocked.
+
+After the import, the Fulfillment service column continues to show manual for these variants when you re-export.
+
+To manage inventory at specific fulfillment service locations directly, import the inventory CSV file. Or, if you're working with a developer, you can use the Inventory API instead. Learn more about how these columns work.
+
+If you're a Shopify Partner and you're performing a large scale import for a merchant, then make sure that you test a small subset of changes first using a dev store before you perform the actual import job.
+
+When you import a CSV file, you can select the option Overwrite products with matching handles. If you select this option, then when the handle in the import CSV file matches an existing handle in your products list, the values in the CSV file overwrite the values in the matching columns in the existing product list. If the overwrite option isn't selected, then the products that match an existing handle are ignored during CSV import.
+
+Changing data in the Option1 value, Option2 value, or Option3 value columns of the product CSV file deletes existing variant IDs, and creates new variant IDs. Any change to variant IDs values can break third-party dependencies on variant IDs.
+
+If you have a CSV file that was exported from another store or came from another source, then verify that it matches the CSV file format. If the format doesn't match, or if there are any missing headers, then the import fails.
+
+Your product CSV can't exceed 15 MB. If you get an error after trying to upload a new CSV file, or if the upload times out, split the CSV file it into multiple smaller files, and then upload each file.
+
+From your Shopify admin, go to Products.
+
+Click Add file, and then select the CSV file that you want to import.
+
+Optional: If you want to publish new products only to your online store instead of to all of your sales channels, then deselect Publish new products to all sales channels.
+
+Optional: To change the URLs by overwriting the values for the existing handles, select Overwrite products with matching handles. Existing values will be replaced for all columns included in the CSV.
+
+Click Upload and continue.
+
+Review the details about the import, and then click Import products.
+
+When your CSV file is uploaded, you receive a confirmation email from Shopify at the email account that you used to set up your Shopify store. Read some solutions to common problems.
+
+If you want to make changes to your products using a CSV file, then you need to export your products first. You can make changes to your CSV file in a spreadsheet program, such as Google Sheets, then import your updated CSV into the Shopify admin.
+
+From your Shopify admin, go to Products.
+
+Click Add file, and then select the CSV file that you want to import.
+
+Optional: If you want to publish new products only to your online store instead of to all of your sales channels, then deselect Publish new products to all sales channels.
+
+Optional: To change the URLs by overwriting the values for the existing handles, select Overwrite products with matching handles. Existing values will be replaced for all columns included in the CSV.
+
+Click Upload and continue.
+
+Review the details about the import, and then click Import products.
+
+After your CSV file is uploaded, you receive a confirmation email from Shopify at the email account used to set up your Shopify store. Read some solutions to common problems.
+
+To avoid issues when you upload your product CSV file, use the Google Chrome browser.
+
+If you're experiencing issues when importing a CSV file, then review the following troubleshooting information.
+
+Testing imports using a dev store
+
+Considerations for overwriting your product details using an import CSV file
+
+Import products from another store
+
+Import products using a CSV file
+
+Troubleshooting CSV imports
+
+Explanation of CSV files
+
+Explanation of the product CSV fields
+
+Guidelines for attaching multiple images
+
+If a non-required column in the import CSV file is blank, then the matching value in the product list is overwritten as blank.
+For example, the Vendor value in your existing product list is John's Apparel, but the Vendor column is blank in the CSV file that you import, then the John's Apparel is overwritten as blank.
+
+For example, the Vendor value in your existing product list is John's Apparel, but the Vendor column is blank in the CSV file that you import, then the John's Apparel is overwritten as blank.
+
+If a non-required column isn't included in the import CSV file, but is included in the existing product list, then the value in the product list remains the same.
+For example, if the Variant image URL column is included in the existing product list, but that column isn't included in the import CSV file, then the value in the product list remains the same.
+
+For example, if the Variant image URL column is included in the existing product list, but that column isn't included in the import CSV file, then the value in the product list remains the same.
+
+If a non-required column is included in the import CSV file that relies on other column data not included in the file, then existing data is deleted or removed.
+For example, if the SKU column is included in the import CSV file, but not the Option1 value and Option1 name columns, then the product variant option is deleted.
+
+For example, if the SKU column is included in the import CSV file, but not the Option1 value and Option1 name columns, then the product variant option is deleted.
+
+CSV files can't be used to delete products in bulk. If you want to bulk-delete products, then you can use bulk actions in the Products section of your admin.
+
+CSV files can't be used to bulk update product availability on other sales channels. Learn more about setting product availability in other sales channels.
+
+From your Shopify admin, go to Products.
+
+Click Add file, and then select the CSV file that you want to import.
+
+Optional: If you want to publish new products only to your online store instead of to all of your sales channels, then deselect Publish new products to all sales channels.
+
+Optional: To change the URLs by overwriting the values for the existing handles, select Overwrite products with matching handles. Existing values will be replaced for all columns included in the CSV.
+
+Click Upload and continue.
+
+Review the details about the import, and then click Import products.
+
+From your Shopify admin, go to Products.
+
+Click Add file, and then select the CSV file that you want to import.
+
+Optional: If you want to publish new products only to your online store instead of to all of your sales channels, then deselect Publish new products to all sales channels.
+
+Optional: To change the URLs by overwriting the values for the existing handles, select Overwrite products with matching handles. Existing values will be replaced for all columns included in the CSV.
+
+Click Upload and continue.
+
+Review the details about the import, and then click Import products.

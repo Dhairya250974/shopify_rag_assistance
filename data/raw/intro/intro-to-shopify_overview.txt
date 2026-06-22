@@ -1,0 +1,100 @@
+TITLE: Overview
+URL: https://help.shopify.com/en/manual/intro-to-shopify/overview
+SECTION: intro
+---
+
+Selling in person with Shopify POS
+
+Selling with Shopify's online store
+
+Selling on Shopify's other online channels
+
+Hire a Shopify Partner
+
+Shopify POS hardware integration
+
+Learn about Shopify's key features, ways to sell, platform reliability and uptime, pricing plans, and where to find help.
+
+There are a variety of tools available to help you set up and run your business with Shopify. Depending on the pricing plan that you choose, you can find everything you need to showcase your products online, process payments, and make your store work for you. This includes the following features:
+
+You can sell products in different ways using many sales channels with Shopify. Although you're not limited to choosing only one way to sell, it's important to have an idea of your business requirements so you can choose a pricing plan that works for you.
+
+If you want to sell your products in person, then you can use the Shopify POS app.
+
+With Shopify POS you can process sales in a retail store and at mobile locations, such as fairs, pop-ups, and markets. Learn more about getting started with selling in person.
+
+If you don't have a Shopify account, then you can create an account in the Shopify POS app.
+
+To set up in-person sales, you'll need to use the following types of supported hardware that are appropriate to your business:
+
+If you want to sell online, then you can sign up for a Shopify online store. You'll be able to set up all your products in the Shopify admin, and then have a website for your customers to visit.
+
+Learn more about getting started with Shopify's online store.
+
+If you want to sell on social media, then you can do so using the available online sales channels.
+
+You can have a Shopify online store and also sell on one or more of the other online sales channels at the same time.
+
+To make sure your business is available when your customers want to shop, Shopify has maintained a 99.9% uptime as a platform, calculated for all major Shopify services, in all geographic regions, for the past 90 days.
+
+Uptime is a way to measure the reliability of an operating system. This includes online storefronts, checkout, Shopify POS, Shop Pay, Shopify Payments, and Shopify itself. Shopify's uptime calculations don't include downtimes attributed to:
+
+Check Shopify's real-time status by using the Shopify Status page.
+
+Depending on the type of business you are running and the way you want to sell your products, your needs might vary. Because of this, there are several subscription plans that have different monthly fees, transaction fees, and store features for you to choose from.
+
+Take a look at Shopify's pricing plans.
+
+To find out more about how to get the most out of Shopify, you can browse the following resources:
+
+The Partner Directory is available only in English.
+
+You can hire a Shopify Partner to get professional help with launching, designing, and marketing your store. You can browse services to find the perfect match among 800+ Shopify Partners.
+
+Support Inbox on the Shopify Help Center is available only to stores on the Starter, Basic, Grow, and Advanced Shopify plans. Stores on Shopify Plus or Enterprise plans should refer to their email inbox directly for updates to their support tickets.
+
+Support Inbox is where you find and manage any conversations that you've had with Shopify Support.
+
+If you're logged in to the Shopify Help Center with your Shopify account, then you can view your support ticket status, as well as the estimated reply time from Shopify Support.
+
+If you've previously contacted Shopify Support, then a list of your conversations displays. If you haven't contacted Shopify Support before, then the message Welcome to Support Inbox displays.
+
+Free and paid themes from the Shopify Theme Store to allow you to build and design your online store.
+
+Free and paid apps from the Shopify App Store to expand the functionality of your store.
+
+Shopify's own payment provider to accept card payments.
+
+Growth opportunities with Shopify's sales channels, and a Plus plan for stores selling in high volume who want to decrease third-party transaction fees.
+
+A Shopify blog that has guides and articles about running your store and connecting with your customers.
+
+Partners all around the world who can help you set up, design, and market your store.
+
+A dedicated Support team available 24/7 to answer your questions no matter what Shopify plan your store is on.
+
+NFC-activated iOS/Android device (version 15+/10.0+)
+
+Shopify-supported card reader or a third-party card reader
+
+Optional: Barcode scanner and receipt printer
+
+Outages of third-party services
+
+Errors resulting from theme customization
+
+Errors resulting from public or custom apps
+
+Planned downtime or maintenance
+
+Major or natural events outside of Shopify's control
+
+Shopify Help Center YouTube channel
+
+Shopify Academy courses
+
+Shopify Community forums
+
+To log in to your Shopify account on the Shopify Help Center, click Log in and then follow the prompts.
+
+After you log in, click your account profile icon, and then click Support Inbox.

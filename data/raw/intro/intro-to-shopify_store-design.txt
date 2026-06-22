@@ -1,0 +1,60 @@
+TITLE: Store design checklist
+URL: https://help.shopify.com/en/manual/intro-to-shopify/store-design
+SECTION: intro
+---
+
+Store design checklist
+
+Step 1: Set up your menu.
+
+Step 2: Create an About Us page.
+
+Step 3: Create a Contact Us page.
+
+Step 4: Add photos and videos to your products.
+
+Step 5: Include your product descriptions as a block on your Product page.
+
+Step 6: Update your shipping policy for international orders.
+
+Step 7: Add a return policy to your store.
+
+Step 8: Check your store's speed.
+
+Step 9: Test your store on mobile devices.
+
+Step 10: Test your checkout.
+
+When you're getting started with Shopify, there are some things you should consider adding to your store to create trust with your customers. When visitors trust your store, they're more likely to place an order.
+
+This checklist has been created based on the success of other Shopify stores to help you build trust with your store's visitors.
+
+Check that your store is using the following features:
+
+Make sure that your store's menu is easy to understand and use across all devices.
+
+Share your brand story and values with an About page.
+
+Include information on how to reach you with a Contact page.
+
+Include multiple photos and videos on your product pages.
+
+Use blocks on your Product page to organize and include your product descriptions.
+
+Make sure that your shipping policy includes information on taxes and duties for international orders.
+
+Review store policies.
+
+Generate or add a clear return policy to your store.
+
+Review store policies.
+
+Test your page load times and optimize images, remove unused apps, and fix broken links to keep your store fast.
+
+Review online store speed.
+
+Preview your theme on a phone to verify that images, menus, and checkout all work correctly on smaller screens.
+
+Place a test order to make sure the checkout process works smoothly from start to finish.
+
+Review checkout settings.

@@ -1,0 +1,16 @@
+TITLE: Shopify analytics
+URL: https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports
+SECTION: analytics
+---
+
+Shopify's Analytics dashboards and reports let you review your store's recent activity, get insight into your visitors, analyze your web performance, and analyze your store's transactions from a unified dashboard and reporting experience. Use Shopify Analytics to learn how to increase your sales revenue, optimize your store based on your best-converting landing pages, or develop new merchandising tactics based on what products tend to get bought in the same order.
+
+Shopify Analytics' main features are available to merchants on any Shopify subscription plan. If you have an online store, then the traffic is displayed on the Live View page. Staff members require the Analytics permissions to access the reports and dashboards.
+
+Shopify's analytics pages let you monitor your business data at multiple levels of detail:
+
+To see more videos, visit our YouTube channel.
+
+Analytics dashboard: The customizable dashboard on the Analytics page is a collection of data cards, known as metrics, each offering you a quick sum or value about a particular business indicator, such as Net sales by channel or Sessions by device type. From each card, you can directly access a corresponding report, which offers deeper insights and the opportunity for a customized data exploration. Any custom reports you create from a data exploration also creates a corresponding metric card, which is available in the dashboard library.
+
+Reports: Available from the Analytics > Reports page, the new Shopify reports give you deeper and richer data about a specific metric or set of metrics. In each report, you can find a visualization that highlights your primary metrics or dimensions, alongside a detailed table providing additional insights. You can also customize your report as a new data exploration.

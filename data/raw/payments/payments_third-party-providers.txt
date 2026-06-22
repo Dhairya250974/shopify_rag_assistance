@@ -1,0 +1,38 @@
+TITLE: Third-party payment providers
+URL: https://help.shopify.com/en/manual/payments/third-party-providers
+SECTION: payments
+---
+
+Third-party payment providers
+
+To accept credit cards through a provider other than Shopify Payments, choose from over 100 credit card payment providers for your Shopify store. You can use a third-party provider as your sole credit card processor, or you can use it alongside Shopify Payments to access additional payment methods such as Shop Pay and local payment methods.
+
+Shopify supports two different types of credit card payment providers: direct providers and external providers. If you're using a direct provider, then your customers can complete their purchases directly on your online store without having to pay at a third-party checkout. If you're using an external provider, then your customers must complete their purchases on a checkout page that's hosted outside of your online store.
+
+Third-party transaction fees apply on all third-party and alternate payment gateways even when Shopify Payments is activated. However, if you have Shopify Payments activated, then PayPal and manual payments are excluded from third-party transaction fees.
+
+For stores on the Shopify Plus plan, third-party transaction fees might be waived when you activate Shopify Payments, depending on your location. To check the transaction fee rates for your location, refer to the Shopify pricing page or contact Shopify Support.
+
+You can activate or change a payment provider from the Payments page of your Shopify admin. If a provider you want to use isn't listed where you expect it, then refer to troubleshooting a missing payment provider.
+
+To see more videos, visit our YouTube channel.
+
+Configuring third-party payment providers
+
+Understanding payment gateway availability
+
+Using Adyen on Shopify
+
+Authorize.net payment provider
+
+Updating a third party payment provider
+
+Configuring third-party payment providers
+
+Understanding payment gateway availability
+
+Using Adyen on Shopify
+
+Authorize.net payment provider
+
+Updating a third party payment provider

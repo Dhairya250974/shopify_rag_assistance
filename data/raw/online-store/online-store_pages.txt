@@ -1,0 +1,42 @@
+TITLE: Online Store
+URL: https://help.shopify.com/en/manual/online-store/pages
+SECTION: online-store
+---
+
+Your Shopify online store is an online home for your business. You can use it to create webpages, publish a blog, and sell your products. You need to be on the Basic plan or higher to sell with an online store. If you're new to Shopify, then learn how to get started.
+
+Your online store is flexible, so you can build your business with the following customizations:
+
+To get started quickly, follow the online store setup guide.
+
+To see more videos, visit our YouTube channel.
+
+If the online store features don't meet your business's needs, then you can use developer tools to build a custom storefront.
+
+Already have a website that you want to turn into an online store? Use the Buy Button sales channel to create embed code to sell your products wherever you have an online presence.
+
+Creating and editing pages
+
+Setting up your online store
+
+Accelerated checkout buttons
+
+Closing for vacations
+
+Online store web performance
+
+build custom menus and store filters to help customers navigate your store
+
+set up accelerated checkout buttons for your product pages
+
+design your online store using responsive themes
+
+Creating and editing pages
+
+Setting up your online store
+
+Accelerated checkout buttons
+
+Closing for vacations
+
+Online store web performance

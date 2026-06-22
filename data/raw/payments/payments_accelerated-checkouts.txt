@@ -1,0 +1,24 @@
+TITLE: Accelerated checkouts and accelerated checkout buttons
+URL: https://help.shopify.com/en/manual/payments/accelerated-checkouts
+SECTION: payments
+---
+
+Accelerated checkouts and accelerated checkout buttons
+
+Accelerated or express checkouts save customer payment and shipping information so that returning customers can more quickly complete payment for their orders. When a customer returns to a store that offers an accelerated checkout method, their information is automatically filled in at checkout.
+
+Some accelerated checkout methods can use accelerated checkout buttons on product pages. By using accelerated checkout buttons, customers can skip the cart and go directly to the checkout from the product page, using the selected accelerated checkout method. Learn how to display accelerated checkout buttons on your online store.
+
+You can activate accelerated checkout buttons on your Shopify Checkout for Shop Pay and for other payment providers that offer the options, including Apple Pay, Google Pay, Amazon Pay, and PayPal. To learn more about PayPal's accelerated checkout options, refer to supported PayPal providers.
+
+Accelerated checkout buttons display in an Express Checkout section at the beginning of your customer's checkout experience and are ordered dynamically to display the fastest checkout method for your customer. If your customer's account is detected for a payment method, then Use your account displays.
+
+To track your sales from accelerated checkouts, you can view the payments finance report filtered by payment method.
+
+Stores on the Shopify Plus plan can create a custom app that hides accelerated checkout options during checkout when certain customer or cart conditions are met. The developer of the custom app would use the Payment Customization API to create the app.
+
+Be aware that hiding your accelerated checkout options might have a negative impact on your conversion rates.
+
+Amazon Pay with Shopify Payments
+
+Amazon Pay with Shopify Payments

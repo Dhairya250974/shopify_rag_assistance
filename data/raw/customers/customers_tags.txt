@@ -1,0 +1,34 @@
+TITLE: Customers
+URL: https://help.shopify.com/en/manual/customers/tags
+SECTION: customers
+---
+
+Every time a new customer places an order with your store, their name and other details are added to your customer list. You can review all of your customers and manage your customer information from the Customers page of your Shopify admin and the Shopify app. You can group your customers who share similar characteristics into customer segments to help you to communicate with your customers more effectively.
+
+If your customers create an account with your store, then they can add their address information to their account so that it fills automatically during checkout. Customers can also view their order history with your store, and review the current order status for any purchases that they make. Learn more about customer accounts.
+
+To see more videos, visit our YouTube channel.
+
+Searching for customer profiles
+
+Customer segmentation
+
+Importing and exporting customer lists
+
+Importing contact lists from Mailchimp
+
+Providing online customer service
+
+Solving customer CSV file errors
+
+Searching for customer profiles
+
+Customer segmentation
+
+Importing and exporting customer lists
+
+Importing contact lists from Mailchimp
+
+Providing online customer service
+
+Solving customer CSV file errors

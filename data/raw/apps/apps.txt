@@ -1,0 +1,32 @@
+TITLE: Apps for your Shopify store
+URL: https://help.shopify.com/en/manual/apps
+SECTION: apps
+---
+
+Apps for your Shopify store
+
+You can install apps to help you build your business, integrate with external services, and add features to your Shopify admin. You can find apps on the Shopify App Store.
+
+Most apps for Shopify stores are built by third-party developers, not by Shopify. If you need help with an app or sales channel that was built by a third-party developer, then contact the developer directly.
+
+You can also use custom apps to add features to your Shopify admin, access your store's data directly using Shopify's APIs, or extend your online store to other platforms using custom storefronts.
+
+Connecting your Shopify store to AI tools
+
+Finding and choosing apps
+
+Installing and setting up apps
+
+App extensions and functions
+
+Getting help with apps
+
+Connecting your Shopify store to AI tools
+
+Finding and choosing apps
+
+Installing and setting up apps
+
+App extensions and functions
+
+Getting help with apps

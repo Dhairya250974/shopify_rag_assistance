@@ -1,0 +1,75 @@
+TITLE: Getting set up to start selling
+URL: https://help.shopify.com/en/manual/intro-to-shopify/initial-setup
+SECTION: intro
+---
+
+Getting set up to start selling
+
+Sign up with Shopify and start a new store
+
+It's time to build your store! There are so many different ways that you can use Shopify. If you're wondering how to get started, or you're concerned about forgetting key steps on the way to your first sale, then you've come to the right place. This section of the Help Center outlines the most important tasks to get your Shopify business up and running as quickly as possible.
+
+This section focuses on selling online. If you plan to sell in person, then review Getting started with Shopify POS.
+
+Create a Shopify account to start setting up your store. You'll need to enter a valid email address and a password.
+
+Your new Shopify admin launches and is ready for you to begin customizing, designing, and selling.
+
+New to Shopify checklists
+
+Adding business settings for your store
+
+Setting up your store
+
+Setting up your email
+
+Choosing your store management settings
+
+Preparing your Shopify store for launch
+
+Moving an offline business to selling online
+
+Moving a restaurant online
+
+Displaying your store's sending email
+
+Go to shopify.com and click Start for free.
+
+Sign up with Shopify by creating a new account or selecting an existing account:
+If you've never signed up with Shopify before, then you need to provide an email address and password to create a new account, or sign up with your Google, Apple, or Facebook account information.
+If you have signed up with Shopify before, then click Log in and then select your Shopify account.
+
+If you've never signed up with Shopify before, then you need to provide an email address and password to create a new account, or sign up with your Google, Apple, or Facebook account information.
+
+If you have signed up with Shopify before, then click Log in and then select your Shopify account.
+
+Optional: Provide your billing information for your store, so your business can stay open after your trial expires:
+For new Shopify users, you can add new payment method information. This billing information applies only to the store you're creating.
+For existing Shopify users, if you have a valid payment method from a previous store, then you can select it from the Payment method list. You can also select Add new to add a new payment method.
+To add your billing information later, click Skip.
+
+For new Shopify users, you can add new payment method information. This billing information applies only to the store you're creating.
+
+For existing Shopify users, if you have a valid payment method from a previous store, then you can select it from the Payment method list. You can also select Add new to add a new payment method.
+
+To add your billing information later, click Skip.
+
+Optional: Complete the customized setup questionnaire to receive relevant setup suggestions related to your industry. You can also select Skip customized setup.
+
+New to Shopify checklists
+
+Adding business settings for your store
+
+Setting up your store
+
+Setting up your email
+
+Choosing your store management settings
+
+Preparing your Shopify store for launch
+
+Moving an offline business to selling online
+
+Moving a restaurant online
+
+Displaying your store's sending email

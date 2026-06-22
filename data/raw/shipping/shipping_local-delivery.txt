@@ -1,0 +1,50 @@
+TITLE: Setting up shipping and order fulfillment
+URL: https://help.shopify.com/en/manual/shipping/local-delivery
+SECTION: shipping
+---
+
+Setting up shipping and order fulfillment
+
+Setting up shipping rates and packages
+
+Configuring locations and order routing
+
+Offering delivery methods
+
+Managing delivery timeline and notifications
+
+You can configure your shipping and fulfillment settings from the Shipping and delivery page in your Shopify admin. These settings determine how shipping costs are calculated, what delivery options are available to customers at checkout, and which locations fulfill orders.
+
+Want to save time and money on shipping? You can buy and print shipping labels from your Shopify admin.
+
+Create shipping rates that display to customers at checkout. You can set up flat rates for predictable pricing, use carrier-calculated rates for real-time accuracy, or offer free shipping based on order value. Shipping profiles let you create different rates for specific products, such as oversized items or products that ship from different locations. Set up the packages that you use for shipping, including dimensions and weights, so carriers can calculate accurate costs and handle your shipments correctly.
+
+Configure the locations where you store inventory and fulfill orders from. Order routing determines which location fulfills each order based on rules you set, such as proximity to the customer or available inventory. You can also set up fulfillment services to handle storage and shipping on your behalf.
+
+Apart from standard shipping, you can offer local delivery for nearby customers or let customers pick up orders in store. You can also set up pickup points through third-party networks for customers who prefer collecting packages from convenient locations.
+
+Set fulfillment time and configure delivery dates to control when orders ship and display estimated arrival times at checkout. Shop Promise can highlight fast delivery options at checkout to increase conversion. Configure the notifications that customers and staff receive throughout the order lifecycle, including order confirmations, shipping updates, and delivery notifications. Set up your order status page so customers can track their orders after purchase. You can also use Planet to offer carbon-neutral shipping by offsetting emissions from deliveries.
+
+Shipments and packages
+
+Fulfillment time and delivery dates
+
+Setting up fulfillable inventory
+
+Fulfillment options and dropshipping services
+
+Carbon-neutral shipping with the Planet app
+
+Order fulfillment and shipping terminology
+
+Shipments and packages
+
+Fulfillment time and delivery dates
+
+Setting up fulfillable inventory
+
+Fulfillment options and dropshipping services
+
+Carbon-neutral shipping with the Planet app
+
+Order fulfillment and shipping terminology

@@ -1,0 +1,70 @@
+TITLE: Marketing and promotions
+URL: https://help.shopify.com/en/manual/promoting-marketing/campaigns
+SECTION: marketing
+---
+
+Marketing and promotions
+
+Planning your marketing strategy and measuring performance
+
+Creating marketing campaigns and messaging subscribers
+
+Reaching new customers
+
+You can use marketing tools in Shopify to reach new customers, stay connected with customers who have purchased from your store before, and measure your marketing efforts.
+
+For guidance on building a marketing strategy across channels, refer to Developing a marketing plan. After your campaigns are running, you can review key performance metrics from the Growth page. For details about interpreting your data, refer to Analyzing marketing performance. You can also add pixels to your store to track customer behavior and improve your ad targeting.
+
+You can create marketing campaigns, send email and SMS marketing, build sign-up forms, and connect third-party marketing integrations from the Growth. Refer to Setting up marketing in Shopify for the full range of tools available.
+
+You can use multiple tools for bringing new customers to your store, depending on your budget, location, and preferred channel:
+
+Shopify Support can't help you set up third-party marketing services such as social media accounts or advertising. Instead, contact the third-party provider for the service that you're trying to use.
+
+Automating your marketing with Campaign Autopilot
+
+Developing a marketing plan
+
+Managing your brand assets
+
+Shopify Product Network
+
+Improving search engine optimization (SEO)
+
+Setting up marketing in Shopify
+
+Shopify Knowledge Base
+
+Analyzing the success of your online marketing campaigns
+
+Sales events and promotions
+
+Pixels and customer events
+
+Shopify Collabs: Connects you with creators and influencers for affiliate and creator-led marketing.
+
+Shopify Audiences: Generates targeted audience lists for external ad platforms such as Meta and Google. Available on the Shopify Plus plan only.
+
+Shop Campaigns: Runs ads on the Shop app, Shop website, Shopify Product Network, and third-party platforms to acquire new customers, or reengage lapsed customers. You pay only when a customer converts.
+
+SEO tools: Helps new customers find your store through organic search with no additional ad costs.
+
+Automating your marketing with Campaign Autopilot
+
+Developing a marketing plan
+
+Managing your brand assets
+
+Shopify Product Network
+
+Improving search engine optimization (SEO)
+
+Setting up marketing in Shopify
+
+Shopify Knowledge Base
+
+Analyzing the success of your online marketing campaigns
+
+Sales events and promotions
+
+Pixels and customer events

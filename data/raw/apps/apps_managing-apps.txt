@@ -1,0 +1,272 @@
+TITLE: Managing apps
+URL: https://help.shopify.com/en/manual/apps/managing-apps
+SECTION: apps
+---
+
+Review billing and usage charges
+
+Change an app subscription plan
+
+Set new app spending limits for usage charges
+
+Review extensions, functions, and pixels
+
+Review an app's activity and permission details
+
+Review an app's privacy details
+
+Update custom app settings
+
+Manage legacy custom apps
+
+Change the app's proxy URL
+
+Troubleshooting app subscription approval errors
+
+Before you contact Shopify Support about an app issue
+
+The Settings > Apps page in your Shopify admin helps you manage your installed and recently uninstalled apps. From the app index, you can open the app by clicking > Open app. You can access the app's about page by clicking the app name. From the app's about page, you can review information about the app, billing and usage charges, where to access this app, app history, privacy details, permission details, extensions and functions, pixel connection status, and any app compatibility issues. Click the , and then you can also uninstall the app, view the app in the Shopify App Store, get support for the app, or write a review for the Shopify App Store.
+
+You can review an app's billing details from the app's about page in Settings > Apps. The Billing and usage charges section displays the following information:
+
+Learn more about app charges on your Shopify bills. If you want to dispute an app charge or request a refund, then refer to troubleshooting app charge disputes and refunds.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you want to view.
+
+In the Billing and usage charges section, review the app's billing cycle, usage charges, and next bill date.
+
+Optional: To view your current invoice, click View next to Bill.
+
+App plan changes are managed within the app itself or through the app developer's website, not from Settings > Apps. Review the app developer's help documentation or contact the app developer for instructions on how to upgrade, downgrade, or cancel your plan. If the app is billed outside of Shopify, then you need to manage the subscription directly with the developer. Learn more about app prorating, upgrades, and downgrades.
+
+Apps that charge based on usage can include a spending limit that prevents app charges from exceeding a maximum threshold over the duration of the billing period. If your spending in the app reaches the spending limit that you've set, then no additional charges for the app are permitted until a new billing cycle starts. To avoid this, you can increase the app spending limit.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you want to view.
+
+In the Billing and usage charges section, click Usage charges.
+
+In the New app spending limit section of the modal, enter the desired amount.
+
+Select "I acknowledge I am changing the current app spending limit".
+
+You can only increase spending limits through your Shopify admin, you can't decrease them. This is to avoid accidentally lowering the spending limit below the app's current spending. To decrease your spending limit, contact the app developers. Learn more about getting help with apps.
+
+Some apps use extensions, functions, and pixels to add features and tracking to your store. The app's about page in Settings > Apps displays cards for each of these when they're available:
+
+For more information about managing extensions and functions, including how to activate or deactivate extensions and troubleshoot function errors, refer to App extensions and functions.
+
+App activity and permissions are currently tracked only for third-party apps in Settings > Apps. Apps made by Shopify are trusted to work securely with your store data. These apps are closely linked to Shopify features, so their activity can't currently be tracked.
+
+You can review an app's activity and permissions from the app's about page. The Activity and permissions section displays which areas of your store the app can view or edit, along with the date of the app's most recent activity in each area. If the app has permissions it hasn't used in the last 30 days, then those are displayed in an Unused access subsection. Learn more about the types of personally identifiable information that apps can access.
+
+You can get more details in the following areas of the table:
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you want to view.
+
+In the Activity and permissions section, review the app's access areas, view and edit permissions, and recent activity.
+
+Optional: Hover over an area name or click a recent activity date to view more details.
+
+You can review the personal data an app can access and view the developer's privacy policy from the app's about page. The Privacy section displays the types of personal data the app can access, grouped by category such as Customers and Staff and contributors. Each category lists the sensitive data and device and activity data that the app can access.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you want to view.
+
+In the Privacy section, expand a category to review the personal data the app can access.
+
+To view the developer's privacy policy, click privacy policy.
+
+You can update your custom app at any time, including changing the app name, creating app versions, or updating configurations.
+
+For detailed instructions on updating app configurations, refer to the Shopify Dev Docs - Dev Dashboard documentation.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click Build apps in Dev Dashboard.
+
+Click the custom app that you want to update.
+
+Make your changes in the Dev Dashboard.
+
+Starting from January 1, 2026, you can't create any more legacy custom apps. To create and manage new custom apps, you need to use the Dev Dashboard. This change doesn't impact any of your existing custom apps.
+
+If you created any legacy custom apps before January 1, 2026, then you can manage them directly from your Shopify admin. All new custom apps created after January 1, 2026 are managed in the Dev Dashboard.
+
+From your Shopify admin, go to Settings > Apps.
+
+In the Legacy custom apps section, click an app that you want to manage.
+
+Make any changes to your custom app.
+
+Some apps use Functions to customize how your store handles business logic. If an app's Functions have errors, then you can share Function logs with the app developer to help them troubleshoot. Learn more about troubleshooting Function errors and getting support for apps.
+
+Shared Function logs contain the app's Function activity from the last 24-hour period. Depending on the app's functionality and access, the logs might contain sensitive personally identifying information, such as customer names, phone numbers, and delivery addresses. Only share logs with developers you trust.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you need help with.
+
+Do one of the following:
+
+In the dialog, click Share logs. The app's Function activity from the last 24 hours is shared directly with the app developer.
+
+When you change the proxy URL in the Shopify admin, you need to edit any menus or links that use the default proxy URL to ensure they direct to your updated proxy URL.
+
+Some apps use a proxy URL to display dynamic content on a page of your online store, such as product galleries, wishlist apps, or custom forms. The default proxy URL is set by the app developer, but you can change it in the Shopify admin.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you want to view.
+
+In the App proxy Url section, click Customize URL.
+
+Enter the new proxy URL.
+
+If you find an error when approving an app's paid plan, such as "no payment methods set up", despite having an active billing payment method on file, then the issue is often caused by cached browser data or a stale session.
+
+If the issue continues after trying these steps, then contact Shopify Support. Confirm that your payment method is valid and not expired before reaching out.
+
+Before reaching out to Shopify Support about an app issue, gather the following information to help resolve your issue faster:
+
+Having this information ready helps Shopify Support assist you more efficiently.
+
+Shopify Support provides help for apps made by Shopify. If the app is from a third-party developer, then contact the app developer directly for support with app functionality, billing disputes, and refunds. For what to have ready before contacting a developer, refer to Before you contact the app developer.
+
+Review billing and usage charges
+
+Change an app subscription plan
+
+Set new app spending limits for usage charges
+
+Review extensions, functions, and pixels
+
+Review an app's activity and permission details
+
+Review an app's privacy details
+
+Update custom app settings
+
+Manage legacy custom apps
+
+Change the app's proxy URL
+
+Troubleshooting app subscription approval errors
+
+Before you contact Shopify Support about an app issue
+
+Free trial: If the app has an active free trial, then the remaining number of days is displayed at the top of the section.
+
+Plan and subscription status: The app's current pricing plan and subscription status.
+
+Billing cycle: The recurring charge amount and billing frequency. For example, "$5.99 every 30 days".
+
+Upcoming pricing changes: If the app has scheduled pricing changes, such as an upgrade or downgrade, then the upcoming changes are displayed.
+
+Usage charges: If the app has usage-based charges, then the current spending amount, spending limit, and the date the usage cycle resets are displayed. You can click Usage charges to review an itemized list of what you've been charged for and why, view more details, or set a new spending limit.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you want to view.
+
+In the Billing and usage charges section, review the app's billing cycle, usage charges, and next bill date.
+
+Optional: To view your current invoice, click View next to Bill.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you want to view.
+
+In the Billing and usage charges section, click Usage charges.
+
+In the New app spending limit section of the modal, enter the desired amount.
+
+Select "I acknowledge I am changing the current app spending limit".
+
+Extensions: Displays the number of active extensions and the areas of your store where they're available, such as Checkout, Customer accounts, Online Store, or POS. Click the card to view, activate, or deactivate individual extensions.
+
+Functions: Displays the number of active functions and the areas where they're available, such as Checkout, Discounts, Payments, or Shipping and delivery. If a function has errors, the card displays a warning. You can click Share logs to help the app developer troubleshoot.
+
+Pixels: Displays the connection status of the app's pixels and the current data access setting. Click Pixels to go to your Customer events settings. Learn more about app pixels and optimizing data access.
+
+Hover over an Area name, such as Products: review a more specific description of what the app can access in that area.
+
+Click a Recent activity date for an area: review the number of view and edit requests the app has made in the past 30 days, along with the date of the last request.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you want to view.
+
+In the Activity and permissions section, review the app's access areas, view and edit permissions, and recent activity.
+
+Optional: Hover over an area name or click a recent activity date to view more details.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you want to view.
+
+In the Privacy section, expand a category to review the personal data the app can access.
+
+To view the developer's privacy policy, click privacy policy.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click Build apps in Dev Dashboard.
+
+Click the custom app that you want to update.
+
+Make your changes in the Dev Dashboard.
+
+From your Shopify admin, go to Settings > Apps.
+
+In the Legacy custom apps section, click an app that you want to manage.
+
+Make any changes to your custom app.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you need help with.
+
+Do one of the following:
+On the app's about page, click Share logs on the Functions card.
+Click the Functions card, and then click Share logs in the error banner.
+
+On the app's about page, click Share logs on the Functions card.
+
+Click the Functions card, and then click Share logs in the error banner.
+
+In the dialog, click Share logs. The app's Function activity from the last 24 hours is shared directly with the app developer.
+
+From your Shopify admin, go to Settings > Apps.
+
+Click the app that you want to view.
+
+In the App proxy Url section, click Customize URL.
+
+Enter the new proxy URL.
+
+Clear your browser's cookies and cache, or open a private or incognito browser window.
+
+Log back in to your Shopify admin at https://admin.shopify.com.
+
+Go to Settings > Apps and try approving the app plan again.
+
+If the error persists, then try from a different browser or device.
+
+The name of the app and whether it was installed from the Shopify App Store or directly from a developer's website
+
+The specific issue you're experiencing, including any error messages that are displayed
+
+Screenshots of the problem
+
+The date the issue started
+
+Steps you've already tried, including whether you've attempted to contact the app developer
+
+Whether the app is made by Shopify or a third-party developer

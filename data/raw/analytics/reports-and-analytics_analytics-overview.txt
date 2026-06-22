@@ -1,0 +1,14 @@
+TITLE: Analytics
+URL: https://help.shopify.com/en/manual/reports-and-analytics/analytics-overview
+SECTION: analytics
+---
+
+You can use Shopify's analytics and reports to learn about your sales and customers in detail. The types of analytics and reports that you can view for a store depend on your Shopify subscription plan.
+
+You can also set up third-party analytics services, such as Google Analytics, to gain further insights and improve your business.
+
+To see more videos, visit our YouTube channel.
+
+Analytics discrepancies
+
+Analytics discrepancies

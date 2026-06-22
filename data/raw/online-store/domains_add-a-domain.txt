@@ -1,0 +1,36 @@
+TITLE: Adding a domain to Shopify
+URL: https://help.shopify.com/en/manual/domains/add-a-domain
+SECTION: online-store
+---
+
+Adding a domain to Shopify
+
+Adding a domain helps you establish your brand and build trust in your online store. By default, your online store was given a myshopify.com URL when you signed up for Shopify. If you want to change the web address that's displayed to customers when they browse your online store, then you need to add a custom domain, such as www.example.com. You can add a domain to Shopify in the following ways:
+
+A subdomain is a subset of your root domain that you add as a prefix to your domain, such as www. You can also add a subdomain to Shopify in the following ways:
+
+You can add up to 20 domains or subdomains to your Shopify store, in addition to your .myshopify.com URL. If your store is on the Shopify Plus plan, then you can add up to 1,000 domains or subdomains. When you add a domain to Shopify using any method, a new TLS certificate is automatically created for free. Learn more about enabling secure connections to your Shopify store.
+
+If you need help setting up a custom domain for your Shopify store, then you can hire a Shopify Partner. Learn more about hiring a Shopify Partner.
+
+Buying a domain through Shopify
+
+Add a subdomain for your Shopify-managed domain
+
+Connecting a third-party domain to Shopify
+
+Buy a domain through Shopify - If you want to buy a new domain, then you can buy a domain through Shopify to simplify the setup process. If this domain is the first domain that you add to Shopify, then it's automatically configured to be the web address that’s displayed to customers. If you already use a domain with your store, then the new domain automatically redirects to your primary domain. You manage all your domain settings from your Shopify admin. Learn more about managing domain settings.
+
+Connect your domain to Shopify - If you already own a domain from a third-party provider, then you can connect your domain to your online store. You still use the third-party domain provider to manage your domain settings, pay for your domain, and renew it.
+
+Transfer your domain to Shopify - If you already own a domain from a third-party provider, and you want to manage all your domain settings from your Shopify admin, then you can transfer management of your domain to Shopify. After you transfer your domain to Shopify, you no longer need to use the third-party domain service where you originally bought your domain.
+
+If you buy a domain through Shopify or transfer your domain to Shopify, then you can add subdomains from your Shopify admin.
+
+If you own a domain from a third-party provider, then you can create subdomains in your third-party provider account, and then connect them to Shopify.
+
+Buying a domain through Shopify
+
+Add a subdomain for your Shopify-managed domain
+
+Connecting a third-party domain to Shopify

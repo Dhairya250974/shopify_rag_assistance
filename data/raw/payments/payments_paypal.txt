@@ -1,0 +1,46 @@
+TITLE: PayPal Express Checkout
+URL: https://help.shopify.com/en/manual/payments/paypal
+SECTION: payments
+---
+
+PayPal Express Checkout
+
+PayPal Express Checkout allows you to accept payments through various methods such as credit cards, bank accounts, buyer credit, or PayPal account balances. You can connect PayPal Express Checkout to your Shopify store, providing it as an accelerated checkout payment solution for your customers.
+
+When you create your Shopify store, you automatically receive a PayPal Express Checkout account. Shopify asks for your email to set up this account, which is then shared with PayPal. It's crucial to complete the setup of your PayPal Express Checkout account promptly. If you decide not to use PayPal Express Checkout, then you can deactivate it from the Payments setting in your Shopify admin to avoid exposing your email address publicly.
+
+For security, only the store owner can edit your store's PayPal Express information.
+
+PayPal Express Checkout isn't available to merchants in France or the United States. If you're based in France or the United States, then you can use PayPal Wallet through Shopify Payments as your payment processor to offer PayPal at checkout. Learn more about PayPal Wallet in France and the United States.
+
+Set up PayPal Express Checkout on your store
+
+PayPal Express Checkout customer experience
+
+Understanding Reference Transactions for automatic billing with PayPal Express Checkout
+
+Troubleshooting common PayPal Express Checkout issues on Shopify
+
+Exploring PayPal payment integrations and fees
+
+PayPal multiple currencies
+
+PayPal Seller Protection
+
+PayPal Express Checkout for India
+
+Set up PayPal Express Checkout on your store
+
+PayPal Express Checkout customer experience
+
+Understanding Reference Transactions for automatic billing with PayPal Express Checkout
+
+Troubleshooting common PayPal Express Checkout issues on Shopify
+
+Exploring PayPal payment integrations and fees
+
+PayPal multiple currencies
+
+PayPal Seller Protection
+
+PayPal Express Checkout for India

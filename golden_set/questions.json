@@ -1,0 +1,152 @@
+[
+  {
+    "id": "q001",
+    "question": "How do I set up free shipping for orders above a certain amount on Shopify?",
+    "expected_section": "shipping",
+    "expected_keywords": ["shipping", "free", "rate", "order", "price"]
+  },
+  {
+    "id": "q002",
+    "question": "What payment gateways are supported by Shopify?",
+    "expected_section": "payments",
+    "expected_keywords": ["payment", "gateway", "Shopify Payments", "PayPal", "Stripe"]
+  },
+  {
+    "id": "q003",
+    "question": "How do I add product variants like size and color?",
+    "expected_section": "products",
+    "expected_keywords": ["variant", "option", "size", "color", "product"]
+  },
+  {
+    "id": "q004",
+    "question": "How can I recover abandoned carts on my Shopify store?",
+    "expected_section": "marketing",
+    "expected_keywords": ["abandoned", "cart", "email", "recovery", "checkout"]
+  },
+  {
+    "id": "q005",
+    "question": "How do I process a refund for a customer order?",
+    "expected_section": "orders",
+    "expected_keywords": ["refund", "order", "customer", "return"]
+  },
+  {
+    "id": "q006",
+    "question": "How do I connect a custom domain to my Shopify store?",
+    "expected_section": "online-store",
+    "expected_keywords": ["domain", "custom", "connect", "DNS"]
+  },
+  {
+    "id": "q007",
+    "question": "What are the different Shopify pricing plans and their features?",
+    "expected_section": "intro",
+    "expected_keywords": ["plan", "Basic", "Advanced", "Plus", "pricing"]
+  },
+  {
+    "id": "q008",
+    "question": "How do I set up taxes on my Shopify store?",
+    "expected_section": "payments",
+    "expected_keywords": ["tax", "taxes", "rate", "setup", "region"]
+  },
+  {
+    "id": "q009",
+    "question": "How do I manage inventory levels for my products?",
+    "expected_section": "products",
+    "expected_keywords": ["inventory", "stock", "quantity", "track", "level"]
+  },
+  {
+    "id": "q010",
+    "question": "How do I create discount codes on Shopify?",
+    "expected_section": "marketing",
+    "expected_keywords": ["discount", "code", "coupon", "promo", "percentage"]
+  },
+  {
+    "id": "q011",
+    "question": "How do I fulfill an order and mark it as shipped?",
+    "expected_section": "orders",
+    "expected_keywords": ["fulfill", "ship", "tracking", "order", "mark"]
+  },
+  {
+    "id": "q012",
+    "question": "How do I add a blog to my Shopify store?",
+    "expected_section": "online-store",
+    "expected_keywords": ["blog", "post", "article", "content", "publish"]
+  },
+  {
+    "id": "q013",
+    "question": "How do I view sales analytics and reports on Shopify?",
+    "expected_section": "analytics",
+    "expected_keywords": ["report", "analytics", "sales", "dashboard", "data"]
+  },
+  {
+    "id": "q014",
+    "question": "How do I import products using a CSV file on Shopify?",
+    "expected_section": "products",
+    "expected_keywords": ["CSV", "import", "bulk", "product", "upload"]
+  },
+  {
+    "id": "q015",
+    "question": "How do I set up email notifications for new orders?",
+    "expected_section": "orders",
+    "expected_keywords": ["notification", "email", "order", "alert", "confirm"]
+  },
+  {
+    "id": "q016",
+    "question": "How do I add staff accounts to my Shopify store?",
+    "expected_section": "intro",
+    "expected_keywords": ["staff", "account", "permission", "access", "team"]
+  },
+  {
+    "id": "q017",
+    "question": "How do I set up Shopify Payments to accept credit cards?",
+    "expected_section": "payments",
+    "expected_keywords": ["Shopify Payments", "credit card", "accept", "activate"]
+  },
+  {
+    "id": "q018",
+    "question": "How do I create a collection of products on Shopify?",
+    "expected_section": "products",
+    "expected_keywords": ["collection", "group", "organize", "smart", "manual"]
+  },
+  {
+    "id": "q019",
+    "question": "How do I optimize my Shopify store for search engines (SEO)?",
+    "expected_section": "marketing",
+    "expected_keywords": ["SEO", "search", "meta", "title", "description", "optimize"]
+  },
+  {
+    "id": "q020",
+    "question": "How do I set up local delivery or in-store pickup on Shopify?",
+    "expected_section": "shipping",
+    "expected_keywords": ["local", "delivery", "pickup", "in-store", "location"]
+  },
+  {
+    "id": "q021",
+    "question": "How do I migrate my existing store to Shopify?",
+    "expected_section": "intro",
+    "expected_keywords": ["migrate", "import", "transfer", "move", "existing"]
+  },
+  {
+    "id": "q022",
+    "question": "How do I install and manage apps on Shopify?",
+    "expected_section": "apps",
+    "expected_keywords": ["app", "install", "manage", "store", "plugin"]
+  },
+  {
+    "id": "q023",
+    "question": "How do I manage customer profiles and purchase history?",
+    "expected_section": "customers",
+    "expected_keywords": ["customer", "profile", "history", "order", "tag"]
+  },
+  {
+    "id": "q024",
+    "question": "How do I change the theme or design of my Shopify store?",
+    "expected_section": "online-store",
+    "expected_keywords": ["theme", "design", "customize", "template", "appearance"]
+  },
+  {
+    "id": "q025",
+    "question": "How do I set up Shopify POS for selling in person?",
+    "expected_section": "intro",
+    "expected_keywords": ["POS", "in person", "retail", "point of sale", "physical"]
+  }
+]

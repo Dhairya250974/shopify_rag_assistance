@@ -1,0 +1,44 @@
+TITLE: Collections
+URL: https://help.shopify.com/en/manual/products/collections
+SECTION: products
+---
+
+The Starter plan doesn't support grouping your products into collections to make it easier for customers to find them by category. If you require the ability to create collections, then you need to upgrade to a higher plan such as Basic, Grow, Advanced, or Shopify Plus. Learn more about the different plan features.
+
+If you're on the Basic plan or higher, then you can group your products into collections to make it easier for customers to find them by category. Here are a few examples of collections that you might create:
+
+If you want to display product recommendations on product pages, then you can add a recommended products section to your online store theme.
+
+You can create two types of collections, a smart or manual collection. After you create a collection, it can be displayed on your online store as a webpage with a gallery of the products that are in the collection. Your customers can then click a product image on the collection page to visit a specific product's page. You can help customers find and view collections by adding links to the collections in your store's menus.
+
+The exact layout and appearance of collection pages depends on your theme.
+
+You can view, create, and edit collections from the Collections page of your Shopify admin.
+
+If you need help setting up collections for your products, then you can hire a Shopify Partner. The Partner Directory is available only in English.
+
+To see more videos, visit our YouTube channel.
+
+Adding links to collections
+
+Managing collections on your sales channels
+
+Searching and viewing collections
+
+Collection layout and appearance
+
+clothes for men, women, or children
+
+items of a certain type, such as lamps, cushions, or rugs
+
+items in a certain size or color
+
+seasonal products, such as holiday cards and decorations
+
+Adding links to collections
+
+Managing collections on your sales channels
+
+Searching and viewing collections
+
+Collection layout and appearance

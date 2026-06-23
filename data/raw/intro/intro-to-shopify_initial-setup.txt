@@ -3,9 +3,9 @@ URL: https://help.shopify.com/en/manual/intro-to-shopify/initial-setup
 SECTION: intro
 ---
 
-Getting set up to start selling
+# Getting set up to start selling
 
-Sign up with Shopify and start a new store
+### Sign up with Shopify and start a new store
 
 It's time to build your store! There are so many different ways that you can use Shopify. If you're wondering how to get started, or you're concerned about forgetting key steps on the way to your first sale, then you've come to the right place. This section of the Help Center outlines the most important tasks to get your Shopify business up and running as quickly as possible.
 

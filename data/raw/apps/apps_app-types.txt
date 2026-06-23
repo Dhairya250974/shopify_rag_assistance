@@ -3,17 +3,17 @@ URL: https://help.shopify.com/en/manual/apps/app-types
 SECTION: apps
 ---
 
-Built for Shopify badge
+## Built for Shopify badge
 
-Required permissions for creating and managing custom apps
+### Required permissions for creating and managing custom apps
 
-Custom Level 2 PII apps
+### Custom Level 2 PII apps
 
-Unsupported custom apps
+### Unsupported custom apps
 
-Installing unsupported apps
+### Installing unsupported apps
 
-Managing unsupported apps
+### Managing unsupported apps
 
 You can use apps to enhance your Shopify admin or add new features. Apps can either be public or custom.
 

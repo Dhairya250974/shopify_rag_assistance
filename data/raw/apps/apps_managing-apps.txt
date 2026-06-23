@@ -3,27 +3,27 @@ URL: https://help.shopify.com/en/manual/apps/managing-apps
 SECTION: apps
 ---
 
-Review billing and usage charges
+## Review billing and usage charges
 
-Change an app subscription plan
+## Change an app subscription plan
 
-Set new app spending limits for usage charges
+## Set new app spending limits for usage charges
 
-Review extensions, functions, and pixels
+## Review extensions, functions, and pixels
 
-Review an app's activity and permission details
+## Review an app's activity and permission details
 
-Review an app's privacy details
+## Review an app's privacy details
 
-Update custom app settings
+## Update custom app settings
 
-Manage legacy custom apps
+## Manage legacy custom apps
 
-Change the app's proxy URL
+## Change the app's proxy URL
 
-Troubleshooting app subscription approval errors
+## Troubleshooting app subscription approval errors
 
-Before you contact Shopify Support about an app issue
+## Before you contact Shopify Support about an app issue
 
 The Settings > Apps page in your Shopify admin helps you manage your installed and recently uninstalled apps. From the app index, you can open the app by clicking > Open app. You can access the app's about page by clicking the app name. From the app's about page, you can review information about the app, billing and usage charges, where to access this app, app history, privacy details, permission details, extensions and functions, pixel connection status, and any app compatibility issues. Click the , and then you can also uninstall the app, view the app in the Shopify App Store, get support for the app, or write a review for the Shopify App Store.
 

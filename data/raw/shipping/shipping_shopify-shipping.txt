@@ -3,13 +3,13 @@ URL: https://help.shopify.com/en/manual/shipping/shopify-shipping
 SECTION: shipping
 ---
 
-Shipping labels in Shopify
+# Shipping labels in Shopify
 
-Getting started with shipping labels
+### Getting started with shipping labels
 
-Buying and managing labels
+### Buying and managing labels
 
-Choosing shipping carriers
+### Choosing shipping carriers
 
 If you're using Canada Post for shipments from Canada to the US, then starting August 28, 2025, your shipments must be sent as DDP (Delivered Duties Paid). For more information, refer to the Shipping to the US using Canada Post.
 

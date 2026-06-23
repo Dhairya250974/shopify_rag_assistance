@@ -3,7 +3,7 @@ URL: https://help.shopify.com/en/manual/domains/add-a-domain
 SECTION: online-store
 ---
 
-Adding a domain to Shopify
+# Adding a domain to Shopify
 
 Adding a domain helps you establish your brand and build trust in your online store. By default, your online store was given a myshopify.com URL when you signed up for Shopify. If you want to change the web address that's displayed to customers when they browse your online store, then you need to add a custom domain, such as www.example.com. You can add a domain to Shopify in the following ways:
 

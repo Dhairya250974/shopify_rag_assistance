@@ -3,17 +3,17 @@ URL: https://help.shopify.com/en/manual/products/import-export/import-products
 SECTION: products
 ---
 
-Importing products with a CSV file
+# Importing products with a CSV file
 
-Testing imports using a dev store
+## Testing imports using a dev store
 
-Considerations for overwriting your product details using an import CSV file
+## Considerations for overwriting your product details using an import CSV file
 
-Import products from another store
+## Import products from another store
 
-Import products using a CSV file
+## Import products using a CSV file
 
-Troubleshooting CSV imports
+## Troubleshooting CSV imports
 
 Importing products into your Shopify store using a comma-separated values (CSV) file is useful when you switch to Shopify from another platform or when you want to make many changes to your products or inventory.
 

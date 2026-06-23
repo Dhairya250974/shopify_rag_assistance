@@ -1,0 +1,233 @@
+TITLE: Customizing payment methods and delivery options at checkout
+URL: https://help.shopify.com/en/manual/checkout-settings/checkout-customization
+SECTION: payments
+---
+
+# Customizing payment methods and delivery options at checkout
+
+## Eligibility requirements for customizing payment methods and delivery options at checkout
+
+## Understanding payment method customizations
+
+## Adding a payment method customization
+
+## Adding a delivery customization
+
+## Adding cart and checkout validation
+
+## Third-party app support
+
+### Availability based on subscription and geography
+
+### Step 1: Install a payment method customization app
+
+### Step 2: Configure and activate your customizations
+
+### Step 1: Install a delivery customization app
+
+### Step 2: Configure and activate your customizations
+
+### Deactivate a checkout rule
+
+### Remove a checkout rule
+
+Enhancing the checkout experience through customized payment methods and delivery options can help improve customer satisfaction and streamline your transactions. Depending on your subscription plan and geographic location, certain customization elements are available to you.
+
+Looking for an app to help you customize your payment and delivery options at checkout without using code? Consider installing the Checkout Blocks app from Shopify.
+
+Before you begin customizing your payment methods and delivery options, ensure your store meets the following criteria:
+
+Payment method customization at checkout is a feature that allows you to tailor how payment options are presented to your customers, enhancing the checkout experience and potentially increasing conversion rates. To optimize how payment options are displayed to your customers during checkout, you can customize these settings by installing a specialized third-party app. This payment method customization allows you to sort, reorder, hide, rename payment methods and set payment terms on a checkout to better align with your business requirements.
+
+To implement these customizations, install a payment customization app from the Shopify App Store. These apps offer tools that allow you to adjust the presentation of payment methods during the checkout process. For a selection of available apps, search payment customization in the Shopify App Store.
+
+The ability to rename, hide, reorder, or sort payment fields at checkout is subject to certain limitations:
+
+For customers based in Finland, a payment method won't be selected by default during checkout to comply with regulations.
+
+If you want to customize your payment methods at checkout, then you need to install a third-party app that supports payment method customizations, and then configure your customizations.
+
+Customizations to payment options apply to both the Shopify Checkout and draft order checkouts. However, the customizations won't display or apply in the admin while you're creating your draft order.
+
+Stores on the Shopify Plus plan can create a custom app that hides accelerated checkout options during checkout when certain customer or cart conditions are met. The developer of the custom app would use the Payment Customization API to create the app.
+
+Be aware that hiding your accelerated checkout options might have a negative impact on your conversion rates.
+
+You can install multiple checkout customization apps that provide different customization options.
+
+After you install a payment method customization app, you can configure and activate your customizations.
+
+From your Shopify admin, go to Settings > Payments.
+
+In the Payment customizations section, click Manage.
+
+Add your customization:
+
+Optional: If you want to add more customizations, then click Add customization.
+
+Select the customizations that you want to use.
+
+If you want to customize your delivery options at checkout, then you need to install a third-party app that supports delivery customization, and then configure your customizations.
+
+Customizations to delivery options apply to both the Shopify Checkout and draft order checkouts. However, the customizations won't display or apply in the admin while you're creating your draft order.
+
+You can install multiple checkout customization apps that provide different customization options.
+
+After you install a delivery options customization app, you can configure and activate your customizations.
+
+From your Shopify admin, go to Settings > Shipping and delivery.
+
+In the Delivery customizations section, click Add delivery customization.
+
+Add your customization:
+
+Optional: If you want to add more customizations, then click Add customization.
+
+Select the customizations that you want to use.
+
+If you want to validate information about a customers cart or checkout, then you need to install a third-party app that supports cart and checkout validations.
+
+Apps that support cart and checkout validations can let you enforce rules at checkout such as limiting the quantity of a product that customer can purchase, or ensuring that customers fill out custom fields at checkout. These rules also apply by default to draft orders, but you have the option to override all validation rules on a draft order before completing it.
+
+After you install a cart and checkout validation app, you can configure and activate your validation rules.
+
+From your Shopify admin, go to Settings > Checkout.
+
+In the Checkout section, click Checkout rules.
+
+In the Checkout rules section, click Add rule.
+
+Click the checkout rule that you want to add.
+
+Choose your preferred settings for the checkout rule.
+
+Optional: If you don't want orders to be processed when there's an error with the rule, then deselect Allow all customers to complete checkout.
+
+From your Shopify admin, go to Settings > Checkout.
+
+In the Checkout rules section, click the rule that you want to edit.
+
+Make your changes, and then click Save.
+
+From your Shopify admin, go to Settings > Checkout.
+
+In the Checkout rules section, click the rule that you want to edit.
+
+From your Shopify admin, go to Settings > Checkout.
+
+In the Checkout rules section, click the rule that you want to remove.
+
+If you encounter issues with a third-party app, then you need to contact the app developer for assistance.
+
+If you're an app developer or Shopify Partner specializing in payment customizations or delivery customizations, then you should consider geographic and plan-specific guidelines to tailor your app offerings appropriately.
+
+Eligibility requirements for customizing payment methods and delivery options at checkout
+
+Understanding payment method customizations
+
+Adding a payment method customization
+
+Adding a delivery customization
+
+Adding cart and checkout validation
+
+Third-party app support
+
+Subscription plan: Your store must be subscribed to at least the Basic plan.
+
+Checkout app installation: You must have a compatible checkout app installed from the Shopify App Store. Learn more about customizing your checkout configurations with apps.
+
+Upgraded checkout (Shopify Plus plan only): Advanced customizations are available for stores on the Shopify Plus plan, which include direct editing capabilities through Shopify Extensions for upgraded checkouts.
+
+App type compatibility: Some apps that customize checkout and customer accounts, including the thank you and order status pages, are available to businesses that are on the Basic Shopify plan or higher. Apps that customize the information, shipping, and payment pages of the checkout, including checkouts from draft orders, are available only to Shopify Plus.
+
+Stores on the Shopify Plus plan: If your store is on the Shopify Plus plan, then you have the added capability of setting payment terms at checkout. In addition, you can customize credit card fields directly. This means that you can hide, rename, reorder, or sort credit card options in addition to other payment methods.
+
+Stores on any other Shopify plan: Stores on the Basic plan or higher, but not on the Shopify Plus plan, still have access to payment method customization apps. However, in the United States and Canada, these customizations are limited to non-credit card payment methods. You can hide, rename, reorder, or sort alternative payment methods, however any custom settings applied to credit card fields won't apply at checkout, and credit card options will remain standard as offered by Shopify. To access credit card field customizations in the United States and Canada, upgrading to the Shopify Plus plan is required.
+
+Go to the Shopify App Store, and search for the payment methods app that suits your business.
+
+From your Shopify admin, go to Settings > Payments.
+
+In the Payment customizations section, click Manage.
+
+Add your customization:
+Click Add customization.
+Select a customization.
+Configure the customization, and then click Save.
+
+Click Add customization.
+
+Select a customization.
+
+Configure the customization, and then click Save.
+
+Optional: If you want to add more customizations, then click Add customization.
+
+Select the customizations that you want to use.
+
+Go to the Shopify App Store, and search for the delivery customization app that suits your business.
+
+From your Shopify admin, go to Settings > Shipping and delivery.
+
+In the Delivery customizations section, click Add delivery customization.
+
+Add your customization:
+Click Add customization.
+Select a customization.
+Configure the customization, and then click Save.
+
+Click Add customization.
+
+Select a customization.
+
+Configure the customization, and then click Save.
+
+Optional: If you want to add more customizations, then click Add customization.
+
+Select the customizations that you want to use.
+
+From your Shopify admin, go to Settings > Checkout.
+
+In the Checkout section, click Checkout rules.
+
+In the Checkout rules section, click Add rule.
+
+Click the checkout rule that you want to add.
+
+Choose your preferred settings for the checkout rule.
+
+Optional: If you don't want orders to be processed when there's an error with the rule, then deselect Allow all customers to complete checkout.
+
+From your Shopify admin, go to Settings > Checkout.
+
+In the Checkout rules section, click the rule that you want to edit.
+
+Make your changes, and then click Save.
+
+From your Shopify admin, go to Settings > Checkout.
+
+In the Checkout rules section, click the rule that you want to edit.
+
+From your Shopify admin, go to Settings > Checkout.
+
+In the Checkout rules section, click the rule that you want to remove.
+
+Apps built with web pixel app extensions
+
+Apps built with post-purchase app extensions
+
+Public apps built with Shopify Functions
+
+Custom apps built with Shopify Functions
+
+Apps built with UI extensions for the thank you and order status pages
+
+Apps built with UI extensions for all customer accounts pages
+
+Apps built with UI extensions for the information, shipping, and payment pages
+
+Checkout Blocks, a free app for customizing your checkout with UI extensions and Shopify Functions
+
+✔
+(With some feature restrictions)

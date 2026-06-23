@@ -1,0 +1,373 @@
+{
+  "summary": {
+    "total_questions": 25,
+    "hit_rate@1": 92.0,
+    "hit_rate@3": 96.0,
+    "hit_rate@5": 100.0,
+    "mrr": 0.948
+  },
+  "section_breakdown": {
+    "analytics": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "rr": 1.0
+    },
+    "apps": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "rr": 1.0
+    },
+    "customers": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "rr": 1.0
+    },
+    "intro": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "rr": 1.0
+    },
+    "marketing": {
+      "hit@1": 0.667,
+      "hit@3": 0.667,
+      "hit@5": 1.0,
+      "rr": 0.733
+    },
+    "online-store": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "rr": 1.0
+    },
+    "orders": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "rr": 1.0
+    },
+    "payments": {
+      "hit@1": 0.667,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "rr": 0.833
+    },
+    "products": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "rr": 1.0
+    },
+    "shipping": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "rr": 1.0
+    }
+  },
+  "per_question": [
+    {
+      "id": "q001",
+      "question": "How do I set up free shipping for orders above a certain amount on Shopify?",
+      "expected_section": "shipping",
+      "top_section": "shipping",
+      "top_title": "Setting up shipping and order fulfillment",
+      "top_score": 0.7554,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q002",
+      "question": "What payment gateways are supported by Shopify?",
+      "expected_section": "payments",
+      "top_section": "intro",
+      "top_title": "Overview",
+      "top_score": 0.7729,
+      "hit@1": 0,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 0.5
+    },
+    {
+      "id": "q003",
+      "question": "How do I add product variants like size and color?",
+      "expected_section": "products",
+      "top_section": "products",
+      "top_title": "Variants",
+      "top_score": 0.8201,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q004",
+      "question": "How can I recover abandoned carts on my Shopify store?",
+      "expected_section": "marketing",
+      "top_section": "products",
+      "top_title": "Adding and updating products",
+      "top_score": 0.677,
+      "hit@1": 0,
+      "hit@3": 0,
+      "hit@5": 1,
+      "rr": 0.2
+    },
+    {
+      "id": "q005",
+      "question": "How do I process a refund for a customer order?",
+      "expected_section": "orders",
+      "top_section": "orders",
+      "top_title": "Managing orders",
+      "top_score": 0.6718,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q006",
+      "question": "How do I connect a custom domain to my Shopify store?",
+      "expected_section": "online-store",
+      "top_section": "online-store",
+      "top_title": "Adding a domain to Shopify",
+      "top_score": 0.8336,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q007",
+      "question": "What are the different Shopify pricing plans and their features?",
+      "expected_section": "intro",
+      "top_section": "intro",
+      "top_title": "Pricing plans",
+      "top_score": 0.7353,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q008",
+      "question": "How do I set up taxes on my Shopify store?",
+      "expected_section": "payments",
+      "top_section": "intro",
+      "top_title": "Migrate to Shopify",
+      "top_score": 0.8174,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q009",
+      "question": "How do I manage inventory levels for my products?",
+      "expected_section": "products",
+      "top_section": "products",
+      "top_title": "Managing inventory",
+      "top_score": 0.7458,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q010",
+      "question": "How do I create discount codes on Shopify?",
+      "expected_section": "marketing",
+      "top_section": "marketing",
+      "top_title": "Discounts",
+      "top_score": 0.8378,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q011",
+      "question": "How do I fulfill an order and mark it as shipped?",
+      "expected_section": "orders",
+      "top_section": "orders",
+      "top_title": "Fulfilling orders",
+      "top_score": 0.7193,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q012",
+      "question": "How do I add a blog to my Shopify store?",
+      "expected_section": "online-store",
+      "top_section": "online-store",
+      "top_title": "Blogs",
+      "top_score": 0.7879,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q013",
+      "question": "How do I view sales analytics and reports on Shopify?",
+      "expected_section": "analytics",
+      "top_section": "analytics",
+      "top_title": "Shopify analytics",
+      "top_score": 0.8171,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q014",
+      "question": "How do I import products using a CSV file on Shopify?",
+      "expected_section": "products",
+      "top_section": "products",
+      "top_title": "Importing products with a CSV file",
+      "top_score": 0.8758,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q015",
+      "question": "How do I set up email notifications for new orders?",
+      "expected_section": "orders",
+      "top_section": "orders",
+      "top_title": "Store notifications",
+      "top_score": 0.7343,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q016",
+      "question": "How do I add staff accounts to my Shopify store?",
+      "expected_section": "intro",
+      "top_section": "intro",
+      "top_title": "Migrate to Shopify",
+      "top_score": 0.7501,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q017",
+      "question": "How do I set up Shopify Payments to accept credit cards?",
+      "expected_section": "payments",
+      "top_section": "payments",
+      "top_title": "Shopify Payments",
+      "top_score": 0.8072,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q018",
+      "question": "How do I create a collection of products on Shopify?",
+      "expected_section": "products",
+      "top_section": "products",
+      "top_title": "Collections",
+      "top_score": 0.7905,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q019",
+      "question": "How do I optimize my Shopify store for search engines (SEO)?",
+      "expected_section": "marketing",
+      "top_section": "marketing",
+      "top_title": "SEO overview",
+      "top_score": 0.8396,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q020",
+      "question": "How do I set up local delivery or in-store pickup on Shopify?",
+      "expected_section": "shipping",
+      "top_section": "shipping",
+      "top_title": "Setting up shipping and order fulfillment",
+      "top_score": 0.7343,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q021",
+      "question": "How do I migrate my existing store to Shopify?",
+      "expected_section": "intro",
+      "top_section": "intro",
+      "top_title": "Migrate to Shopify",
+      "top_score": 0.834,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q022",
+      "question": "How do I install and manage apps on Shopify?",
+      "expected_section": "apps",
+      "top_section": "apps",
+      "top_title": "Apps for your Shopify store",
+      "top_score": 0.7923,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q023",
+      "question": "How do I manage customer profiles and purchase history?",
+      "expected_section": "customers",
+      "top_section": "customers",
+      "top_title": "Managing customers",
+      "top_score": 0.7188,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q024",
+      "question": "How do I change the theme or design of my Shopify store?",
+      "expected_section": "online-store",
+      "top_section": "online-store",
+      "top_title": "Customizing themes",
+      "top_score": 0.7883,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    },
+    {
+      "id": "q025",
+      "question": "How do I set up Shopify POS for selling in person?",
+      "expected_section": "intro",
+      "top_section": "intro",
+      "top_title": "Overview",
+      "top_score": 0.8604,
+      "hit@1": 1,
+      "hit@3": 1,
+      "hit@5": 1,
+      "rr": 1.0
+    }
+  ]
+}

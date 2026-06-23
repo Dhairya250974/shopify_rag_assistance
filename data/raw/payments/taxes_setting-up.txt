@@ -3,7 +3,7 @@ URL: https://help.shopify.com/en/manual/taxes/setting-up
 SECTION: payments
 ---
 
-Tax service availability by region
+## Tax service availability by region
 
 As a seller, you might need to charge taxes on your sales, and then report and remit those taxes to your government. Although tax laws and regulations are complex and can change often, you can set up Shopify to automatically handle most common sales tax calculations. You can also set up tax overrides to address unique tax laws and situations.
 

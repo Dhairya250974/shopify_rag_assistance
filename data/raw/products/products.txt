@@ -3,11 +3,11 @@ URL: https://help.shopify.com/en/manual/products
 SECTION: products
 ---
 
-Features of the Products section
+### Features of the Products section
 
-Connections to other Shopify admin sections
+### Connections to other Shopify admin sections
 
-Sourcing products for your Shopify store
+### Sourcing products for your Shopify store
 
 The Products section in your Shopify admin helps you manage your store's entire product catalog, from basic product setup to advanced customization. There are also automation, AI, and bulk management tools that can help you save time when working on your business's product offerings.
 

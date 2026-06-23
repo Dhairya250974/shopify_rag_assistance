@@ -3,35 +3,35 @@ URL: https://help.shopify.com/en/manual/promoting-marketing/seo/seo-overview
 SECTION: marketing
 ---
 
-Core concepts and terminology
+## Core concepts and terminology
 
-Built-in SEO features in Shopify
+## Built-in SEO features in Shopify
 
-Examples of common SEO solutions
+## Examples of common SEO solutions
 
-Driving traffic to improve SEO
+## Driving traffic to improve SEO
 
-Optimizing site structure and navigation for SEO and user experience
+### Optimizing site structure and navigation for SEO and user experience
 
-Best practices for content optimization
+### Best practices for content optimization
 
-Technical optimization
+### Technical optimization
 
-Key industry trends and Shopify features
+### Key industry trends and Shopify features
 
-Link building and backlinks
+### Link building and backlinks
 
-Example: Improving rankings for sustainable wool blankets
+### Example: Improving rankings for sustainable wool blankets
 
-Example: Setting up drop-down menus for better site structure
+### Example: Setting up drop-down menus for better site structure
 
-Social media and content marketing
+### Social media and content marketing
 
-Influencer partnerships and outreach
+### Influencer partnerships and outreach
 
-Analytics and measurement
+### Analytics and measurement
 
-Tips for building links and earning backlinks
+#### Tips for building links and earning backlinks
 
 When searching for something on the internet, many people begin with a search engine, such as Google or Bing. Search engines are designed to use a variety of information from websites to create a ranked list of results for a particular search query. Search engines determine which websites are most likely to be relevant to the search query, and then display the results in order of their relevance.
 

@@ -3,11 +3,11 @@ URL: https://help.shopify.com/en/manual/orders/refunds
 SECTION: orders
 ---
 
-Order management and fulfillment
+# Order management and fulfillment
 
-Configuring shipping settings
+### Configuring shipping settings
 
-Processing customer orders
+### Processing customer orders
 
 Order fulfillment is the workflow of processing, managing, and shipping customer orders from your Shopify store. This involves setting up your shipping configuration, managing incoming orders, and getting packages to customers.
 

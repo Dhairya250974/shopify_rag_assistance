@@ -1,0 +1,64 @@
+TITLE: Shopify Checkout
+URL: https://help.shopify.com/en/manual/checkout-settings
+SECTION: payments
+---
+
+You can use the secure Shopify Checkout to accept orders and take payments wherever you sell online. After a customer adds products to a cart, they use your checkout to enter their shipping information and payment details, and then place their order. Customers can also review your store policies from your checkout.
+
+You can view and change your checkout settings, including how you want to collect customer email addresses for promotional marketing, from the Checkout settings page in your Shopify admin. If you have an online store, then you can also change the appearance and layout of the checkout pages by editing your online store theme.
+
+When a customer completes any step of the checkout, their cart is checked against your store's inventory levels. If the inventory is available, then the customer can proceed through the checkout steps. If the inventory has become unavailable, then an error message is displayed. Inventory is held only when the customer submits their payment information. If a payment fails, then the hold is released until the customer reaches the payment method page again.
+
+To see more videos, visit our YouTube channel.
+
+Editing the checkout form options
+
+Customizing and editing your checkout and accounts pages
+
+Setting up tipping options for online orders
+
+Set up address collection preferences
+
+Set up order processing and archiving
+
+Translating your checkout
+
+Set a limit to the maximum quantity of items per cart
+
+Ship and pickup in one order in Shopify Checkout
+
+Split shipping in Shopify Checkout
+
+Adding store policies
+
+Protecting your store from selling to bots
+
+Customizing payment methods and delivery options at checkout
+
+Shopify Scripts and the Script Editor app
+
+Editing the checkout form options
+
+Customizing and editing your checkout and accounts pages
+
+Setting up tipping options for online orders
+
+Set up address collection preferences
+
+Set up order processing and archiving
+
+Translating your checkout
+
+Set a limit to the maximum quantity of items per cart
+
+Ship and pickup in one order in Shopify Checkout
+
+Split shipping in Shopify Checkout
+
+Adding store policies
+
+Protecting your store from selling to bots
+
+Customizing payment methods and delivery options at checkout
+
+Shopify Scripts and the Script Editor app

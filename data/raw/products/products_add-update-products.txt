@@ -3,17 +3,17 @@ URL: https://help.shopify.com/en/manual/products/add-update-products
 SECTION: products
 ---
 
-Adding and updating products
+# Adding and updating products
 
-Set product availability in your sales channels
+## Set product availability in your sales channels
 
-Edit the search engine listing for a product
+## Edit the search engine listing for a product
 
-Scan a barcode with your device's camera
+## Scan a barcode with your device's camera
 
-Add tags to a product
+### Add tags to a product
 
-Remove tags from a product
+### Remove tags from a product
 
 You can add new products, or update product information such as price, variants, and availability, from the Products page in your Shopify admin, or in the Shopify app.
 

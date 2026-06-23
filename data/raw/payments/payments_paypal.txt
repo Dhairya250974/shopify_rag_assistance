@@ -3,7 +3,7 @@ URL: https://help.shopify.com/en/manual/payments/paypal
 SECTION: payments
 ---
 
-PayPal Express Checkout
+# PayPal Express Checkout
 
 PayPal Express Checkout allows you to accept payments through various methods such as credit cards, bank accounts, buyer credit, or PayPal account balances. You can connect PayPal Express Checkout to your Shopify store, providing it as an accelerated checkout payment solution for your customers.
 

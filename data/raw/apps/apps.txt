@@ -3,7 +3,7 @@ URL: https://help.shopify.com/en/manual/apps
 SECTION: apps
 ---
 
-Apps for your Shopify store
+# Apps for your Shopify store
 
 You can install apps to help you build your business, integrate with external services, and add features to your Shopify admin. You can find apps on the Shopify App Store.
 

@@ -84,6 +84,24 @@
     "filepath": "data/raw/products/products_product-media.txt"
   },
   {
+    "section": "inventory",
+    "title": "Managing inventory",
+    "url": "https://help.shopify.com/en/manual/products/inventory",
+    "filepath": "data/raw/inventory/products_inventory.txt"
+  },
+  {
+    "section": "inventory",
+    "title": "Managing inventory",
+    "url": "https://help.shopify.com/en/manual/products/inventory/managing-inventory",
+    "filepath": "data/raw/inventory/products_inventory_managing-inventory.txt"
+  },
+  {
+    "section": "inventory",
+    "title": "Inventory transfers and shipments",
+    "url": "https://help.shopify.com/en/manual/products/inventory/transfers",
+    "filepath": "data/raw/inventory/products_inventory_transfers.txt"
+  },
+  {
     "section": "orders",
     "title": "Order management and fulfillment",
     "url": "https://help.shopify.com/en/manual/orders",
@@ -168,6 +186,18 @@
     "filepath": "data/raw/payments/payments_accelerated-checkouts.txt"
   },
   {
+    "section": "payments",
+    "title": "Shopify Checkout",
+    "url": "https://help.shopify.com/en/manual/checkout-settings",
+    "filepath": "data/raw/payments/checkout-settings.txt"
+  },
+  {
+    "section": "payments",
+    "title": "Customizing payment methods and delivery options at checkout",
+    "url": "https://help.shopify.com/en/manual/checkout-settings/checkout-customization",
+    "filepath": "data/raw/payments/checkout-settings_checkout-customization.txt"
+  },
+  {
     "section": "shipping",
     "title": "Setting up shipping and order fulfillment",
     "url": "https://help.shopify.com/en/manual/shipping",
@@ -238,6 +268,24 @@
     "title": "Marketing and promotions",
     "url": "https://help.shopify.com/en/manual/promoting-marketing/automations",
     "filepath": "data/raw/marketing/promoting-marketing_automations.txt"
+  },
+  {
+    "section": "discounts",
+    "title": "Discounts",
+    "url": "https://help.shopify.com/en/manual/discounts",
+    "filepath": "data/raw/discounts/discounts.txt"
+  },
+  {
+    "section": "discounts",
+    "title": "Discount types",
+    "url": "https://help.shopify.com/en/manual/discounts/discount-types",
+    "filepath": "data/raw/discounts/discounts_discount-types.txt"
+  },
+  {
+    "section": "discounts",
+    "title": "Discount types",
+    "url": "https://help.shopify.com/en/manual/discounts/create-discount-codes",
+    "filepath": "data/raw/discounts/discounts_create-discount-codes.txt"
   },
   {
     "section": "online-store",
@@ -328,6 +376,18 @@
     "title": "Analytics",
     "url": "https://help.shopify.com/en/manual/reports-and-analytics/analytics-overview",
     "filepath": "data/raw/analytics/reports-and-analytics_analytics-overview.txt"
+  },
+  {
+    "section": "analytics",
+    "title": "Analytics",
+    "url": "https://help.shopify.com/en/manual/reports-and-analytics/reports/report-types",
+    "filepath": "data/raw/analytics/reports-and-analytics_reports_report-types.txt"
+  },
+  {
+    "section": "analytics",
+    "title": "Analytics",
+    "url": "https://help.shopify.com/en/manual/reports-and-analytics/reports/finances-reports",
+    "filepath": "data/raw/analytics/reports-and-analytics_reports_finances-reports.txt"
   },
   {
     "section": "apps",

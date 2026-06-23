@@ -3,13 +3,13 @@ URL: https://help.shopify.com/en/manual/promoting-marketing
 SECTION: marketing
 ---
 
-Marketing and promotions
+# Marketing and promotions
 
-Planning your marketing strategy and measuring performance
+### Planning your marketing strategy and measuring performance
 
-Creating marketing campaigns and messaging subscribers
+### Creating marketing campaigns and messaging subscribers
 
-Reaching new customers
+### Reaching new customers
 
 You can use marketing tools in Shopify to reach new customers, stay connected with customers who have purchased from your store before, and measure your marketing efforts.
 

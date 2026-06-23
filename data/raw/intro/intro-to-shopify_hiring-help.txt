@@ -3,13 +3,13 @@ URL: https://help.shopify.com/en/manual/intro-to-shopify/hiring-help
 SECTION: intro
 ---
 
-Hiring and working with Shopify Partners
+# Hiring and working with Shopify Partners
 
-Planning to contact a Partner
+## Planning to contact a Partner
 
-Working with Partners
+## Working with Partners
 
-Complete a collaboration with a partner
+## Complete a collaboration with a partner
 
 The Partner Directory connects you with Shopify Partners who you can hire for complicated tasks related to building your business.
 

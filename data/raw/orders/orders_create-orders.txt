@@ -3,7 +3,7 @@ URL: https://help.shopify.com/en/manual/orders/create-orders
 SECTION: orders
 ---
 
-Draft orders and invoices
+# Draft orders and invoices
 
 You can create draft orders on behalf of customers when you need to process orders through phone, email, or in-person sales. Draft orders let you add products, apply discounts, and then send invoices with secure checkout links for customers to complete payment online.
 

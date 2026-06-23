@@ -3,35 +3,35 @@ URL: https://help.shopify.com/en/manual/customers/manage-customers
 SECTION: customers
 ---
 
-Add customer profiles
+## Add customer profiles
 
-Send an email message to a customer
+## Send an email message to a customer
 
-Edit customer profiles
+## Edit customer profiles
 
-Edit a customer's subscription payment information
+## Edit a customer's subscription payment information
 
-Edit customer profiles in bulk
+## Edit customer profiles in bulk
 
-Merging customer profiles
+## Merging customer profiles
 
-Erase a customer’s personal data
+## Erase a customer’s personal data
 
-Deleting customer profiles
+## Deleting customer profiles
 
-Requirements for US military shipping addresses
+## Requirements for US military shipping addresses
 
-Limitations for merging customer profiles
+### Limitations for merging customer profiles
 
-Merge customer profiles
+### Merge customer profiles
 
-Merge from the customer list
+### Merge from the customer list
 
-Limitations for deleting customer profiles
+### Limitations for deleting customer profiles
 
-Delete individual customer profiles
+### Delete individual customer profiles
 
-Delete customer profiles in bulk
+### Delete customer profiles in bulk
 
 When a new customer places an order with your store, their name and information are automatically added to your customer list. A customer profile is created when a customer interacts with your business in any of the following ways:
 

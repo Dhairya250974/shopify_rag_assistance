@@ -3,9 +3,9 @@ URL: https://help.shopify.com/en/manual/customers/customer-accounts
 SECTION: customers
 ---
 
-Customer account creation
+### Customer account creation
 
-Editing customer account details
+### Editing customer account details
 
 Customer accounts let your customers sign in to view and manage their orders, edit profile information, and take key actions such as self-serve returns or reordering.
 

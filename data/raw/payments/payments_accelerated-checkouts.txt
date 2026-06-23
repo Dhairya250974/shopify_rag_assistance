@@ -3,7 +3,7 @@ URL: https://help.shopify.com/en/manual/payments/accelerated-checkouts
 SECTION: payments
 ---
 
-Accelerated checkouts and accelerated checkout buttons
+# Accelerated checkouts and accelerated checkout buttons
 
 Accelerated or express checkouts save customer payment and shipping information so that returning customers can more quickly complete payment for their orders. When a customer returns to a store that offers an accelerated checkout method, their information is automatically filled in at checkout.
 

@@ -3,15 +3,15 @@ URL: https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-sh
 SECTION: shipping
 ---
 
-Setting up shipping and order fulfillment
+# Setting up shipping and order fulfillment
 
-Setting up shipping rates and packages
+### Setting up shipping rates and packages
 
-Configuring locations and order routing
+### Configuring locations and order routing
 
-Offering delivery methods
+### Offering delivery methods
 
-Managing delivery timeline and notifications
+### Managing delivery timeline and notifications
 
 You can configure your shipping and fulfillment settings from the Shipping and delivery page in your Shopify admin. These settings determine how shipping costs are calculated, what delivery options are available to customers at checkout, and which locations fulfill orders.
 

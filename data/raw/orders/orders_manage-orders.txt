@@ -3,11 +3,11 @@ URL: https://help.shopify.com/en/manual/orders/manage-orders
 SECTION: orders
 ---
 
-Viewing and creating orders
+### Viewing and creating orders
 
-Processing and editing orders
+### Processing and editing orders
 
-Managing returns and fraud
+### Managing returns and fraud
 
 You can manage your orders from the Orders page in your Shopify admin. Order management includes viewing and tracking orders, processing payments, making changes to orders, and handling returns and refunds.
 

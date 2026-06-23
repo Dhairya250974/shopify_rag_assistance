@@ -3,7 +3,7 @@ URL: https://help.shopify.com/en/manual/payments/third-party-providers
 SECTION: payments
 ---
 
-Third-party payment providers
+# Third-party payment providers
 
 To accept credit cards through a provider other than Shopify Payments, choose from over 100 credit card payment providers for your Shopify store. You can use a third-party provider as your sole credit card processor, or you can use it alongside Shopify Payments to access additional payment methods such as Shop Pay and local payment methods.
 

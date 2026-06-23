@@ -3,13 +3,13 @@ URL: https://help.shopify.com/en/manual/products/import-export/export-products
 SECTION: products
 ---
 
-Use a text editor to edit your products CSV file
+## Use a text editor to edit your products CSV file
 
-Filter and export your products list
+## Filter and export your products list
 
-Troubleshooting product exports
+## Troubleshooting product exports
 
-Access your product image files
+### Access your product image files
 
 You can export your products to a CSV file to help with several tasks:
 

@@ -1,0 +1,36 @@
+TITLE: Inventory transfers and shipments
+URL: https://help.shopify.com/en/manual/products/inventory/transfers
+SECTION: inventory
+---
+
+# Inventory transfers and shipments
+
+You can create inventory transfers to move and track inventory between your store locations, or to and from external locations such as suppliers. You might need to move items to replenish stock at another location, fulfill customer orders, or transfer inventory between different branches of your business. When you process a transfer, shipments are automatically created and managed for you.
+
+The following video covers how to create and manage transfers in your Shopify admin, fulfill and receive them in Shopify POS, and use Sidekick to analyze stock balances and create transfers automatically.
+
+To see more videos, visit our YouTube channel.
+
+You can also view and manage inventory transfers created by third-party apps from the Transfers page of your Shopify admin.
+
+You can create a custom report to view inventory changes from transfers across your locations.
+
+Creating and managing inventory transfers
+
+Viewing and searching your inventory transfers
+
+Creating and managing inventory transfers and shipments with a barcode scanner
+
+Track inventory as you move it between your various locations.
+
+Process transfers at your own pace. You can move them to in transit, mark them as ready to ship, or mark them as transferred.
+
+Receive full or partial inventory at the destination location.
+
+Optionally add tracking information or manage multiple shipments if you need to send items in separate batches.
+
+Creating and managing inventory transfers
+
+Viewing and searching your inventory transfers
+
+Creating and managing inventory transfers and shipments with a barcode scanner

@@ -3,51 +3,51 @@ URL: https://help.shopify.com/en/manual/migrating-to-shopify
 SECTION: intro
 ---
 
-Step 1: Import your store's content and data to Shopify
+## Step 1: Import your store's content and data to Shopify
 
-Step 2: Verify and organize your products after import
+## Step 2: Verify and organize your products after import
 
-Step 3: Make your website visually appealing
+## Step 3: Make your website visually appealing
 
-Step 4: Set up your shipping
+## Step 4: Set up your shipping
 
-Step 5: Configure your taxes
+## Step 5: Configure your taxes
 
-Step 6: Setting up a payment provider
+## Step 6: Setting up a payment provider
 
-Step 7: Place some test orders
+## Step 7: Place some test orders
 
-Step 8: Add staff to your store
+## Step 8: Add staff to your store
 
-Step 9: Set up your domain
+## Step 9: Set up your domain
 
-Step 10: Migrate to Shopify POS
+## Step 10: Migrate to Shopify POS
 
-Step 11: (Optional) Set up your SEO for success
+## Step 11: (Optional) Set up your SEO for success
 
-Review for common importing errors
+### Review for common importing errors
 
-Review and organize your products
+### Review and organize your products
 
-Add a free theme from the admin
+### Add a free theme from the admin
 
-Add a theme from the Theme Store
+### Add a theme from the Theme Store
 
-Try a paid theme in your store
+### Try a paid theme in your store
 
-Charging taxes based on your shipping destinations
+### Charging taxes based on your shipping destinations
 
-Keeping track of your taxes
+### Keeping track of your taxes
 
-Set up a payment provider
+### Set up a payment provider
 
-Connect or transfer an existing domain to Shopify
+### Connect or transfer an existing domain to Shopify
 
-Confirming your redirects are working
+### Confirming your redirects are working
 
-Editing your meta descriptions
+### Editing your meta descriptions
 
-Verify and submit your sitemap with Google
+### Verify and submit your sitemap with Google
 
 This guide outlines how to migrate your store to Shopify from another platform. You can use it as a starting point and as a reference resource to make sure that you don't forget any key setup tasks.
 

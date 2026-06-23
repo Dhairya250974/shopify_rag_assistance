@@ -3,7 +3,7 @@ URL: https://help.shopify.com/en/manual/customers/customer-segmentation
 SECTION: customers
 ---
 
-Customer segmentation
+# Customer segmentation
 
 Customer segments are dynamic, rule-based customer lists that let you group together customers who have similar characteristics. You can build customer segments that meet your business needs by using ShopifyQL to combine filter names, operators, and values into a query. After you create a customer segment, customers are automatically added or removed to the segment list based on whether they meet the segment criteria.
 

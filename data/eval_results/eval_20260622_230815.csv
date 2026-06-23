@@ -1,0 +1,26 @@
+id,question,expected_section,top_section,top_title,top_score,hit@1,hit@3,hit@5,rr
+q001,How do I set up free shipping for orders above a certain amount on Shopify?,shipping,intro,Migrate to Shopify,0.6471,1,1,1,1.0
+q002,What payment gateways are supported by Shopify?,payments,payments,Shopify Payments,0.7108,1,1,1,1.0
+q003,How do I add product variants like size and color?,products,products,Variants,0.7061,1,1,1,1.0
+q004,How can I recover abandoned carts on my Shopify store?,marketing,products,Adding and updating products,0.4154,0,0,0,0.0
+q005,How do I process a refund for a customer order?,orders,orders,Managing orders,0.5071,1,1,1,1.0
+q006,How do I connect a custom domain to my Shopify store?,online-store,online-store,Adding a domain to Shopify,0.7881,1,1,1,1.0
+q007,What are the different Shopify pricing plans and their features?,intro,intro,Pricing plans,0.7189,1,1,1,1.0
+q008,How do I set up taxes on my Shopify store?,payments,payments,Taxes,0.7518,1,1,1,1.0
+q009,How do I manage inventory levels for my products?,products,products,Managing inventory,0.6531,1,1,1,1.0
+q010,How do I create discount codes on Shopify?,marketing,marketing,Discounts,0.7279,1,1,1,1.0
+q011,How do I fulfill an order and mark it as shipped?,orders,orders,Fulfilling orders,0.5982,1,1,1,1.0
+q012,How do I add a blog to my Shopify store?,online-store,online-store,Blogs,0.7383,1,1,1,1.0
+q013,How do I view sales analytics and reports on Shopify?,analytics,analytics,Shopify analytics,0.7723,1,1,1,1.0
+q014,How do I import products using a CSV file on Shopify?,products,products,Importing products with a CSV file,0.8005,1,1,1,1.0
+q015,How do I set up email notifications for new orders?,orders,orders,Store notifications,0.6008,1,1,1,1.0
+q016,How do I add staff accounts to my Shopify store?,intro,intro,Getting set up to start selling,0.661,1,1,1,1.0
+q017,How do I set up Shopify Payments to accept credit cards?,payments,intro,Getting set up to start selling,0.6971,0,1,1,0.5
+q018,How do I create a collection of products on Shopify?,products,products,Products,0.6936,1,1,1,1.0
+q019,How do I optimize my Shopify store for search engines (SEO)?,marketing,marketing,SEO overview,0.7276,1,1,1,1.0
+q020,How do I set up local delivery or in-store pickup on Shopify?,shipping,intro,Migrate to Shopify,0.7137,0,1,1,0.5
+q021,How do I migrate my existing store to Shopify?,intro,intro,Migrate to Shopify,0.728,1,1,1,1.0
+q022,How do I install and manage apps on Shopify?,apps,apps,Apps for your Shopify store,0.7873,1,1,1,1.0
+q023,How do I manage customer profiles and purchase history?,customers,customers,Customers,0.6316,1,1,1,1.0
+q024,How do I change the theme or design of my Shopify store?,online-store,intro,Migrate to Shopify,0.7359,1,1,1,1.0
+q025,How do I set up Shopify POS for selling in person?,intro,intro,Overview,0.7798,1,1,1,1.0

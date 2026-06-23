@@ -3,354 +3,354 @@
     "section": "intro",
     "title": "Overview",
     "url": "https://help.shopify.com/en/manual/intro-to-shopify/overview",
-    "filepath": "data\\raw\\intro\\intro-to-shopify_overview.txt"
+    "filepath": "data/raw/intro/intro-to-shopify_overview.txt"
   },
   {
     "section": "intro",
     "title": "Pricing plans",
     "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans",
-    "filepath": "data\\raw\\intro\\intro-to-shopify_pricing-plans.txt"
+    "filepath": "data/raw/intro/intro-to-shopify_pricing-plans.txt"
   },
   {
     "section": "intro",
     "title": "Getting set up to start selling",
     "url": "https://help.shopify.com/en/manual/intro-to-shopify/initial-setup",
-    "filepath": "data\\raw\\intro\\intro-to-shopify_initial-setup.txt"
+    "filepath": "data/raw/intro/intro-to-shopify_initial-setup.txt"
   },
   {
     "section": "intro",
     "title": "Hiring and working with Shopify Partners",
     "url": "https://help.shopify.com/en/manual/intro-to-shopify/hiring-help",
-    "filepath": "data\\raw\\intro\\intro-to-shopify_hiring-help.txt"
+    "filepath": "data/raw/intro/intro-to-shopify_hiring-help.txt"
   },
   {
     "section": "intro",
     "title": "Store design checklist",
     "url": "https://help.shopify.com/en/manual/intro-to-shopify/store-design",
-    "filepath": "data\\raw\\intro\\intro-to-shopify_store-design.txt"
+    "filepath": "data/raw/intro/intro-to-shopify_store-design.txt"
   },
   {
     "section": "intro",
     "title": "Migrate to Shopify",
     "url": "https://help.shopify.com/en/manual/migrating-to-shopify",
-    "filepath": "data\\raw\\intro\\migrating-to-shopify.txt"
+    "filepath": "data/raw/intro/migrating-to-shopify.txt"
   },
   {
     "section": "products",
     "title": "Products",
     "url": "https://help.shopify.com/en/manual/products",
-    "filepath": "data\\raw\\products\\products.txt"
+    "filepath": "data/raw/products/products.txt"
   },
   {
     "section": "products",
     "title": "Adding and updating products",
     "url": "https://help.shopify.com/en/manual/products/add-update-products",
-    "filepath": "data\\raw\\products\\products_add-update-products.txt"
+    "filepath": "data/raw/products/products_add-update-products.txt"
   },
   {
     "section": "products",
     "title": "Variants",
     "url": "https://help.shopify.com/en/manual/products/variants",
-    "filepath": "data\\raw\\products\\products_variants.txt"
+    "filepath": "data/raw/products/products_variants.txt"
   },
   {
     "section": "products",
     "title": "Managing inventory",
     "url": "https://help.shopify.com/en/manual/products/inventory",
-    "filepath": "data\\raw\\products\\products_inventory.txt"
+    "filepath": "data/raw/products/products_inventory.txt"
   },
   {
     "section": "products",
     "title": "Collections",
     "url": "https://help.shopify.com/en/manual/products/collections",
-    "filepath": "data\\raw\\products\\products_collections.txt"
+    "filepath": "data/raw/products/products_collections.txt"
   },
   {
     "section": "products",
     "title": "Importing products with a CSV file",
     "url": "https://help.shopify.com/en/manual/products/import-export/import-products",
-    "filepath": "data\\raw\\products\\products_import-export_import-products.txt"
+    "filepath": "data/raw/products/products_import-export_import-products.txt"
   },
   {
     "section": "products",
     "title": "Exporting products",
     "url": "https://help.shopify.com/en/manual/products/import-export/export-products",
-    "filepath": "data\\raw\\products\\products_import-export_export-products.txt"
+    "filepath": "data/raw/products/products_import-export_export-products.txt"
   },
   {
     "section": "products",
     "title": "Product media",
     "url": "https://help.shopify.com/en/manual/products/product-media",
-    "filepath": "data\\raw\\products\\products_product-media.txt"
+    "filepath": "data/raw/products/products_product-media.txt"
   },
   {
     "section": "orders",
     "title": "Order management and fulfillment",
     "url": "https://help.shopify.com/en/manual/orders",
-    "filepath": "data\\raw\\orders\\orders.txt"
+    "filepath": "data/raw/orders/orders.txt"
   },
   {
     "section": "orders",
     "title": "Managing orders",
     "url": "https://help.shopify.com/en/manual/orders/manage-orders",
-    "filepath": "data\\raw\\orders\\orders_manage-orders.txt"
+    "filepath": "data/raw/orders/orders_manage-orders.txt"
   },
   {
     "section": "orders",
     "title": "Fulfilling orders",
     "url": "https://help.shopify.com/en/manual/orders/fulfillment",
-    "filepath": "data\\raw\\orders\\orders_fulfillment.txt"
+    "filepath": "data/raw/orders/orders_fulfillment.txt"
   },
   {
     "section": "orders",
     "title": "Order management and fulfillment",
     "url": "https://help.shopify.com/en/manual/orders/refunds",
-    "filepath": "data\\raw\\orders\\orders_refunds.txt"
+    "filepath": "data/raw/orders/orders_refunds.txt"
   },
   {
     "section": "orders",
     "title": "Order management and fulfillment",
     "url": "https://help.shopify.com/en/manual/orders/cancellations",
-    "filepath": "data\\raw\\orders\\orders_cancellations.txt"
+    "filepath": "data/raw/orders/orders_cancellations.txt"
   },
   {
     "section": "orders",
     "title": "Store notifications",
     "url": "https://help.shopify.com/en/manual/orders/notifications",
-    "filepath": "data\\raw\\orders\\orders_notifications.txt"
+    "filepath": "data/raw/orders/orders_notifications.txt"
   },
   {
     "section": "orders",
     "title": "Draft orders and invoices",
     "url": "https://help.shopify.com/en/manual/orders/create-orders",
-    "filepath": "data\\raw\\orders\\orders_create-orders.txt"
+    "filepath": "data/raw/orders/orders_create-orders.txt"
   },
   {
     "section": "payments",
     "title": "Payments",
     "url": "https://help.shopify.com/en/manual/payments",
-    "filepath": "data\\raw\\payments\\payments.txt"
+    "filepath": "data/raw/payments/payments.txt"
   },
   {
     "section": "payments",
     "title": "Shopify Payments",
     "url": "https://help.shopify.com/en/manual/payments/shopify-payments",
-    "filepath": "data\\raw\\payments\\payments_shopify-payments.txt"
+    "filepath": "data/raw/payments/payments_shopify-payments.txt"
   },
   {
     "section": "payments",
     "title": "Third-party payment providers",
     "url": "https://help.shopify.com/en/manual/payments/third-party-providers",
-    "filepath": "data\\raw\\payments\\payments_third-party-providers.txt"
+    "filepath": "data/raw/payments/payments_third-party-providers.txt"
   },
   {
     "section": "payments",
     "title": "PayPal Express Checkout",
     "url": "https://help.shopify.com/en/manual/payments/paypal",
-    "filepath": "data\\raw\\payments\\payments_paypal.txt"
+    "filepath": "data/raw/payments/payments_paypal.txt"
   },
   {
     "section": "payments",
     "title": "Taxes",
     "url": "https://help.shopify.com/en/manual/taxes",
-    "filepath": "data\\raw\\payments\\taxes.txt"
+    "filepath": "data/raw/payments/taxes.txt"
   },
   {
     "section": "payments",
     "title": "Taxes",
     "url": "https://help.shopify.com/en/manual/taxes/setting-up",
-    "filepath": "data\\raw\\payments\\taxes_setting-up.txt"
+    "filepath": "data/raw/payments/taxes_setting-up.txt"
   },
   {
     "section": "payments",
     "title": "Accelerated checkouts and accelerated checkout buttons",
     "url": "https://help.shopify.com/en/manual/payments/accelerated-checkouts",
-    "filepath": "data\\raw\\payments\\payments_accelerated-checkouts.txt"
+    "filepath": "data/raw/payments/payments_accelerated-checkouts.txt"
   },
   {
     "section": "shipping",
     "title": "Setting up shipping and order fulfillment",
     "url": "https://help.shopify.com/en/manual/shipping",
-    "filepath": "data\\raw\\shipping\\shipping.txt"
+    "filepath": "data/raw/shipping/shipping.txt"
   },
   {
     "section": "shipping",
     "title": "Shipping profiles",
     "url": "https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-shipping/shipping-profiles",
-    "filepath": "data\\raw\\shipping\\shipping_setting-up-and-managing-your-shipping_shipping-profiles.txt"
+    "filepath": "data/raw/shipping/shipping_setting-up-and-managing-your-shipping_shipping-profiles.txt"
   },
   {
     "section": "shipping",
     "title": "Setting up shipping and order fulfillment",
     "url": "https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-shipping/rates-and-methods",
-    "filepath": "data\\raw\\shipping\\shipping_setting-up-and-managing-your-shipping_rates-and-methods.txt"
+    "filepath": "data/raw/shipping/shipping_setting-up-and-managing-your-shipping_rates-and-methods.txt"
   },
   {
     "section": "shipping",
     "title": "Setting up shipping and order fulfillment",
     "url": "https://help.shopify.com/en/manual/shipping/local-delivery",
-    "filepath": "data\\raw\\shipping\\shipping_local-delivery.txt"
+    "filepath": "data/raw/shipping/shipping_local-delivery.txt"
   },
   {
     "section": "shipping",
     "title": "Shipping labels in Shopify",
     "url": "https://help.shopify.com/en/manual/shipping/shopify-shipping",
-    "filepath": "data\\raw\\shipping\\shipping_shopify-shipping.txt"
+    "filepath": "data/raw/shipping/shipping_shopify-shipping.txt"
   },
   {
     "section": "shipping",
     "title": "Setting up shipping and order fulfillment",
     "url": "https://help.shopify.com/en/manual/shipping/understanding-shipping",
-    "filepath": "data\\raw\\shipping\\shipping_understanding-shipping.txt"
+    "filepath": "data/raw/shipping/shipping_understanding-shipping.txt"
   },
   {
     "section": "marketing",
     "title": "Marketing and promotions",
     "url": "https://help.shopify.com/en/manual/promoting-marketing",
-    "filepath": "data\\raw\\marketing\\promoting-marketing.txt"
+    "filepath": "data/raw/marketing/promoting-marketing.txt"
   },
   {
     "section": "marketing",
     "title": "SEO overview",
     "url": "https://help.shopify.com/en/manual/promoting-marketing/seo/seo-overview",
-    "filepath": "data\\raw\\marketing\\promoting-marketing_seo_seo-overview.txt"
+    "filepath": "data/raw/marketing/promoting-marketing_seo_seo-overview.txt"
   },
   {
     "section": "marketing",
     "title": "Discounts",
     "url": "https://help.shopify.com/en/manual/promoting-marketing/discount-codes",
-    "filepath": "data\\raw\\marketing\\promoting-marketing_discount-codes.txt"
+    "filepath": "data/raw/marketing/promoting-marketing_discount-codes.txt"
   },
   {
     "section": "marketing",
     "title": "Marketing and promotions",
     "url": "https://help.shopify.com/en/manual/promoting-marketing/email-marketing",
-    "filepath": "data\\raw\\marketing\\promoting-marketing_email-marketing.txt"
+    "filepath": "data/raw/marketing/promoting-marketing_email-marketing.txt"
   },
   {
     "section": "marketing",
     "title": "Marketing and promotions",
     "url": "https://help.shopify.com/en/manual/promoting-marketing/campaigns",
-    "filepath": "data\\raw\\marketing\\promoting-marketing_campaigns.txt"
+    "filepath": "data/raw/marketing/promoting-marketing_campaigns.txt"
   },
   {
     "section": "marketing",
     "title": "Marketing and promotions",
     "url": "https://help.shopify.com/en/manual/promoting-marketing/automations",
-    "filepath": "data\\raw\\marketing\\promoting-marketing_automations.txt"
+    "filepath": "data/raw/marketing/promoting-marketing_automations.txt"
   },
   {
     "section": "online-store",
     "title": "Shopify themes",
     "url": "https://help.shopify.com/en/manual/online-store/themes",
-    "filepath": "data\\raw\\online-store\\online-store_themes.txt"
+    "filepath": "data/raw/online-store/online-store_themes.txt"
   },
   {
     "section": "online-store",
     "title": "Customizing themes",
     "url": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes",
-    "filepath": "data\\raw\\online-store\\online-store_themes_customizing-themes.txt"
+    "filepath": "data/raw/online-store/online-store_themes_customizing-themes.txt"
   },
   {
     "section": "online-store",
     "title": "Online Store",
     "url": "https://help.shopify.com/en/manual/online-store/pages",
-    "filepath": "data\\raw\\online-store\\online-store_pages.txt"
+    "filepath": "data/raw/online-store/online-store_pages.txt"
   },
   {
     "section": "online-store",
     "title": "Blogs",
     "url": "https://help.shopify.com/en/manual/online-store/blogs",
-    "filepath": "data\\raw\\online-store\\online-store_blogs.txt"
+    "filepath": "data/raw/online-store/online-store_blogs.txt"
   },
   {
     "section": "online-store",
     "title": "Online Store",
     "url": "https://help.shopify.com/en/manual/online-store/navigation",
-    "filepath": "data\\raw\\online-store\\online-store_navigation.txt"
+    "filepath": "data/raw/online-store/online-store_navigation.txt"
   },
   {
     "section": "online-store",
     "title": "Adding a domain to Shopify",
     "url": "https://help.shopify.com/en/manual/domains/add-a-domain",
-    "filepath": "data\\raw\\online-store\\domains_add-a-domain.txt"
+    "filepath": "data/raw/online-store/domains_add-a-domain.txt"
   },
   {
     "section": "customers",
     "title": "Customers",
     "url": "https://help.shopify.com/en/manual/customers",
-    "filepath": "data\\raw\\customers\\customers.txt"
+    "filepath": "data/raw/customers/customers.txt"
   },
   {
     "section": "customers",
     "title": "Managing customers",
     "url": "https://help.shopify.com/en/manual/customers/manage-customers",
-    "filepath": "data\\raw\\customers\\customers_manage-customers.txt"
+    "filepath": "data/raw/customers/customers_manage-customers.txt"
   },
   {
     "section": "customers",
     "title": "Customer accounts",
     "url": "https://help.shopify.com/en/manual/customers/customer-accounts",
-    "filepath": "data\\raw\\customers\\customers_customer-accounts.txt"
+    "filepath": "data/raw/customers/customers_customer-accounts.txt"
   },
   {
     "section": "customers",
     "title": "Customer segmentation",
     "url": "https://help.shopify.com/en/manual/customers/customer-segmentation",
-    "filepath": "data\\raw\\customers\\customers_customer-segmentation.txt"
+    "filepath": "data/raw/customers/customers_customer-segmentation.txt"
   },
   {
     "section": "customers",
     "title": "Customers",
     "url": "https://help.shopify.com/en/manual/customers/tags",
-    "filepath": "data\\raw\\customers\\customers_tags.txt"
+    "filepath": "data/raw/customers/customers_tags.txt"
   },
   {
     "section": "analytics",
     "title": "Analytics",
     "url": "https://help.shopify.com/en/manual/reports-and-analytics",
-    "filepath": "data\\raw\\analytics\\reports-and-analytics.txt"
+    "filepath": "data/raw/analytics/reports-and-analytics.txt"
   },
   {
     "section": "analytics",
     "title": "Shopify analytics",
     "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports",
-    "filepath": "data\\raw\\analytics\\reports-and-analytics_shopify-reports.txt"
+    "filepath": "data/raw/analytics/reports-and-analytics_shopify-reports.txt"
   },
   {
     "section": "analytics",
     "title": "Analytics",
     "url": "https://help.shopify.com/en/manual/reports-and-analytics/live-view",
-    "filepath": "data\\raw\\analytics\\reports-and-analytics_live-view.txt"
+    "filepath": "data/raw/analytics/reports-and-analytics_live-view.txt"
   },
   {
     "section": "analytics",
     "title": "Analytics",
     "url": "https://help.shopify.com/en/manual/reports-and-analytics/analytics-overview",
-    "filepath": "data\\raw\\analytics\\reports-and-analytics_analytics-overview.txt"
+    "filepath": "data/raw/analytics/reports-and-analytics_analytics-overview.txt"
   },
   {
     "section": "apps",
     "title": "Apps for your Shopify store",
     "url": "https://help.shopify.com/en/manual/apps",
-    "filepath": "data\\raw\\apps\\apps.txt"
+    "filepath": "data/raw/apps/apps.txt"
   },
   {
     "section": "apps",
     "title": "Managing apps",
     "url": "https://help.shopify.com/en/manual/apps/working-with-apps",
-    "filepath": "data\\raw\\apps\\apps_working-with-apps.txt"
+    "filepath": "data/raw/apps/apps_working-with-apps.txt"
   },
   {
     "section": "apps",
     "title": "About apps",
     "url": "https://help.shopify.com/en/manual/apps/app-types",
-    "filepath": "data\\raw\\apps\\apps_app-types.txt"
+    "filepath": "data/raw/apps/apps_app-types.txt"
   },
   {
     "section": "apps",
     "title": "Managing apps",
     "url": "https://help.shopify.com/en/manual/apps/managing-apps",
-    "filepath": "data\\raw\\apps\\apps_managing-apps.txt"
+    "filepath": "data/raw/apps/apps_managing-apps.txt"
   }
 ]

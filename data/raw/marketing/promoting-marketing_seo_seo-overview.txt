@@ -141,8 +141,6 @@ Built-in SEO features in Shopify
 
 Examples of common SEO solutions
 
-Driving traffic to improve SEO
-
 Organic search results: These are the natural, unpaid search listings that appear based on their relevance to the search query and the website's authority. Unlike paid ads, organic results can't be bought - they must be earned through strong SEO practices.
 
 On-page SEO: This involves optimizing individual webpage elements that you can directly control, including:

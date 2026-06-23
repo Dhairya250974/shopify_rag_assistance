@@ -110,11 +110,9 @@ def create_driver():
     """Create a headless Chrome driver that looks like a real browser."""
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
-    from selenium.webdriver.chrome.service import Service
-    from webdriver_manager.chrome import ChromeDriverManager
 
     options = Options()
-    options.add_argument("--headless=new")           # headless mode
+    options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-blink-features=AutomationControlled")
@@ -122,15 +120,14 @@ def create_driver():
     options.add_experimental_option("useAutomationExtension", False)
     options.add_argument("--window-size=1920,1080")
     options.add_argument(
-        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     )
 
-    service = Service(ChromeDriverManager().install())
-    driver  = webdriver.Chrome(service=service, options=options)
+    # Selenium 4.6+ manages chromedriver automatically — no webdriver_manager needed
+    driver = webdriver.Chrome(options=options)
 
-    # Remove navigator.webdriver flag — key to bypassing bot detection
     driver.execute_script(
         "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
     )

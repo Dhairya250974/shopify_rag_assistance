@@ -22,7 +22,8 @@ export function Home({ isDark, backendDetected, onToggleTheme }) {
     hasConversation,
     submitQuestion,
     startNewChat,
-    clearError
+    clearError,
+    deleteRecentQuestion
   } = useChat();
   const [sidebarOpen, setSidebarOpen] = useState(() => window.matchMedia("(min-width: 1024px)").matches);
 
@@ -38,17 +39,24 @@ export function Home({ isDark, backendDetected, onToggleTheme }) {
     if (window.innerWidth < 1024) setSidebarOpen(false);
   }
 
+  function handleDeleteRecent(question) {
+    if (typeof deleteRecentQuestion === "function") {
+      deleteRecentQuestion(question);
+    }
+  }
+
   return (
     <div className="min-h-screen bg-slate-50 text-slate-950 transition-colors duration-300 dark:bg-ink-950 dark:text-white">
       <div className="flex min-h-screen">
         <Sidebar
-          examples={EXAMPLE_QUESTIONS}
+          examples={[]}
           recentQuestions={recentQuestions}
           isDark={isDark}
           isOpen={sidebarOpen}
           onToggleTheme={onToggleTheme}
           onNewChat={startNewChat}
           onAsk={handleAsk}
+          onDelete={handleDeleteRecent}
           onToggleSidebar={() => setSidebarOpen((open) => !open)}
         />
 

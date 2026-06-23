@@ -5,6 +5,14 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { SourceCard } from "../SourceCard/SourceCard";
 
+function highlightCitations(text) {
+  if (!text) return text;
+  return text.replace(
+    /\[Source:\s*([^\]]+)\]/g,
+    '<span class="citation-badge">[$1]</span>'
+  );
+}
+
 export function MessageBubble({ message }) {
   const isUser = message.role === "user";
   const [copied, setCopied] = useState(false);
@@ -16,12 +24,34 @@ export function MessageBubble({ message }) {
   }
 
   return (
-    <motion.article
-      initial={{ opacity: 0, y: 14 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.24 }}
-      className={`flex ${isUser ? "justify-end" : "justify-start"}`}
-    >
+    <>
+      <style>{`
+        .citation-badge {
+          display: inline-block;
+          background-color: #e8f4e8;
+          color: #2d6a2d;
+          border: 1px solid #a8d5a8;
+          border-radius: 4px;
+          padding: 1px 7px;
+          font-size: 0.78em;
+          font-weight: 600;
+          margin: 0 3px;
+          vertical-align: middle;
+          white-space: nowrap;
+          font-family: inherit;
+        }
+        .dark .citation-badge {
+          background-color: rgba(150, 191, 72, 0.15);
+          color: #96bf48;
+          border-color: rgba(150, 191, 72, 0.3);
+        }
+      `}</style>
+      <motion.article
+        initial={{ opacity: 0, y: 14 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.24 }}
+        className={`flex ${isUser ? "justify-end" : "justify-start"}`}
+      >
       <div className={`max-w-[min(820px,100%)] ${isUser ? "items-end" : "items-start"} flex flex-col`}>
         <div
           className={
@@ -34,7 +64,30 @@ export function MessageBubble({ message }) {
             <p className="whitespace-pre-wrap">{message.content}</p>
           ) : (
             <div className="prose prose-slate max-w-none prose-p:leading-7 prose-a:text-shopify-700 prose-code:rounded-md prose-code:bg-slate-100 prose-code:px-1.5 prose-code:py-0.5 prose-code:before:content-none prose-code:after:content-none prose-pre:rounded-2xl prose-pre:border prose-pre:border-slate-200 prose-pre:bg-slate-950 prose-pre:text-slate-100 dark:prose-invert dark:prose-a:text-shopify-100 dark:prose-code:bg-white/10 dark:prose-pre:border-white/10">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>{message.content}</ReactMarkdown>
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                components={{
+                  p({ children }) {
+                    return (
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: highlightCitations(
+                            typeof children === "string"
+                              ? children
+                              : Array.isArray(children)
+                              ? children
+                                  .map((c) => (typeof c === "string" ? c : ""))
+                                  .join("")
+                              : ""
+                          ),
+                        }}
+                      />
+                    );
+                  },
+                }}
+              >
+                {message.content}
+              </ReactMarkdown>
             </div>
           )}
         </div>
@@ -75,6 +128,7 @@ export function MessageBubble({ message }) {
           </div>
         ) : null}
       </div>
-    </motion.article>
+      </motion.article>
+    </>
   );
 }

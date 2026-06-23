@@ -10,6 +10,7 @@ export function Sidebar({
   onToggleTheme,
   onNewChat,
   onAsk,
+  onDelete,
   onToggleSidebar
 }) {
   return (
@@ -67,18 +68,9 @@ export function Sidebar({
             icon={<Search className="h-4 w-4" />}
             questions={recentQuestions}
             onAsk={onAsk}
-          />
-          <QuestionGroup
-            title="Example Questions"
-            icon={<Sparkles className="h-4 w-4" />}
-            questions={examples}
-            onAsk={onAsk}
+            onDelete={onDelete}
           />
         </nav>
-
-        <div className="mt-6 rounded-2xl border border-shopify-100 bg-shopify-50/80 p-4 text-xs leading-5 text-shopify-700 dark:border-shopify-500/20 dark:bg-shopify-500/10 dark:text-shopify-100">
-          Answers are grounded in indexed Shopify Help Center chunks and include source cards when available.
-        </div>
       </motion.aside>
     </>
   );
@@ -89,8 +81,11 @@ function QuestionGroup({
   icon,
   questions,
   empty,
-  onAsk
+  onAsk,
+  onDelete
 }) {
+  if (!questions.length && !empty) return null;
+
   return (
     <section>
       <div className="mb-3 flex items-center gap-2 px-1 text-xs font-semibold uppercase tracking-[0.14em] text-slate-400 dark:text-slate-500">
@@ -100,14 +95,31 @@ function QuestionGroup({
       {questions.length ? (
         <div className="space-y-1.5">
           {questions.map((question) => (
-            <button
+            <div
               key={question}
-              type="button"
-              onClick={() => onAsk(question)}
-              className="w-full rounded-xl px-3 py-2.5 text-left text-sm leading-5 text-slate-700 transition hover:bg-slate-100 hover:text-slate-950 dark:text-slate-300 dark:hover:bg-white/[0.07] dark:hover:text-white"
+              className="group relative flex items-center"
             >
-              {question}
-            </button>
+              <button
+                type="button"
+                onClick={() => onAsk(question)}
+                className="w-full rounded-xl px-3 py-2.5 pr-8 text-left text-sm leading-5 text-slate-700 transition hover:bg-slate-100 hover:text-slate-950 dark:text-slate-300 dark:hover:bg-white/[0.07] dark:hover:text-white"
+              >
+                {question}
+              </button>
+              {onDelete ? (
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onDelete(question);
+                  }}
+                  className="absolute right-1.5 flex h-6 w-6 items-center justify-center rounded-lg text-slate-300 opacity-0 transition hover:bg-red-50 hover:text-red-500 group-hover:opacity-100 dark:text-slate-600 dark:hover:bg-red-500/10 dark:hover:text-red-400"
+                  title="Remove from history"
+                >
+                  ✕
+                </button>
+              ) : null}
+            </div>
           ))}
         </div>
       ) : (

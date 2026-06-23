@@ -4,7 +4,7 @@ An AI-powered assistant for Shopify store operators. It answers natural-language
 
 The project has two main parts:
 
-- A Python RAG backend in `src/`, exposed through Flask in `ui/app.py` and FastAPI in `api/main.py`.
+- A Python RAG backend in `src/`, exposed through Flask in `server/app.py` and FastAPI in `api/main.py`.
 - A separate React/Vite frontend in `frontend-js/` that talks to the Flask backend during local development.
 
 ## Current Architecture
@@ -30,7 +30,7 @@ User question
 | Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2` via `sentence-transformers` |
 | Guardrails | Topic check before retrieval, score check after retrieval |
 | LLM | Groq chat completion model with fallback model support |
-| Flask backend | `ui/app.py`, used by the React frontend proxy |
+| Flask backend | `server/app.py`, used by the React frontend proxy |
 | FastAPI backend | `api/main.py`, useful for API docs and direct testing |
 | Frontend | React + Vite + Tailwind CSS in `frontend-js/` |
 | Evaluation | Custom retrieval evaluation with Hit Rate@k and MRR |
@@ -70,9 +70,8 @@ shopify-rag-assistant/
 │   ├── generator.py             # Groq answer generation
 │   ├── pipeline.py              # end-to-end RAG orchestration
 │   └── evaluator.py             # Hit Rate + MRR evaluation
-├── ui/
+├── server/
 │   ├── app.py                   # Flask backend + legacy UI route
-│   └── templates/index.html     # legacy Flask HTML template
 ├── requirements.txt
 └── README.md
 ```
@@ -209,7 +208,7 @@ Latest checked-in evaluation summary:
 The React frontend is configured to proxy requests to the Flask app.
 
 ```bash
-python ui/app.py
+python server/app.py
 ```
 
 Flask runs at:
@@ -304,7 +303,7 @@ npm install
 Terminal 1, start the backend:
 
 ```bash
-python ui/app.py
+python server/app.py
 ```
 
 Terminal 2, start the frontend:
@@ -396,7 +395,7 @@ Metrics:
 | Problem | What to check |
 |---|---|
 | `No Groq API keys found` | Add `GROQ_API_KEY_1` or `GROQ_API_KEY` to `.env` |
-| Frontend says backend is unavailable | Make sure `python ui/app.py` is running on port 5000 |
+| Frontend says backend is unavailable | Make sure `python server/app.py` is running on port 5000 |
 | Model download is slow | The first `sentence-transformers` run may download embedding or reranker models |
 | Scraper fails to start | Confirm Chrome is installed and Selenium dependencies are available |
 | FastAPI `/stats` fails | The endpoint still references an older Chroma-style collection |
@@ -409,7 +408,7 @@ Metrics:
 - Reranking improves context quality by scoring the question and chunk together.
 - Guardrails are designed to fail open when the topic-check LLM call fails.
 - The React frontend lives in `frontend-js/`; older README references to `frontend/` are not current.
-- The legacy Flask HTML UI remains available through `ui/templates/index.html`.
+- The legacy Flask HTML UI remains available through `server/templates/index.html`.
 
 ## Production Scaling Path
 

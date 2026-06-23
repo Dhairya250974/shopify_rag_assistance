@@ -95,6 +95,14 @@ export function useChat() {
     setError(null);
   }, []);
 
+  const deleteRecentQuestion = useCallback((question) => {
+    setRecentQuestions((current) => {
+      const updated = current.filter((item) => item !== question);
+      saveRecentQuestions(updated);
+      return updated;
+    });
+  }, []);
+
   return useMemo(
     () => ({
       messages,
@@ -104,8 +112,9 @@ export function useChat() {
       hasConversation,
       submitQuestion,
       startNewChat,
+      deleteRecentQuestion,
       clearError: () => setError(null)
     }),
-    [messages, recentQuestions, isLoading, error, hasConversation, submitQuestion, startNewChat]
+    [messages, recentQuestions, isLoading, error, hasConversation, submitQuestion, startNewChat, deleteRecentQuestion]
   );
 }

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopify RAG Assistant</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; background: #f0f2f5; }
+.header { background: #96bf48; color: white; padding: 16px 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+.header h1 { font-size: 1.4em; font-weight: 700; }
+.header p { font-size: 0.85em; opacity: 0.9; margin-top: 2px; }
+.container { max-width: 860px; margin: 0 auto; padding: 24px 16px; }
+.stats { background: white; border-radius: 10px; padding: 12px 18px;
+         box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin-bottom: 16px;
+         display: flex; gap: 20px; font-size: 0.82em; color: #555; flex-wrap: wrap; }
+.stats b { color: #96bf48; }
+.chat-box { background: white; border-radius: 12px; padding: 20px;
+            min-height: 400px; max-height: 500px; overflow-y: auto;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.1); margin-bottom: 16px; }
+.msg { margin-bottom: 14px; }
+.msg.user { text-align: right; }
+.bubble { display: inline-block; padding: 11px 15px; max-width: 78%;
+          line-height: 1.5; font-size: 0.93em; border-radius: 18px; }
+.msg.user .bubble { background: #96bf48; color: white; border-radius: 18px 18px 4px 18px; }
+.msg.bot .bubble  { background: #f1f1f1; color: #222; border-radius: 18px 18px 18px 4px; }
+.sources { font-size: 0.77em; color: #777; margin-top: 5px; }
+.sources a { color: #96bf48; text-decoration: none; }
+.sources a:hover { text-decoration: underline; }
+.meta { font-size: 0.71em; color: #aaa; margin-top: 3px; }
+.input-row { display: flex; gap: 10px; }
+.input-row input { flex: 1; padding: 12px 16px; border: 1.5px solid #ddd;
+                   border-radius: 24px; font-size: 0.95em; outline: none; }
+.input-row input:focus { border-color: #96bf48; }
+.input-row button { background: #96bf48; color: white; border: none;
+                    padding: 12px 24px; border-radius: 24px;
+                    font-size: 0.95em; cursor: pointer; font-weight: 600; }
+.input-row button:hover { background: #7fa83a; }
+.input-row button:disabled { background: #bbb; cursor: not-allowed; }
+.examples { margin-top: 14px; }
+.examples p { font-size: 0.82em; color: #888; margin-bottom: 8px; }
+.ex-btn { background: white; border: 1.5px solid #ddd; border-radius: 20px;
+          padding: 6px 14px; font-size: 0.82em; margin: 3px;
+          cursor: pointer; color: #444; }
+.ex-btn:hover { border-color: #96bf48; color: #96bf48; }
+.typing { color: #999; font-style: italic; font-size: 0.88em; padding: 8px 4px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Shopify Store Assistant</h1>
+  <p>Ask anything about setting up or running your Shopify store — powered by RAG</p>
+</div>
+<div class="container">
+  <div class="stats">
+    <span>Eval: <b>Hit Rate@5: 96%</b></span>
+    <span><b>MRR: 0.92</b></span>
+    <span><b>59 articles</b> / 147 chunks</span>
+    <span>Model: <b>Llama-3.3-70B via Groq</b></span>
+    <span>Embeddings: <b>all-MiniLM-L6-v2</b></span>
+  </div>
+  <div class="chat-box" id="chat">
+    <div class="msg bot">
+      <div class="bubble">Hi! I am your Shopify assistant. Ask me anything about managing your store.</div>
+    </div>
+  </div>
+  <div class="input-row">
+    <input type="text" id="qinput" placeholder="e.g. How do I set up free shipping?">
+    <button id="askbtn">Ask</button>
+  </div>
+  <div class="examples">
+    <p>Try these:</p>
+    <button class="ex-btn">How do I set up free shipping?</button>
+    <button class="ex-btn">What payment gateways does Shopify support?</button>
+    <button class="ex-btn">How do I add product variants like size and color?</button>
+    <button class="ex-btn">How can I recover abandoned carts?</button>
+    <button class="ex-btn">How do I process a refund?</button>
+    <button class="ex-btn">How do I improve my store SEO?</button>
+  </div>
+</div>
+<script>
+var input = document.getElementById("qinput");
+var btn   = document.getElementById("askbtn");
+var chat  = document.getElementById("chat");
+
+input.addEventListener("keydown", function(e) {
+  if (e.key === "Enter") sendQ();
+});
+btn.addEventListener("click", sendQ);
+
+var exBtns = document.querySelectorAll(".ex-btn");
+for (var i = 0; i < exBtns.length; i++) {
+  exBtns[i].addEventListener("click", function() {
+    input.value = this.textContent;
+    input.focus();
+  });
+}
+
+function addMsg(inner, cls) {
+  var d = document.createElement("div");
+  d.className = "msg " + cls;
+  d.innerHTML = inner;
+  chat.appendChild(d);
+  chat.scrollTop = chat.scrollHeight;
+  return d;
+}
+
+function sendQ() {
+  var q = input.value.trim();
+  if (!q) return;
+  addMsg("<div class='bubble'>" + q + "</div>", "user");
+  input.value = "";
+  btn.disabled = true;
+  var typing = addMsg("<span class='typing'>Searching Shopify docs...</span>", "bot");
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "/query", true);
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState !== 4) return;
+    typing.remove();
+    if (xhr.status === 200) {
+      var data = JSON.parse(xhr.responseText);
+      var answer = data.answer.replace(/\n/g, "<br>");
+      var html = "<div class='bubble'>" + answer + "</div>";
+      if (data.sources && data.sources.length > 0) {
+        html += "<div class='sources'>Sources: ";
+        var parts = [];
+        for (var j = 0; j < data.sources.length; j++) {
+          parts.push("<a href='" + data.sources[j].url + "' target='_blank'>" + data.sources[j].title + "</a>");
+        }
+        html += parts.join(" &middot; ") + "</div>";
+      }
+      html += "<div class='meta'>" + data.latency_ms + "ms &middot; " + data.model + " &middot; " + data.chunks_used + " chunks</div>";
+      addMsg(html, "bot");
+    } else {
+      addMsg("<div class='bubble'>Error talking to server.</div>", "bot");
+    }
+    btn.disabled = false;
+  };
+  xhr.send(JSON.stringify({question: q}));
+}
+</script>
+</body>
+</html>

@@ -1,61 +1,78 @@
 # Shopify RAG Assistant
 
-An AI-powered assistant for Shopify store operators. Ask natural-language questions and get grounded answers from indexed Shopify Help Center documentation.
+An AI-powered assistant for Shopify store operators. It answers natural-language questions using scraped Shopify Help Center documentation, local embeddings, cosine retrieval, cross-encoder reranking, guardrails, and a Groq-hosted LLM.
 
-## Overview
+The project has two main parts:
 
-This project implements a local Retrieval-Augmented Generation pipeline over selected public Shopify documentation. It includes:
+- A Python RAG backend in `src/`, exposed through Flask in `ui/app.py` and FastAPI in `api/main.py`.
+- A separate React/Vite frontend in `frontend-js/` that talks to the Flask backend during local development.
+
+## Current Architecture
+
+```text
+User question
+  -> guardrail topic check
+  -> NumPy cosine retrieval, top 10
+  -> empty-result and score guardrails
+  -> cross-encoder reranking, top 5
+  -> Groq answer generation
+  -> JSON response with answer, sources, latency, model, and chunks used
+```
 
 | Component | Current Implementation |
 |---|---|
-| Data source | Shopify Help Center pages |
+| Data source | Public Shopify Help Center pages |
 | Scraping | Selenium headless Chrome |
-| Chunking | Token-aware sliding window with `tiktoken` |
-| Embeddings | `all-MiniLM-L6-v2` via `sentence-transformers` |
+| Chunking | Token-aware chunking with `tiktoken` |
+| Embeddings | `sentence-transformers` embedding model |
 | Vector storage | Local NumPy index in `data/np_index/` |
 | Retrieval | Brute-force cosine similarity over normalized embeddings |
-| LLM | Llama 3.3 70B via Groq API |
-| API | FastAPI in `api/main.py` |
-| Legacy UI | Flask app in `ui/app.py` |
-| New UI | React + TypeScript + Vite + Tailwind CSS in `frontend/` |
-| Evaluation | Custom retrieval eval: Hit Rate@k + MRR |
-
-The backend request and response contracts are unchanged. The new React frontend calls the existing `POST /query` endpoint.
+| Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2` via `sentence-transformers` |
+| Guardrails | Topic check before retrieval, score check after retrieval |
+| LLM | Groq chat completion model with fallback model support |
+| Flask backend | `ui/app.py`, used by the React frontend proxy |
+| FastAPI backend | `api/main.py`, useful for API docs and direct testing |
+| Frontend | React + Vite + Tailwind CSS in `frontend-js/` |
+| Evaluation | Custom retrieval evaluation with Hit Rate@k and MRR |
 
 ## Project Structure
 
 ```text
 shopify-rag-assistant/
 ├── api/
-│   └── main.py                  # FastAPI REST API
+│   └── main.py                  # FastAPI API
 ├── data/
-│   ├── raw/                     # scraped Shopify help articles
-│   ├── chunks.json              # processed text chunks
-│   ├── np_index/                # local NumPy vector index + metadata
-│   └── eval_results/            # evaluation JSON/CSV outputs
-├── frontend/                    # modern React frontend
+│   ├── raw/                     # scraped Shopify article text
+│   ├── chunks.json              # processed chunks
+│   ├── np_index/                # embeddings.npy, metadata.json, config.json
+│   └── eval_results/            # evaluator outputs
+├── frontend-js/                 # separate React/Vite frontend
 │   ├── src/
-│   │   ├── components/          # chat, sidebar, source cards, states
+│   │   ├── components/          # chat UI, source cards, states, sidebar
 │   │   ├── hooks/               # chat state hook
 │   │   ├── pages/               # Home page
-│   │   ├── services/            # API integration
-│   │   └── types/               # TypeScript API types
+│   │   ├── services/            # API calls to /query and /health
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── styles.css
 │   ├── package.json
 │   ├── tailwind.config.js
-│   └── vite.config.ts
+│   └── vite.config.js
 ├── golden_set/
-│   └── questions.json           # 25 retrieval evaluation questions
+│   └── questions.json           # retrieval evaluation questions
 ├── src/
-│   ├── scraper.py               # scrape Shopify docs with Selenium
-│   ├── chunker.py               # clean + chunk raw articles
-│   ├── embedder.py              # embed chunks into local NumPy index
-│   ├── retriever.py             # cosine similarity retrieval
-│   ├── generator.py             # Groq LLM answer generation
-│   ├── pipeline.py              # end-to-end RAG pipeline
+│   ├── scraper.py               # scrape Shopify docs
+│   ├── chunker.py               # convert raw docs into chunks
+│   ├── embedder.py              # build the local NumPy vector index
+│   ├── retriever.py             # cosine retrieval
+│   ├── reranker.py              # cross-encoder reranking
+│   ├── guardrails.py            # topic and score guardrails
+│   ├── generator.py             # Groq answer generation
+│   ├── pipeline.py              # end-to-end RAG orchestration
 │   └── evaluator.py             # Hit Rate + MRR evaluation
 ├── ui/
-│   ├── app.py                   # legacy Flask UI/backend endpoint
-│   └── templates/index.html     # legacy HTML template
+│   ├── app.py                   # Flask backend + legacy UI route
+│   └── templates/index.html     # legacy Flask HTML template
 ├── requirements.txt
 └── README.md
 ```
@@ -69,42 +86,49 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-Install Python dependencies:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Configure environment variables:
-
-```bash
-cp .env.example .env
-```
-
-Add at least one Groq key:
+Create a `.env` file in the project root. This repo currently does not include a `.env.example`, so use the following as a starting point:
 
 ```env
 GROQ_API_KEY_1=your_key_here
 GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_MODEL_FALLBACK=llama-3.1-8b-instant
+
 EMBED_MODEL=all-MiniLM-L6-v2
+TOP_K=5
+
+RERANK_MODEL=cross-encoder/ms-marco-MiniLM-L-6-v2
+RERANK_TOP_K=5
+
+GUARDRAIL_MODEL=llama-3.3-70b-versatile
+GUARDRAIL_SCORE_THRESHOLD=0.30
+
 CHUNK_SIZE=400
 CHUNK_OVERLAP=50
-TOP_K=5
 ```
 
-Note: the current scraper uses Selenium/Chrome. Make sure Chrome is installed locally before running `src/scraper.py`.
+Notes:
 
-## RAG Pipeline
+- The scraper requires Chrome to be installed locally.
+- The first run of the embedder or reranker can download `sentence-transformers` models.
+- Groq keys can be provided as `GROQ_API_KEY_1`, `GROQ_API_KEY_2`, and so on, or as a single `GROQ_API_KEY`.
 
-Run these commands from the repository root.
+## RAG Data Pipeline
 
-### 1. Scrape Shopify Help Center
+Run these commands from the repository root after activating the Python environment.
+
+### 1. Scrape Shopify Docs
 
 ```bash
 python src/scraper.py
 ```
 
-Writes article text files to `data/raw/` and a manifest to `data/raw/manifest.json`.
+Writes raw article `.txt` files under `data/raw/` and a manifest at `data/raw/manifest.json`.
 
 ### 2. Chunk Articles
 
@@ -112,7 +136,7 @@ Writes article text files to `data/raw/` and a manifest to `data/raw/manifest.js
 python src/chunker.py
 ```
 
-Reads `data/raw/**/*.txt` and writes token-aware chunks to `data/chunks.json`.
+Reads `data/raw/**/*.txt` and writes `data/chunks.json`. Heading markers from scraped pages are used so chunks keep useful section context.
 
 ### 3. Generate Embeddings
 
@@ -120,7 +144,7 @@ Reads `data/raw/**/*.txt` and writes token-aware chunks to `data/chunks.json`.
 python src/embedder.py
 ```
 
-Embeds chunks with `all-MiniLM-L6-v2` and writes:
+Creates the local NumPy index:
 
 ```text
 data/np_index/embeddings.npy
@@ -134,25 +158,41 @@ data/np_index/config.json
 python src/retriever.py
 ```
 
-Runs sample queries and prints top retrieved chunks.
+Runs sample queries and prints the top cosine-similarity matches.
 
-### 5. Test End-to-End RAG
+### 5. Test Reranking
+
+```bash
+python src/reranker.py
+```
+
+Runs a smoke test that compares original cosine scores with cross-encoder rerank scores.
+
+### 6. Test Guardrails
+
+```bash
+python src/guardrails.py
+```
+
+Runs topic and score-threshold guardrail checks. The topic guardrail uses a keyword fast-pass and fails open if the Groq check cannot run.
+
+### 7. Test End-to-End RAG
 
 ```bash
 python src/pipeline.py
 ```
 
-Runs sample questions through retrieval and Groq answer generation.
+Runs sample questions through the full flow: guardrails, retrieval, reranking, and generation.
 
-### 6. Run Evaluation
+### 8. Run Retrieval Evaluation
 
 ```bash
 python src/evaluator.py
 ```
 
-Evaluates retrieval over `golden_set/questions.json` and saves JSON/CSV outputs under `data/eval_results/`.
+Evaluates retrieval over `golden_set/questions.json` and writes results under `data/eval_results/`.
 
-Latest checked-in eval artifacts show:
+Latest checked-in evaluation summary:
 
 | Metric | Value |
 |---|---:|
@@ -162,37 +202,39 @@ Latest checked-in eval artifacts show:
 | Hit Rate@5 | 96.0% |
 | MRR | 0.92 |
 
-## Running the Backend
+## Backend Services
 
-### Option A: Legacy Flask UI + `/query`
+### Flask Backend
 
-The new React frontend is configured to proxy `/query` to this Flask app during local development.
+The React frontend is configured to proxy requests to the Flask app.
 
 ```bash
 python ui/app.py
 ```
 
-Flask runs on:
+Flask runs at:
 
 ```text
 http://localhost:5000
 ```
 
-Endpoint:
+Available routes:
 
-```http
-POST /query
+| Method | Route | Purpose |
+|---|---|---|
+| `GET` | `/` | Legacy Flask HTML UI |
+| `GET` | `/health` | Health check used by the React frontend |
+| `POST` | `/query` | Ask a Shopify question |
+
+Example request:
+
+```bash
+curl -X POST http://localhost:5000/query \
+  -H "Content-Type: application/json" \
+  -d '{"question":"How do I set up free shipping on Shopify?"}'
 ```
 
-Request:
-
-```json
-{
-  "question": "How do I set up free shipping?"
-}
-```
-
-Response:
+Example response shape:
 
 ```json
 {
@@ -200,28 +242,32 @@ Response:
   "sources": [
     {
       "title": "...",
-      "url": "..."
+      "url": "...",
+      "heading": "...",
+      "section": "...",
+      "score": 0.5123,
+      "rerank_score": 7.8912
     }
   ],
-  "latency_ms": 423,
+  "latency_ms": 423.0,
   "model": "llama-3.3-70b-versatile",
   "chunks_used": 5
 }
 ```
 
-### Option B: FastAPI API
+### FastAPI Backend
 
 ```bash
 uvicorn api.main:app --reload --port 8000
 ```
 
-Open:
+Open the interactive API docs:
 
 ```text
 http://localhost:8000/docs
 ```
 
-Endpoints:
+Available routes:
 
 | Method | Route | Purpose |
 |---|---|---|
@@ -229,22 +275,42 @@ Endpoints:
 | `POST` | `/query` | Ask a Shopify question |
 | `GET` | `/stats` | Intended stats endpoint |
 
-Note: `/stats` currently references an older Chroma-style `collection` attribute and should be updated before relying on it. The active retriever uses the local NumPy index.
+Note: `/stats` currently references an older Chroma-style `collection` attribute. The active retriever uses the local NumPy index, so update `/stats` before relying on it.
 
-## Running the New React Frontend
+## Separate Frontend App
 
-The redesigned frontend lives in `frontend/` and does not modify backend logic or API schemas.
+The frontend is a separate React/Vite application in `frontend-js/`. It is not bundled into the Python backend during development. Run it in its own terminal while the Flask backend runs in another terminal.
 
-Install dependencies:
+### Frontend Tech Stack
+
+| Area | Tool |
+|---|---|
+| Framework | React 18 |
+| Build tool | Vite |
+| Styling | Tailwind CSS |
+| Icons | `lucide-react` |
+| Animations | `framer-motion` |
+| Markdown answers | `react-markdown` + `remark-gfm` |
+
+### Frontend Setup
 
 ```bash
-cd frontend
+cd frontend-js
 npm install
 ```
 
-Start the frontend:
+### Run Frontend Locally
+
+Terminal 1, start the backend:
 
 ```bash
+python ui/app.py
+```
+
+Terminal 2, start the frontend:
+
+```bash
+cd frontend-js
 npm run dev
 ```
 
@@ -254,46 +320,62 @@ Open the Vite URL, usually:
 http://localhost:5173
 ```
 
-For local chat requests, also run the Flask backend in another terminal:
+The frontend calls:
+
+| Frontend call | Proxied backend route |
+|---|---|
+| `GET /health` | `http://localhost:5000/health` |
+| `POST /query` | `http://localhost:5000/query` |
+
+### Build Frontend
 
 ```bash
-python ui/app.py
-```
-
-The Vite dev server proxies frontend calls from `/query` to:
-
-```text
-http://localhost:5000/query
-```
-
-Build the production frontend:
-
-```bash
-cd frontend
+cd frontend-js
 npm run build
 ```
 
-The production build is emitted to `frontend/dist/`.
+The production build is emitted to:
 
-## Frontend Features
+```text
+frontend-js/dist/
+```
 
-The new React UI includes:
+Preview the production build locally:
 
-- Modern two-section layout with responsive sidebar
-- Welcome hero and suggested question cards
-- ChatGPT-style conversation UX
-- Markdown assistant answers with code block support
-- Source cards instead of plain links
-- Copy answer button
-- Loading skeleton and retrieval animation
-- Polished error states
-- Recent questions stored in `localStorage`
-- Dark mode toggle persisted in `localStorage`
-- Mobile/tablet sidebar collapse
+```bash
+cd frontend-js
+npm run preview
+```
+
+### Frontend Features
+
+- Responsive chat layout with sidebar
+- Suggested starter questions
+- Chat message history during the current session
+- Markdown rendering for assistant answers
+- Source cards for cited Shopify docs
+- Copy-answer action
+- Loading and error states
+- Backend health detection
+- Light and dark theme toggle persisted in `localStorage`
+
+## Query Flow Details
+
+`src/pipeline.py` coordinates the full backend flow:
+
+1. `check_topic(question)` blocks clearly off-topic questions before retrieval.
+2. `Retriever.retrieve(question, top_k=10)` fetches candidate chunks.
+3. Empty retrieval results return a friendly no-docs response.
+4. `check_score(chunks[0]["score"])` blocks low-confidence retrieval.
+5. `Reranker.rerank(question, chunks, top_k=5)` reorders candidates by cross-encoder relevance.
+6. `Generator.generate(question, chunks)` builds a grounded answer from the reranked chunks.
+7. The response includes sources, chunks used, latency, model, and guardrail metadata inside the pipeline result.
+
+The Flask and FastAPI route handlers return the public fields needed by their current clients.
 
 ## Evaluation Methodology
 
-`src/evaluator.py` evaluates retrieval, not generated answer quality.
+`src/evaluator.py` evaluates retrieval quality rather than final answer quality.
 
 A retrieved chunk is counted as a hit when:
 
@@ -305,27 +387,39 @@ Metrics:
 | Metric | Description |
 |---|---|
 | Hit Rate@1 | Percentage of questions with a hit in the top result |
-| Hit Rate@3 | Percentage of questions with a hit in top 3 |
-| Hit Rate@5 | Percentage of questions with a hit in top 5 |
+| Hit Rate@3 | Percentage of questions with a hit in the top 3 |
+| Hit Rate@5 | Percentage of questions with a hit in the top 5 |
 | MRR | Mean reciprocal rank of the first hit |
+
+## Troubleshooting
+
+| Problem | What to check |
+|---|---|
+| `No Groq API keys found` | Add `GROQ_API_KEY_1` or `GROQ_API_KEY` to `.env` |
+| Frontend says backend is unavailable | Make sure `python ui/app.py` is running on port 5000 |
+| Model download is slow | The first `sentence-transformers` run may download embedding or reranker models |
+| Scraper fails to start | Confirm Chrome is installed and Selenium dependencies are available |
+| FastAPI `/stats` fails | The endpoint still references an older Chroma-style collection |
+| Poor retrieval results | Re-run scrape, chunking, embedding, then evaluation |
 
 ## Important Implementation Notes
 
-- The current vector store is `data/np_index/`, not ChromaDB.
-- Retrieval is exact brute-force NumPy cosine similarity, which is appropriate for the current 147-chunk dataset.
-- The README previously referenced Gradio/ChromaDB/BeautifulSoup; those are not the active implementation.
-- The React frontend preserves the existing `POST /query` request and response schema.
-- The legacy Flask HTML UI remains in `ui/templates/index.html` for compatibility.
+- The active vector store is `data/np_index/`, not ChromaDB.
+- Retrieval is exact brute-force NumPy cosine similarity, which is reasonable for the current dataset size.
+- Reranking improves context quality by scoring the question and chunk together.
+- Guardrails are designed to fail open when the topic-check LLM call fails.
+- The React frontend lives in `frontend-js/`; older README references to `frontend/` are not current.
+- The legacy Flask HTML UI remains available through `ui/templates/index.html`.
 
 ## Production Scaling Path
 
 Recommended next steps:
 
-1. Fix FastAPI `/stats` for the NumPy retriever.
-2. Add missing backend dependency alignment for Selenium/Flask if needed.
-3. Add authentication and rate limiting.
-4. Add structured logs, request IDs, latency metrics, and token/cost tracking.
-5. Add retrieval confidence thresholds and answer-groundedness evaluation.
-6. Add hybrid retrieval and reranking.
-7. Move from local NumPy search to FAISS/HNSW, pgvector, Pinecone, or Weaviate for larger corpora.
-8. Add deployment packaging for the React frontend and backend services.
+1. Update FastAPI `/stats` for the NumPy retriever.
+2. Return guardrail metadata through API schemas if frontend display needs it.
+3. Add structured logs, request IDs, latency metrics, and token/cost tracking.
+4. Add authentication and rate limiting.
+5. Add answer-groundedness evaluation in addition to retrieval evaluation.
+6. Add hybrid retrieval if the corpus grows.
+7. Move from local NumPy search to FAISS, HNSW, pgvector, Pinecone, or Weaviate for larger corpora.
+8. Add deployment packaging for the Python backend and `frontend-js` production build.
